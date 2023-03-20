@@ -12,7 +12,7 @@ O projeto tem como propósito fornecer ferramentas que auxiliem qualquer pessoa 
 
 * Beatriz Fontainha de Castro
 * Rafael Fernandes Marques
-* Nome completo do aluno 3
+* Victor Henrique Pereira
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 
