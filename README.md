@@ -14,6 +14,7 @@ O projeto tem como propósito fornecer ferramentas que auxiliem qualquer pessoa 
 * Rafael Fernandes Marques
 * Victor Henrique Pereira
 * Lucas Braga Nery de Lima 
+* Lucas Warley Matos Nascimento
 * Nathan de Mesquita dos Santos
 
 ## Orientador
