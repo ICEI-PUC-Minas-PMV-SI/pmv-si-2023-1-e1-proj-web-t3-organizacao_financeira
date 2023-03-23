@@ -17,6 +17,8 @@ SCRUM PLANNING
 
 5. Thiago tem 26 anos, é um empreendedor que fundou sua empresa de consultoria de TI. Ele está sempre trabalhando muito e tem pouco tempo livre. Desde cedo, Thiago sempre teve algumas dificuldades para administrar sua vida financeira. Hoje, sua empresa tem um bom faturamento e consegue receber um bom dinheiro. No futuro, ele planeja expandir suas operações. No entanto, ele não consegue ter uma ideia de como está seus gastos mês a mês. Ele está disposto a ter uma vida financeira mais organizada para que ele possa planejar melhor seu futuro e de sua empresa. Para isso, ele está procurando uma solução que o ajude com dicas financeiras e que permita que ele cadastre todo seu fluxo financeiro.
 
+6. Júlia tem 19 anos, se inseriu recentemente no mercado de trabalho. Percebeu que não possui muito conhecimento sobre como administrar o seu dinheiro após receber seu primeiro salário. Não possui organização para escrever sempre todos seus gastos e gostaria de encontrar uma aplicação de fácil usabilidade para ter um maior controle do dinheiro e conseguir economizar mais. 
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
@@ -39,7 +41,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Administrador       | Alterar permissões                   | Permitir que possam administrar contas                     |
 |Carina              | Registrar minhas despesas e receitas | Conseguir economizar e atingir seu objetivo                |
 |Thiago              | Registrar todo meu fluxo financeiro  | Ter um controle das finanças e definir melhor meu futuro   |
-|                    |                                      |                                                            |
+|Júlia, usuária      |Encontrar dicas sobre finanças        |Aprender a controlar os meus gastos mensais                 |
 |                    |                                      |                                                            |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
