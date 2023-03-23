@@ -2,11 +2,17 @@
 
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+SCRUM PLANNING 
+ 1 - Ideia > 2 - Personas > 3 - Histórias de usuários > 4 - Selecionar o escopo do projeto > 5 - Revisar > 6 - Levantamento de requisitos e restrições > 7 - Iniciar codificação. 
 
 ## Personas
 
 1. José Antônio tem 27 anos, é engenheiro civil, solteiro e ainda reside com os pais. Apesar de ter um bom salário e não ter grandes responsabilidades financeiras (em casa ajuda apenas com a conta de energia), sempre chega ao fim do mês sem dinheiro e a fatura do cartão de crédito só aumenta. Ele percebeu que um de seus colegas, que recebe o mesmo salário, consegue fazer sobrar dinheiro, mesmo sendo o responsável pelo sustento da família. José não tem ideia de como consegue gastar todo seu dinheiro e precisa de ajuda para descobrir isso e mudar a situação.
+
+2. Carina é analista de marketing, solteira, e com 28 anos de idade. Ela tem uma renda mensal de, aproximadamente, R$ 4.000,00 e está buscando uma solução para organizar suas finanças e atingir um dos seus objetivos financeiros que seria guardar dinheiro para uma viagem ao exterior. Carina é uma pessoa organizada e gosta de planejar suas finanças com antecedência, mas tem dificuldades em manter a disciplina para registrar todos os gastos. Portanto, busca por uma solução que facilite a organização de suas finanças e que seja prática de usar, além de permitir acesso fácil e rápido a todas as informações sobre suas finanças.
+
+3. João é um empresário casado, com dois filhos e 35 anos de idade. Ele tem uma renda mensal de, aproximadaente, R$ 20.000,00 e atualmente está procurando por uma aplicação que consiga ajuda-lo a organizar todas as dispesas da família. Sua principal necessidade é conseguir enxergar de maneira mais preciso o balança das contas no final do mês. Além disso, por ser uma pessoa bastante ocupada, João precisa que os mínimos detalhes das transações sejam exibidos de maneira cronologica, uma vez que o mesmo procura cortar gastos denecessários de baixo valor que formam uma bola de neve ao final do mês.
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -24,10 +30,14 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|José, usuário  | Registrar minhas despesas e receitas         | Saber onde e como estou gastando meu dinheiro              |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`   |PARA ... `MOTIVO/VALOR`                                     |
+|--------------------|--------------------------------------|------------------------------------------------------------|
+|José, usuário       | Registrar minhas despesas e receitas | Saber onde e como estou gastando meu dinheiro              |
+|Administrador       | Alterar permissões                   | Permitir que possam administrar contas                     |
+|Carina              | Registrar minhas despesas e receitas | Conseguir economizar e atingir seu objetivo                |
+|                    |                                      |                                                            |
+|                    |                                      |                                                            |
+|                    |                                      |                                                            |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
