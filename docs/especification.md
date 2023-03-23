@@ -13,6 +13,8 @@ SCRUM PLANNING
 
 3. João é um empresário casado, com dois filhos e 35 anos de idade. Ele tem uma renda mensal de, aproximadaente, R$ 20.000,00 e atualmente está procurando por uma aplicação que consiga ajuda-lo a organizar todas as dispesas da família. Sua principal necessidade é conseguir enxergar de maneira mais preciso o balança das contas no final do mês. Além disso, por ser uma pessoa bastante ocupada, João precisa que os mínimos detalhes das transações sejam exibidos de maneira cronologica, uma vez que o mesmo procura cortar gastos denecessários de baixo valor que formam uma bola de neve ao final do mês.
 
+4. Daniel tem 68 anos, é aposentado, viúvo e mora sozinho em um apartamento. Ele trabalhou como funcionário público por 35 anos e sempre foi uma pessoa poupadora, mas agora que está aposentado, ele está preocupado com o seu futuro financeiro, especialmente com os gastos médicos que podem aumentar com a idade. Daniel quer garantir que seus recursos financeiros durem pelo resto de sua vida e que ele possa manter seu estilo de vida atual. Ele também gostaria de ter uma reserva para emergências médicas e outras eventualidades. Portanto, ele procura uma ferramenta que organize e armazene seus gastos mensais para alcançar seus objetivos financeiros.
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
