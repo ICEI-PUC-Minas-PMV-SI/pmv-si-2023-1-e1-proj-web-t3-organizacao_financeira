@@ -15,6 +15,7 @@ SCRUM PLANNING
 
 4. Daniel tem 68 anos, é aposentado, viúvo e mora sozinho em um apartamento. Ele trabalhou como funcionário público por 35 anos e sempre foi uma pessoa poupadora, mas agora que está aposentado, ele está preocupado com o seu futuro financeiro, especialmente com os gastos médicos que podem aumentar com a idade. Daniel quer garantir que seus recursos financeiros durem pelo resto de sua vida e que ele possa manter seu estilo de vida atual. Ele também gostaria de ter uma reserva para emergências médicas e outras eventualidades. Portanto, ele procura uma ferramenta que organize e armazene seus gastos mensais para alcançar seus objetivos financeiros.
 
+5. Thiago tem 26 anos, é um empreendedor que fundou sua empresa de consultoria de TI. Ele está sempre trabalhando muito e tem pouco tempo livre. Desde cedo, Thiago sempre teve algumas dificuldades para administrar sua vida financeira. Hoje, sua empresa tem um bom faturamento e consegue receber um bom dinheiro. No futuro, ele planeja expandir suas operações. No entanto, ele não consegue ter uma ideia de como está seus gastos mês a mês. Ele está disposto a ter uma vida financeira mais organizada para que ele possa planejar melhor seu futuro e de sua empresa. Para isso, ele está procurando uma solução que o ajude com dicas financeiras e que permita que ele cadastre todo seu fluxo financeiro.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -37,7 +38,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |José, usuário       | Registrar minhas despesas e receitas | Saber onde e como estou gastando meu dinheiro              |
 |Administrador       | Alterar permissões                   | Permitir que possam administrar contas                     |
 |Carina              | Registrar minhas despesas e receitas | Conseguir economizar e atingir seu objetivo                |
-|                    |                                      |                                                            |
+|Thiago              | Registrar todo meu fluxo financeiro  | Ter um controle das finanças e definir melhor meu futuro   |
 |                    |                                      |                                                            |
 |                    |                                      |                                                            |
 
