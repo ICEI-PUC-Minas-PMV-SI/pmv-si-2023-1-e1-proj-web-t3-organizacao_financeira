@@ -19,6 +19,8 @@ SCRUM PLANNING
 
 6. Júlia tem 19 anos, se inseriu recentemente no mercado de trabalho. Percebeu que não possui muito conhecimento sobre como administrar o seu dinheiro após receber seu primeiro salário. Não possui organização para escrever sempre todos seus gastos e gostaria de encontrar uma aplicação de fácil usabilidade para ter um maior controle do dinheiro e conseguir economizar mais. 
 
+7. Eliana é uma empresária de 50 anos, casada e mãe de dois filhos adolescentes. Ela sempre teve o sonho de ter uma casa de praia para passar os fins de semana e as férias com a família. Ela sabe que é importante ter um plano financeiro bem estruturado para poder realizar seus sonhos e alcançar seus objetivos. Por isso, ela precisa de um organizador de finanças, que lhe permita monitorar seus ganhos e gastos mensais.
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
