@@ -42,10 +42,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Toda pessoa, independente de sua localização física, que possua renda e/ou seja responsável pela administração de renda familiar e precise de uma ferramenta para obter dicas simples e ajuda na organização financeira, seja para entender como e onde o dinheiro está sendo gasto, de forma a identificar em quais áreas pode economizar, seja para planejar melhor seus objetivos financeiros de médio/longo prazo.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
