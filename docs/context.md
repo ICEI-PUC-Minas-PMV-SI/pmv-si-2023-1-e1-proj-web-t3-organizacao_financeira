@@ -24,6 +24,14 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
+**Objetivo Geral**
+- Desenvolver uma aplicação que facilite o gerenciamento financeiro de qualquer usuário.
+
+**Objetivos Específicos**
+- Fornecer dicas de organização financeira para os usuários;
+- Criar uma ferramenta de registro de gastos mensais do usuário;
+- Organizar e demonstrar gastos mensais de cada usuário baseados em suas despesas/entradas.
+
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
