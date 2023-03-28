@@ -65,6 +65,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir que o usuário cadastre uma fonte de receita | ALTA |  |
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-003| Permitir que o usuário se registre e acesse um local restrito  | ALTA | |
 
 
 ### Requisitos não Funcionais
