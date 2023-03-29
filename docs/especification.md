@@ -44,6 +44,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Carina              | Registrar minhas despesas e receitas | Conseguir economizar e atingir seu objetivo                |
 |Thiago              | Registrar todo meu fluxo financeiro  | Ter um controle das finanças e definir melhor meu futuro   |
 |Júlia, usuária      |Encontrar dicas sobre finanças        |Aprender a controlar os meus gastos mensais                 |
+|Daniel              | Saber quanto deve poupar mensalmente | Criar uma reserva de emergência                            |
 |                    |                                      |                                                            |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
@@ -67,6 +68,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
 |RF-003| Permitir que o usuário se registre e acesse um local restrito  | ALTA | |
 |RF-004| Permitir que o usuário veja a cotação do Dólar do dia  | MÉDIA | |
+|RF-005| Mostrar gráficos com o balanço do usuário  | MÉDIA | |
+|RF-006| Permitir que o usuário consiga redefinir sua senha através de seu email caso a tenha esquecido   | MÉDIA | |
 
 
 ### Requisitos não Funcionais
@@ -77,6 +80,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| O sistema deve expirar a sessão do usuário após 10 minutos de inatividade |  MÉDIA | 
 |RNF-004| O sistema deve ser capaz de se integrar com outros sistemas de serviços financeiros  | MÉDIA | |
+|RNF-005| Ter um layout intuitivo e de fácil entendimento para os usuários  | ALTA | |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
