@@ -107,7 +107,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Disponibilidade de dados                              |
 |03| Prazo de entrega final                                |
 |04| Não teremos atendimento de suporte via telefone       |
-|05| Não existirá integração com sistemas bancários        |
+|05| Acesso somente via navegadores atualizados            |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
