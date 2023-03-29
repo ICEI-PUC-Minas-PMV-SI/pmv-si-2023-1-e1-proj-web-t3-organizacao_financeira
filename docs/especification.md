@@ -103,8 +103,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| Somente maiores de idade                              |
+|02| Disponibilidade de dados                              |
+|03| Prazo de entrega final                                |
+|04| Não teremos atendimento de suporte via telefone       |
+|05| Não existirá integração com sistemas bancários        |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
