@@ -1,13 +1,9 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+Para se ter uma vida financeira saudável é fundamental manter seus gastos sob controle. Diante de todas as despesas mensais como alimentação, moradia, contas de serviços domésticos essenciais (água, luz e gás), assim como telefonia, educação, transporte, entre outros, surge a necessidade de criar uma ferramenta que auxilie o usuário a registrar suas despesas para o seu controle pessoal. De acordo com uma pesquisa publicada pelo Serviço de Proteção ao Crédito (SPC) e Confederação Nacional de Dirigentes Lojistas (CNLD), feita em 2018, apenas 55% dos brasileiros fazem controle do orçamento mensal. O método utilizado pela maioria dos consumidores é o de anotações à mão. O uso de planilhas em computadores é também relevante (cerca de 18% dos entrevistados utilizam esse método), enquanto a utilização de aplicativos em celulares, por exemplo, ainda não é muito comum (apenas 9%) (SPC BRASIL, 2018).  
+Além disso, muitas pessoas possuem dificuldade na administração de dinheiro. Como consequência, podem acabar acumulando despesas desnecessárias e, eventualmente, acabarem se endividando.  Ainda de acordo com a pesquisa citada acima, cerca de 48% dos consumidores brasileiros não possuem um grau de conhecimento satisfatório sobre como deve ser feito esse gerenciamento monetário (SPC BRASIL, 2018). Dado esse contexto, se faz necessária uma ferramenta que apresente dicas aos usuários de como administrar seus recursos financeiros de forma prudente.
+Sendo assim, o projeto tem como propósito a criação de uma aplicação em que os usuários possam registrar seus dados de ganhos e despesas mensais, a fim de se ter um melhor controle do fluxo de dinheiro. Além disso, propõe-se que a aplicação também disponha de uma seção com dicas de gerenciamento financeiro pessoal.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
