@@ -66,6 +66,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Permitir que o usuário cadastre uma fonte de receita | ALTA |  |
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
 |RF-003| Permitir que o usuário se registre e acesse um local restrito  | ALTA | |
+|RF-004| Permitir que o usuário veja a cotação do Dólar do dia  | MÉDIA | |
 
 
 ### Requisitos não Funcionais
@@ -75,6 +76,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve se adaptar(responsividade) para rodar em qualquer dispositivo | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| O sistema deve expirar a sessão do usuário após 10 minutos de inatividade |  MÉDIA | 
+|RNF-004| O sistema deve ser capaz de se integrar com outros sistemas de serviços financeiros  | MÉDIA | |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
