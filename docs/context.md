@@ -35,9 +35,9 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+ O que motivou a realização deste trabalho foi compreender que é fundamental para qualquer indivíduo que queira ter uma vida financeira saudável e estável será necessário um meio de controle financeiro pois quando uma pessoa começa a trabalhar ou lidar com dinheiro, é comum que ela se sinta tentada a gastar mais do que realmente pode pagar. Isso pode ser motivado pela falta de educação financeira, pela pressão social ou por simplesmente não entender as consequências de suas ações.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
