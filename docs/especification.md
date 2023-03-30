@@ -39,11 +39,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`   |PARA ... `MOTIVO/VALOR`                                     |
 |--------------------|--------------------------------------|------------------------------------------------------------|
-|José, usuário       | Registrar minhas despesas e receitas | Saber onde e como estou gastando meu dinheiro              |
+|José                | Registrar minhas despesas e receitas | Saber onde e como estou gastando meu dinheiro para economizar e atingir meus objetivos financeiros              |
+|José, Júlia         | Ter acesso a dicas práticas sobre finanças | Aplicar no meu dia-a-dia aquilo que as dicas recomendam para atingir o controle financeiro               |
 |Administrador       | Alterar permissões                   | Permitir que possam administrar contas                     |
 |Carina              | Registrar minhas despesas e receitas | Conseguir economizar e atingir seu objetivo                |
 |Thiago              | Registrar todo meu fluxo financeiro  | Ter um controle das finanças e definir melhor meu futuro   |
-|Júlia, usuária      |Encontrar dicas sobre finanças        |Aprender a controlar os meus gastos mensais                 |
 |Daniel              | Saber quanto deve poupar mensalmente | Criar uma reserva de emergência                            |
 |                    |                                      |                                                            |
 
@@ -64,22 +64,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre uma fonte de receita | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-|RF-003| Permitir que o usuário se registre e acesse um local restrito  | ALTA | |
-|RF-004| Permitir que o usuário veja a cotação do Dólar do dia  | MÉDIA | |
-|RF-005| Mostrar gráficos com o balanço do usuário  | MÉDIA | |
-|RF-006| Permitir que o usuário consiga redefinir sua senha através de seu email caso a tenha esquecido   | MÉDIA | |
-|RF-007| Permitir que o usuário consiga suporte via chat   | MÉDIA | |
+|RF-001| Permitir que o usuário cadastrado gerencie suas fontes de receita | ALTA |  |
+|RF-002| Permitir que o usuário cadastrado gerencie suas fontes de despesa | ALTA |  |
+|RF-003| Permitir que o usuário cadastrado acesse uma página com dicas financeiras | ALTA |  |
+|RF-004| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-005| Permitir que o usuário se registre e acesse um local restrito  | ALTA | |
+|RF-006| Permitir que o usuário veja a cotação do Dólar do dia  | MÉDIA | |
+|RF-007| Mostrar gráficos com o balanço do usuário  | MÉDIA | |
+|RF-008| Permitir que o usuário consiga redefinir sua senha através de seu email caso a tenha esquecido   | MÉDIA | |
+|RF-009| Permitir que o usuário consiga suporte via chat   | MÉDIA | |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve se adaptar(responsividade) para rodar em qualquer dispositivo | MÉDIA | 
+|RNF-001| A aplicação deve se adaptar(responsividade) para rodar em qualquer dispositivo | ALTA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| O sistema deve expirar a sessão do usuário após 10 minutos de inatividade |  MÉDIA | 
-|RNF-004| O sistema deve ser capaz de se integrar com outros sistemas de serviços financeiros  | MÉDIA | |
+|RNF-003| A aplicação deve expirar a sessão do usuário após 10 minutos de inatividade |  MÉDIA | 
+|RNF-004| A aplicação deve ser capaz de se integrar com outros sistemas de serviços financeiros  | MÉDIA | |
 |RNF-005| Ter um layout intuitivo e de fácil entendimento para os usuários  | ALTA | |
 |RNF-006| Autenticação multifator  | BAIXA | |
 
