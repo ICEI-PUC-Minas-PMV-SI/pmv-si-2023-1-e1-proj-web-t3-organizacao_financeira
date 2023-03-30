@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-O projeto tem como propósito fornecer ferramentas que auxiliem qualquer pessoa a organizar suas finanças de maneira básica, fazendo o registro de receitas e despesas de forma a atingir o equilíbrio e prosperidade financeira.
+O projeto tem como propósito fornecer ferramentas que auxiliem qualquer pessoa a organizar suas finanças de maneira básica, com acesso a dicas práticas, realizando o registro de receitas e despesas e visualizando relatórios demonstrativos, de forma a atingir o equilíbrio e prosperidade financeira.
 
 ## Integrantes
 
