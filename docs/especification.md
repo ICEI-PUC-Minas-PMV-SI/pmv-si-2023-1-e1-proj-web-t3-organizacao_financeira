@@ -73,6 +73,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| Mostrar gráficos com o balanço do usuário  | MÉDIA | |
 |RF-008| Permitir que o usuário consiga redefinir sua senha através de seu email caso a tenha esquecido   | MÉDIA | |
 |RF-009| Permitir que o usuário consiga suporte via chat   | MÉDIA | |
+|RF-010| A aplicação deverá ter uma página que apresente e responda perguntas frequentes para todos os usuários (cadastrados ou não)   | MÉDIA | |
 
 ### Requisitos não Funcionais
 
