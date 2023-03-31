@@ -1,5 +1,9 @@
 # Referências
 
+**(SPC BRASIL, 2018)** - Agência Brasil, Pesquisa revela que 58% dos brasileiros não se dedicam às próprias finanças. Disponível em: (https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/pesquisa-revela-que-58-dos-brasileiros-nao-se-dedicam-proprias-financas). Acesso em: 30 Mar 2023
+
+**[x]** - NOME DO SITE, Título. Disponível em: (endereço completo do site). Acesso em: DD Mês (abreviado) AAAA
+
 Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
 
 > **Links Úteis**:
