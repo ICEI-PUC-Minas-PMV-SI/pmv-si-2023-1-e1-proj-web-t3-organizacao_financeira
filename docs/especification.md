@@ -81,7 +81,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve se adaptar(responsividade) para rodar em qualquer dispositivo | ALTA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| A aplicação deve expirar a sessão do usuário após 10 minutos de inatividade |  MÉDIA | 
+|RNF-003| A aplicação deve expirar a sessão do usuário após 10 minutos de inatividade |  BAIXA | 
 |RNF-004| A aplicação deve ser capaz de se integrar com outros sistemas de serviços financeiros  | MÉDIA | |
 |RNF-005| Ter um layout intuitivo e de fácil entendimento para os usuários  | ALTA | |
 |RNF-006| Autenticação multifator  | BAIXA | |
