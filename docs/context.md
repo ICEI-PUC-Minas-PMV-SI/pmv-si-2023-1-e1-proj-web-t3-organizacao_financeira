@@ -9,7 +9,7 @@ Sendo assim, o projeto tem como propósito a criação de uma aplicação em que
 
 ## Problema
 
-Ter o controle sobre o dinheiro é uma questão fundamental para a maioria das pessoas. Essa aplicação tem como objetivo principal ajudar as pessoas a organizar suas finanças de forma eficiente e simplificada, além de oferecer dicas para o controle do dinheiro. A solução tem como foco qualquer indivíduo que tenha ou precise gerenciar uma renda, visto que, de acordo com a pesquisa feita pelo Serviço de Proteção do Crédito (SPC), 58% dos brasileiros admitem que nunca, ou somente às vezes, dedicam tempo a atividades de controle da vida financeira. Dessa forma, a solução visa ajudar o usuário a controlar suas finanças de uma forma prática.
+Essa aplicação tem como objetivo principal ajudar as pessoas a organizar suas finanças de forma eficiente e simplificada, buscando resolver a falta de conscientização de uso ou gestão dos recursos financeiros. A solução tem como foco qualquer indivíduo que tenha ou precise gerenciar uma renda, ajudando o usuário a controlar suas finanças de uma forma prática.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
