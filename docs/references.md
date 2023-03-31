@@ -1,6 +1,6 @@
 # Referências
 
-**(SPC BRASIL, 2018)** - Agência Brasil, Pesquisa revela que 58% dos brasileiros não se dedicam às próprias finanças. Disponível em: (https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/pesquisa-revela-que-58-dos-brasileiros-nao-se-dedicam-proprias-financas). Acesso em: 30 Mar 2023
+**(SPC BRASIL, 2018)** - _AGÊNCIA BRASIL, **Pesquisa revela que 58% dos brasileiros não se dedicam às próprias finanças.** Disponível em: (https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/pesquisa-revela-que-58-dos-brasileiros-nao-se-dedicam-proprias-financas). Acesso em: 30 Mar 2023_
 
 **[x]** - NOME DO SITE, Título. Disponível em: (endereço completo do site). Acesso em: DD Mês (abreviado) AAAA
 
