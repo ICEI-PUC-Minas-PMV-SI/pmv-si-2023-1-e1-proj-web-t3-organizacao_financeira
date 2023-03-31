@@ -43,7 +43,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |José, Júlia         | Ter acesso a dicas práticas sobre finanças | Aplicar no meu dia-a-dia aquilo que as dicas recomendam para atingir o controle financeiro               |
 |Administrador       | Alterar permissões                   | Permitir que possam administrar contas                     |
 |Carina              | Registrar minhas despesas e receitas | Conseguir economizar e atingir seu objetivo                |
-|Thiago              | Registrar todo meu fluxo financeiro  | Ter um controle das finanças e definir melhor meu futuro   |
+|Thiago, Júlia       | Registrar todo meu fluxo financeiro  | Ter um controle das finanças e definir melhor meu futuro   |
 |Daniel              | Saber quanto deve poupar mensalmente | Criar uma reserva de emergência                            |
 |                    |                                      |                                                            |
 
