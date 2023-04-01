@@ -8,12 +8,7 @@ Sendo assim, o projeto tem como propósito a criação de uma aplicação em que
 
 ## Problema
 
-O objetivo principal desta aplicação é auxiliar as pessoas na organização de suas finanças de maneira eficiente e simplificada, a fim de solucionar a ausência de consciência em relação ao uso e gerenciamento dos recursos financeiros por parte dos indivíduos, que leva a comprometimentos na saúde financeira.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O problema que buscamos resolver é a falta de organização na gestão dos recursos financeiros, que faz com que muitas pessoas acabem se endividando. Outro pronto abordado é a falta de planejamento, que vai de encontro à má gestão dos recursos e que impede as pessoas não só de atingirem seus objetivos financeiros, como muitas vezes definir esses objetivos e prosperar.
 
 ## Objetivos
 
@@ -28,9 +23,6 @@ O objetivo principal desta aplicação é auxiliar as pessoas na organização d
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -47,20 +39,6 @@ acesso à internet no Brasil (PNAD BRASIL, 2021).
 Conforme a pesquisa realizada pela International Stress Management Association (ISMA-BR), a dificuldade em controlar finanças também é um grande causador de estresse entre a população brasileira, levando as pessoas recorrerem ao uso excessivo de bebidas alcoólicas, cigarros, entre outras substancias. “Em 2019, 73% dos brasileiros indicaram os problemas financeiros como a principal fonte de tensão. Em 2021, esse total subiu para 78%.”.
 Conforme analises, acreditamos que através de uma aplicação online, de fácil acesso, simples de usar, que armazene as receitas, gastos dos usuários, exibição de relatórios e dicas de gerenciamento financeiro, podemos estar contribuindo para diminuição de problemas emocionais causados pelas dificuldades financeiras diminuindo o uso descontrolado de bebidas e gerar um aumento do número de pessoas que se dedicam um pouco mais na gestão de dinheiro e que dessa forma, elas possam estabelecer metas e conquistar seus sonhos e conforto pessoal e familiar. 
 
- 
- 
- 
- 
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 Toda pessoa, independente de sua localização física, que possua renda e/ou seja responsável pela administração de renda familiar e precise de uma ferramenta para obter dicas simples e ajuda na organização financeira, seja para entender como e onde o dinheiro está sendo gasto, de forma a identificar em quais áreas pode economizar, seja para planejar melhor seus objetivos financeiros de médio/longo prazo.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
