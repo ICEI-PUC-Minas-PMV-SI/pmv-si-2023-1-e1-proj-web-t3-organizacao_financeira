@@ -21,6 +21,10 @@ SCRUM PLANNING
 
 7. Eliana é uma empresária de 50 anos, casada e mãe de dois filhos adolescentes. Ela sempre teve o sonho de ter uma casa de praia para passar os fins de semana e as férias com a família. Ela sabe que é importante ter um plano financeiro bem estruturado para poder realizar seus sonhos e alcançar seus objetivos. Por isso, ela precisa de um organizador de finanças, que lhe permita monitorar seus ganhos e gastos mensais.
 
+8. Luiz tem 35 anos, é um operário que trabalha em uma fábrica há 10 anos, mora em um bairro de classe média baixa e recebe 1 salário minimo e meio. Ele é casado e tem um filho de 4 anos. Seu salário é o único meio de sustento, o que o coloca em uma situação financeira difícil. Apesar de ter um emprego fixo, ele tem muitas dívidas acumuladas, como empréstimos pessoais e cartão de crédito, que o impedem de economizar dinheiro ou investir em algo.
+
+9. Carla tem 25 anos, é estagiária em uma empresa de tecnologia e está em busca de um futuro financeiro estável e equilibrado. Ela é solteira, mora sozinha em um apartamento alugado e tem um salário baixo, o que a coloca em uma situação financeira delicada. Apesar de ter uma vida simples, Carla tem algumas dívidas acumuladas devido à falta de planejamento financeiro. Ela costuma gastar com compras impulsivas e entretenimento, o que a impede de economizar dinheiro ou investir em algo. Além disso, ela ainda não possui uma reserva financeira de emergência para situações inesperadas. Ela tem como objetivo controlar seus gastos, diminuir suas dívidas e começar a investir em um futuro financeiro mais estável e seguro.
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
@@ -42,9 +46,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |José                | Registrar minhas despesas e receitas | Saber onde e como estou gastando meu dinheiro para economizar e atingir meus objetivos financeiros              |
 |José, Júlia         | Ter acesso a dicas práticas sobre finanças | Aplicar no meu dia-a-dia aquilo que as dicas recomendam para atingir o controle financeiro               |
 |Carina              | Registrar minhas despesas e receitas | Conseguir economizar e atingir seu objetivo                |
-|Thiago, Júlia       | Registrar todo meu fluxo financeiro  | Ter um controle das finanças e definir melhor meu futuro   |
+|Thiago, Júlia, Carla| Registrar todo meu fluxo financeiro  | Ter um controle das finanças e definir melhor meu futuro   |
 |Daniel              | Saber quanto deve poupar mensalmente | Criar uma reserva de emergência                            |
-|                    |                                      |                                                            |
+|Luiz                | Planejamento financeiro              | Economizar e pagar suas dívidas                            |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
