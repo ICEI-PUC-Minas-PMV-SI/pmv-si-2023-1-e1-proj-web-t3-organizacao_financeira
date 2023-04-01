@@ -32,16 +32,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastrado gerencie suas fontes de receita | ALTA |  |
-|RF-002| Permitir que o usuário cadastrado gerencie suas fontes de despesa | ALTA |  |
-|RF-003| Permitir que o usuário cadastrado acesse uma página com dicas financeiras | ALTA |  |
-|RF-004| Emitir um relatório de tarefas no mês   | MÉDIA | |
-|RF-005| Permitir que o usuário se registre e acesse um local restrito  | ALTA | |
-|RF-006| Permitir que o usuário veja a cotação do Dólar do dia  | MÉDIA | |
-|RF-007| Mostrar gráficos com o balanço do usuário  | MÉDIA | |
-|RF-008| Permitir que o usuário consiga redefinir sua senha através de seu email caso a tenha esquecido   | MÉDIA | |
-|RF-009| Permitir que o usuário consiga suporte via chat   | MÉDIA | |
-|RF-010| A aplicação deverá ter uma página que apresente e responda perguntas frequentes para todos os usuários (cadastrados ou não)   | MÉDIA | |
+|RF-001| Permitir que o usuário visitante acesse uma página com dicas financeiras | ALTA |  |
+|RF-002| A aplicação deverá ter uma página que apresente e responda perguntas frequentes para todos os usuários (cadastrados ou não) | MÉDIA |  |
+|RF-003| A aplicação deverá ter uma página que apresente informações de investimentos | ALTA |  |
+|RF-004| A aplicação deverá ter uma página que apresente dicas de economia doméstica   | ALTA | |
+|RF-005| A aplicação deverá ter uma página com sugestões de corretoras de investimentos | MÉDIA | |
+|RF-006| A aplicação deverá ter uma página com informações sobre indicadores econômicos  | ALTA | |
+|RF-007| Permitir que o usuário visitante veja a cotação do Dólar do dia  | ALTA | |
+|RF-008| Permitir que o usuário se registre e acesse um local restrito   | ALTA | |
+|RF-009| Permitir que o usuário consiga redefinir sua senha através de seu e-mail  | ALTA | |
+|RF-010| Permitir que o usuário cadastrado gerencie suas fontes de receita   | ALTA | |
+|RF-011| Permitir que o usuário cadastrado gerencie suas fontes de despesa  | ALTA | |
+|RF-012| Emitir um relatório de despesas do mês  | ALTA | |
+|RF-013| Mostrar gráficos com o balanço do usuário   | MÉDIA | |
+|RF-014| Permitir que o usuário consiga suporte via chat   | MÉDIA | |
+
 
 ### Requisitos não Funcionais
 
