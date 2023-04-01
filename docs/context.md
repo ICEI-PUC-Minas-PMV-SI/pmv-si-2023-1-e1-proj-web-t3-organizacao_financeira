@@ -9,7 +9,7 @@ Sendo assim, o projeto tem como propósito a criação de uma aplicação em que
 
 ## Problema
 
-Essa aplicação tem como objetivo principal ajudar as pessoas a organizar suas finanças de forma eficiente e simplificada, buscando resolver a falta de conscientização de uso ou gestão dos recursos financeiros. A solução tem como foco qualquer indivíduo que tenha ou precise gerenciar uma renda, ajudando o usuário a controlar suas finanças de uma forma prática.
+O objetivo principal desta aplicação é auxiliar as pessoas na organização de suas finanças de maneira eficiente e simplificada, a fim de solucionar a ausência de consciência em relação ao uso e gerenciamento dos recursos financeiros por parte dos indivíduos, que leva a comprometimentos na saúde financeira.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
