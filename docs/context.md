@@ -39,6 +39,19 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
  (2ª Opção de Justificativa)
 Uma pesquisa realizada pelo Serviço de Proteção ao Crédito revelou que 58% dos brasileiros dizem que nunca, ou quase nunca, dedicam tempo para manter controle das finanças. Além disso, apenas 48% dos entrevistados estabelecem metas financeiras e as seguem à risca quando querem adquirir um bem de alto valor (SPC BRASIL, 2018). Em contraponto, uma outra pesquisa realizada em 2021, revelou que 90% dos lares brasileiros já tem acesso à internet no Brasil (PNAD BRASIL, 2021). Com desses dados em mãos, acreditamos que através de uma aplicação online, de fácil acesso, simples de usar, que armazene as receitas e gastos dos usuários e exiba relatórios e dicas de gerenciamento financeiro, podemos estar contribuindo para o aumento do número de pessoas que se dedicam um pouco mais na gestão de dinheiro e que dessa forma, elas possam estabelecer metas e conquistar seus sonhos.
 
+ (3ª Opção de Justificativa complementando a 2º opção).
+ Uma pesquisa realizada pelo Serviço de Proteção ao Crédito revelou que 58% dos brasileiros dizem que nunca, ou quase nunca, dedicam tempo 
+para manter controle das finanças. Além disso, apenas 48% dos entrevistados estabelecem metas financeiras e as seguem à risca quando querem 
+adquirir um bem de alto valor (SPC BRASIL, 2018). Em contraponto, uma outra pesquisa realizada em 2021, revelou que 90% dos lares brasileiros já tem
+acesso à internet no Brasil (PNAD BRASIL, 2021). 
+Conforme a pesquisa realizada pela International Stress Management Association (ISMA-BR), a dificuldade em controlar finanças também é um grande causador de estresse entre a população brasileira, levando as pessoas recorrerem ao uso excessivo de bebidas alcoólicas, cigarros, entre outras substancias. “Em 2019, 73% dos brasileiros indicaram os problemas financeiros como a principal fonte de tensão. Em 2021, esse total subiu para 78%.”.
+Conforme analises, acreditamos que através de uma aplicação online, de fácil acesso, simples de usar, que armazene as receitas, gastos dos usuários, exibição de relatórios e dicas de gerenciamento financeiro, podemos estar contribuindo para diminuição de problemas emocionais causados pelas dificuldades financeiras diminuindo o uso descontrolado de bebidas e gerar um aumento do número de pessoas que se dedicam um pouco mais na gestão de dinheiro e que dessa forma, elas possam estabelecer metas e conquistar seus sonhos e conforto pessoal e familiar. 
+
+ 
+ 
+ 
+ 
+
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
