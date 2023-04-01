@@ -62,15 +62,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| Somente maiores de idade                              |
-|02| Disponibilidade de dados                              |
-|03| Prazo de entrega final                                |
+|01| A aplicação só aceitará cadastrar usuários maiores de 18 anos |
+|02| A aplicação só apresentará relatórios e balanço se o usuário cadastrar pelo menos 01 receita e 01 despesa |
+|03| O prazo de entrega final é na data 12/07/2023   |
 |04| Não teremos atendimento de suporte via telefone       |
 |05| Acesso somente via navegadores atualizados            |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
