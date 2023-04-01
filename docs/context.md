@@ -1,11 +1,10 @@
 # Introdução
 
-Para se ter uma vida financeira saudável é fundamental manter seus gastos sob controle. Diante de todas as despesas mensais como alimentação, moradia, contas de serviços domésticos essenciais, telefonia, entre outros, surge a necessidade de criar uma ferramenta que auxilie o usuário a registrar suas despesas para o seu controle pessoal. Muitos ainda utilizam anotações à mão para fazer a gestão dos seus recursos, o que pode acarretar na perda de todo o planejamento financeiro caso o papel seja danificado ou perdido.
+Para se ter uma vida financeira saudável é fundamental manter os gastos sob controle. Diante de todas as despesas mensais como alimentação, moradia, contas de serviços domésticos essenciais, telefonia, entre outros, surge a necessidade de criar uma ferramenta que auxilie o usuário a registrar suas despesas para o seu controle pessoal. Muitos ainda utilizam anotações à mão para fazer a gestão dos seus recursos, o que pode acarretar na perda de todo o planejamento caso o papel seja danificado ou perdido.
 
-Além disso, muitas pessoas possuem dificuldade na administração de dinheiro. Como consequência, podem acabar acumulando despesas desnecessárias e, eventualmente, acabarem se endividando. Dado esse contexto, se faz necessária uma seção da aplicação que apresente dicas aos usuários de como administrar seus recursos financeiros de forma prudente.
+Além disso, muitas pessoas possuem dificuldade na administração de dinheiro. Como consequência, podem acabar acumulando despesas desnecessárias e, eventualmente, acabarem se endividando. Dado esse contexto, se faz necessário ter um espaço na aplicação para apresentar dicas aos usuários de como administrar seus recursos financeiros de forma prudente.
 
-Sendo assim, o projeto tem como propósito a criação de uma aplicação em que os usuários possam registrar seus dados de ganhos e despesas mensais e emitir relatórios a fim de se ter um melhor controle do fluxo de dinheiro. Além disso, propõe-se que a aplicação também disponha de uma seção com dicas de gerenciamento financeiro pessoal.
-
+Sendo assim, o projeto tem como propósito a criação de uma aplicação em que os usuários possam registrar seus ganhos e despesas mensais e emitir relatórios a fim de se ter um melhor controle do fluxo de dinheiro. Além disso, propõe-se que a aplicação também disponha de uma seção com dicas de gerenciamento financeiro pessoal.
 
 ## Problema
 
@@ -36,7 +35,9 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 ## Justificativa
 
  O que motivou a realização deste trabalho foi compreender que é fundamental para qualquer indivíduo que queira ter uma vida financeira saudável e estável será necessário um meio de controle financeiro pois quando uma pessoa começa a trabalhar ou lidar com dinheiro, é comum que ela se sinta tentada a gastar mais do que realmente pode pagar. Isso pode ser motivado pela falta de educação financeira, pela pressão social ou por simplesmente não entender as consequências de suas ações. Ao ter uma visão clara de seus ganhos e gastos, uma pessoa pode controlar melhor suas finanças e evitar o endividamento desnecessário. Além disso, a compreensão dos conceitos básicos de finanças pessoais pode ajudar a estabelecer objetivos financeiros realistas, como a compra de uma casa, um carro ou a realização de uma viagem, e a planejar como alcançá-los. Por isso, é  essencial uma ferramenta para auxiliar nas finanças e para alcançar um maior controle sobre os gastos. 
-
+ 
+ (2ª Opção de Justificativa)
+Uma pesquisa realizada pelo Serviço de Proteção ao Crédito revelou que 58% dos brasileiros dizem que nunca, ou quase nunca, dedicam tempo para manter controle das finanças. Além disso, apenas 48% dos entrevistados estabelecem metas financeiras e as seguem à risca quando querem adquirir um bem de alto valor (SPC BRASIL, 2018). Em contraponto, uma outra pesquisa realizada em 2021, revelou que 90% dos lares brasileiros já tem acesso à internet no Brasil (PNAD BRASIL, 2021). Com desses dados em mãos, acreditamos que através de uma aplicação online, de fácil acesso, simples de usar, que armazene as receitas e gastos dos usuários e exiba relatórios e dicas de gerenciamento financeiro, podemos estar contribuindo para o aumento do número de pessoas que se dedicam um pouco mais na gestão de dinheiro e que dessa forma, elas possam estabelecer metas e conquistar seus sonhos.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
