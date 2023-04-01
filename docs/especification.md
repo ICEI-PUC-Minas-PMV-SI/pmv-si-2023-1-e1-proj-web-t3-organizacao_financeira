@@ -49,25 +49,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve se adaptar(responsividade) para rodar em qualquer dispositivo | ALTA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| A aplicação deve expirar a sessão do usuário após 10 minutos de inatividade |  BAIXA | 
-|RNF-004| A aplicação deve ser capaz de se integrar com outros sistemas de serviços financeiros  | MÉDIA | |
-|RNF-005| Ter um layout intuitivo e de fácil entendimento para os usuários  | ALTA | |
-|RNF-006| Autenticação multifator  | BAIXA | |
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-003| A aplicação deve enviar ao usuário email de confirmação de cadastro |  MÉDIA |
+|RNF-004| A aplicação deve enviar ao usuário email para redefinição de senha |  ALTA |
+|RNF-005| A aplicação deve ser capaz de se integrar com outros sistemas de serviços financeiros  | MÉDIA | |
+|RNF-006| Ter um layout intuitivo e de fácil entendimento para os usuários  | ALTA | |
+|RNF-007| A Aplicação precisa comunicar-se com API para obter dados econômicos (dolar e outros índices)   | ALTA | |
+|RNF-008| A Aplicação precisa comunicar-se com API para oferecer suporte via chat aos usuários   | ALTA | |
 
 ## Restrições
 
