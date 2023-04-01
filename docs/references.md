@@ -2,7 +2,7 @@
 
 **(SPC BRASIL, 2018)** - _AGÊNCIA BRASIL, **Pesquisa revela que 58% dos brasileiros não se dedicam às próprias finanças.** Disponível em: (https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/pesquisa-revela-que-58-dos-brasileiros-nao-se-dedicam-proprias-financas). Acesso em: 30 Mar 2023_
 
-**[x]** - NOME DO SITE, Título. Disponível em: (endereço completo do site). Acesso em: DD Mês (abreviado) AAAA
+**(PNAD BRASIL, 2021)** - _GOV.BR, **90% dos lares brasileiros já tem acesso à internet no Brasil, aponta pesquisa.** Disponível em: (https://www.gov.br/casacivil/pt-br/assuntos/noticias/2022/setembro/90-dos-lares-brasileiros-ja-tem-acesso-a-internet-no-brasil-aponta-pesquisa). Acesso em: 01 Abr 2023_
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
 
