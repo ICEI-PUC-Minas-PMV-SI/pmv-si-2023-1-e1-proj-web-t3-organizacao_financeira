@@ -22,7 +22,7 @@ O problema que buscamos resolver é a falta de organização na gestão dos recu
 
 ## Justificativa
 
- O que motivou a realização deste trabalho foi compreender que é fundamental para qualquer indivíduo que queira ter uma vida financeira saudável e estável será necessário um meio de controle financeiro pois quando uma pessoa começa a trabalhar ou lidar com dinheiro, é comum que ela se sinta tentada a gastar mais do que realmente pode pagar. Isso pode ser motivado pela falta de educação financeira, pela pressão social ou por simplesmente não entender as consequências de suas ações.
+ O que motivou a realização deste trabalho foi compreender que é fundamental para qualquer indivíduo que queira ter uma vida financeira saudável e estável um meio de controle financeiro pois quando uma pessoa começa a trabalhar ou lidar com dinheiro, é comum que ela se sinta tentada a gastar mais do que realmente pode pagar. Isso pode ser motivado pela falta de educação financeira, pela pressão social ou por simplesmente não entender as consequências de suas ações.
  Uma pesquisa realizada pelo Serviço de Proteção ao Crédito revelou que 58% dos brasileiros dizem que nunca, ou quase nunca, dedicam tempo 
 para manter controle das finanças. Além disso, apenas 48% dos entrevistados estabelecem metas financeiras e as seguem à risca quando querem 
 adquirir um bem de alto valor (SPC BRASIL, 2018). Em contraponto, uma outra pesquisa realizada em 2021, revelou que 90% dos lares brasileiros já tem
