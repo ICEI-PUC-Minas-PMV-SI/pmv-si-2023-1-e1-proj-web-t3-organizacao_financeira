@@ -1,6 +1,6 @@
 # Introdução
 
-Para se ter uma vida financeira saudável é fundamental manter os gastos sob controle. Diante de todas as despesas mensais como alimentação, moradia, contas de serviços domésticos essenciais, telefonia, entre outros, surge a necessidade de criar uma ferramenta que auxilie o usuário a registrar suas despesas para o seu controle pessoal. Muitos ainda utilizam anotações à mão para fazer a gestão dos seus recursos, o que pode acarretar na perda de todo o planejamento caso o papel seja danificado ou perdido.
+Para se ter uma vida financeira saudável é fundamental manter os gastos sob controle, diante de todas as despesas mensais como alimentação, moradia, contas de serviços domésticos essenciais, telefonia, entre outros. Então surge a necessidade de criar uma ferramenta que auxilie o usuário a registrar suas despesas para o seu controle pessoal. Muitos ainda utilizam anotações à mão para fazer a gestão dos seus recursos, o que pode acarretar na perda de todo o planejamento caso o papel seja danificado ou perdido.
 
 Além disso, muitas pessoas possuem dificuldade na administração de dinheiro. Como consequência, podem acabar acumulando despesas desnecessárias e, eventualmente, acabarem se endividando. Dado esse contexto, se faz necessário ter um espaço na aplicação para apresentar dicas aos usuários de como administrar seus recursos financeiros de forma prudente.
 
