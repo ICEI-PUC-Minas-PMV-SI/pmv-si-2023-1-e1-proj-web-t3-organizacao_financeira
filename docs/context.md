@@ -8,7 +8,7 @@ Sendo assim, o projeto tem como propósito a criação de uma aplicação em que
 
 ## Problema
 
-O problema que buscamos resolver é a falta de organização na gestão dos recursos financeiros, que faz com que muitas pessoas acabem se endividando. Outro pronto abordado é a falta de planejamento, que vai de encontro à má gestão dos recursos e que impede as pessoas não só de atingirem seus objetivos financeiros, como muitas vezes definir esses objetivos e prosperar.
+O problema que busca-se resolver é a falta de organização na gestão dos recursos financeiros, que faz com que muitas pessoas acabem se endividando. Outro ponto a ser abordado é a falta de planejamento, que vai de encontro à má gestão dos recursos e que impede as pessoas não só de atingirem seus objetivos financeiros, como também de definirem esses objetivos e prosperarem.
 
 ## Objetivos
 
