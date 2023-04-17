@@ -26,6 +26,20 @@ O que motivou a realização deste trabalho foi compreender que é fundamental p
 
 Conforme a pesquisa realizada pela International Stress Management Association (ISMA BR), a dificuldade em controlar finanças também é um grande causador de estresse entre a população brasileira, levando as pessoas recorrerem ao uso excessivo de bebidas alcoólicas, cigarros, entre outras substancias. Ainda segundo o ISMA-BR, “em 2019, 73% dos brasileiros indicaram os problemas financeiros como a principal fonte de tensão. Em 2021, esse total subiu para 78%” [(ISMA BR, 2019)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/blob/main/docs/references.md). Conforme as análises realizadas, é possível que uma aplicação online de fácil acesso e simples de usar, que armazene as receitas, gastos dos usuários, exiba relatórios e dê dicas de gerenciamento financeiro, contribua para a diminuição de problemas emocionais causados pelas dificuldades financeiras, reduzindo o uso descontrolado de bebidas e aumentando o número de pessoas que se dediquem mais à gestão de dinheiro. Dessa forma, elas poderiam estabelecer metas e conquistar seus sonhos e conforto pessoal e familiar.
 
+Das opções existentes no mercado, duas das soluções mais populares são o Mint e o YNAB (You Need a Budget). A nossa solução financeira pode se diferenciar dessas soluções existentes de várias maneiras, por exemplo: 
+
+1- Oferece recursos exclusivos, como uma ferramenta de planejamento de longo prazo para ajudar os usuários a alcançar objetivos financeiros específicos;
+
+2- Uma interface mais fácil de usar;
+
+3 - Plataforma gratuita;
+
+As desvantagens presentes existentes são: 
+
+1 - Consolidação, visto que o Mint e o YNAB estão presente no mercado a mais tempo; 
+
+2 - Integração com plataformas financeiras. 
+
 ## Público-Alvo
 
 Toda pessoa, independente de sua localização física, que possua renda e/ou seja responsável pela administração de renda familiar e precise de uma ferramenta para obter dicas simples e ajuda na organização financeira, seja para entender como e onde o dinheiro está sendo gasto, de forma a identificar em quais áreas pode economizar, seja para planejar melhor seus objetivos financeiros de médio/longo prazo.
