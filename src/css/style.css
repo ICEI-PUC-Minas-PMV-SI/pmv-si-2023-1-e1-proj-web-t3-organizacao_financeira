@@ -1,0 +1,39 @@
+
+body {
+    background-color: black;
+    font-family: "Poppins", Helvetica, sans-serif;    /*Escolha da tipografia*/
+}
+
+.nav-link:hover {   /*Ao passar o mouse nos itens do menu*/
+    text-decoration: underline;
+}
+
+.carousel-item h5, p {  /*Estilo do título e texto do carrossel*/
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.carousel-item h5 {   /*Estilo apenas do título do carrossel*/
+    font-size: 1.5em;
+}
+
+.carousel-item p {   /*Estilo apenas do texto do carrossel*/
+    
+}
+
+.home-page-btn {
+    background-color: chartreuse;
+}
+
+.home-page-btn:hover {
+    background-color: rgb(127,255,50);
+}
+
+.carousel-border {
+    border-radius: 12px;
+}
+
+.money-bag {
+    width: 1.2em;  /*O ícone de bolsa de dinheiro acompanhará o tamanho da fonte ao ajustar a tela*/
+    transform: rotate(45deg);
+    padding-bottom: 1%;
+}
