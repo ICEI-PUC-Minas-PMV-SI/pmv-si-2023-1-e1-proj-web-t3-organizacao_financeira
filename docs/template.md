@@ -10,6 +10,11 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 
 ## Cores
+A paleta de cores utilizada será: 
+
+<img width="834" alt="Cores Projeto" src="https://user-images.githubusercontent.com/127874059/235463336-b12194de-1fe3-4f9d-850f-eec75e309a1d.png">
+
+
 
 Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
 
