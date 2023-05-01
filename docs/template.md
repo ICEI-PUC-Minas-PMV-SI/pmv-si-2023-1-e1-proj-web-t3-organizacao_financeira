@@ -21,8 +21,18 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+### Fonte Primária
+**Poppins**: A fonte Poppins é a escolha tipográfica principal em toda a aplicação, sendo uma fonte sem serifa extremamente legível e clara, ideal para destacar textos e números ao usuário. Apesar de não ser uma fonte padrão da web, o que pode torná-la indisponível em alguns navegadores e sistemas operacionais, é possível incorporá-la por meio do Google Fonts. Dessa forma, a fonte Poppins estará presente em todos os dispositivos, mantendo a coerência visual em toda a aplicação.
 
+![PoppinsPost](https://user-images.githubusercontent.com/128002460/235503067-d20516e2-d315-4ebb-946d-60d667ec4c5c.png)
+
+### Fonte Secundária
+**Verdana**: A fonte Verdana é a escolha tipográfica secundária em toda a aplicação, servindo como alternativa caso ocorra algum problema com o funcionamento da fonte primária. A Verdana é uma fonte sem serifa, bastante legível em telas de computador, especialmente em tamanhos menores. Por ser uma fonte presente na maioria dos navegadores, é considerada uma das "fontes seguras para a web".
+
+![VerdanaPost](https://user-images.githubusercontent.com/128002460/235503078-1943b6b5-de8c-4458-9996-0332a09ba156.png)
+
+
+Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 
 ## Iconografia
 
