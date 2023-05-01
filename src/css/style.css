@@ -1,7 +1,7 @@
 
 body {
     background-color: black;
-    font-family: "Poppins", Verdana, sans-serif;    /*Escolha da tipografia*/
+    font-family: 'Poppins', Verdana, sans-serif;    /*Escolha da tipografia*/
 }
 
 .nav-link:hover {   /*Ao passar o mouse nos itens do menu*/
