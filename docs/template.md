@@ -14,6 +14,10 @@ A paleta de cores utilizada será:
 
 <img width="834" alt="Cores Projeto" src="https://user-images.githubusercontent.com/127874059/235463336-b12194de-1fe3-4f9d-850f-eec75e309a1d.png">
 
+Segunda opção de imagem:
+
+<img width="1400" alt="cores rgb hexa" src="https://user-images.githubusercontent.com/128002460/235803781-3a1bb296-7fa8-48c3-b2b6-4b98896ea843.png">
+
 
 
 Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
