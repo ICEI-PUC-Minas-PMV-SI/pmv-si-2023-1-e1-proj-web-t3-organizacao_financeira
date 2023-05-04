@@ -49,6 +49,141 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 
 ## Wireframes
+ ________________________________________________________________________________________________________________________________________________________
+## **Página Inicial**
+
+Tela em que o usuário pode acessar a página com dicas financeiras, FAQ, dicas de economia doméstica e dicas de investimento, atendendo aos requisitos RF-001, RF-002, RF-003 e RF-004.
+
+ <div align="center">
+  
+![image](https://user-images.githubusercontent.com/58302377/235816592-22e9a249-755c-4ce7-98e9-eed61a0626fd.png)
+   </div>
+  <div align="center">
+  
+![image](https://user-images.githubusercontent.com/58302377/235821238-458818f0-bf0f-4343-afc7-8c5ee68421a2.png)
+  
+ </div>
+ ________________________________________________________________________________________________________________________________________________________
+
+### **Página de Indicadores Econômicos**
+
+Nesta página, o usuário pode encontrar mais informações sobre os principais indicadores econômicos da economia. Atende ao requisito RF-006. 
+
+<div align="center">
+ 
+![image](https://user-images.githubusercontent.com/58302377/235821394-d56183a9-988e-41c1-9ed2-95ab99759f6d.png))
+  
+ </div>
+________________________________________________________________________________________________________________________________________________________
+
+### **Cotação do Dólar**
+
+Navegando nas páginas da plataforma, o usuário poderá visualizar a cotação do Dólar no canto superior direito. Atende ao requisito RF-007
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/58302377/235823778-721354ad-90f5-489d-9186-06d644dbfdbb.png)
+ </div>
+________________________________________________________________________________________________________________________________________________________
+
+### **Login/Gerenciamento de Conta** 
+
+Nas seguintes páginas, o usuário pode fazer Login, se cadastrar, recuperar sua senha e ser informado que sua conta foi cadastrada com sucesso atendendo aos requisitos RF-009 e RF-015. 
+
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/58302377/235824412-d1eedad2-ad84-4fc7-88c5-27ed1319a0ca.png)
+  
+ </div>
+ ________________________________________________________________________________________________________________________________________________________
+
+### **Redefinição de Senha**
+
+Esta tela permite que o usuário redefina sua senha através de seu e-mail, atendendo ao RF-009 e RF-016 
+
+ <div align="center">
+  
+ ![image](https://user-images.githubusercontent.com/58302377/235824943-6028f7ae-da76-4945-85fd-699aadd97f31.png)
+ ![image](https://user-images.githubusercontent.com/58302377/235824872-1e8feef5-aba8-4ee5-acf2-967b0e755872.png)
+  
+ </div>
+ ________________________________________________________________________________________________________________________________________________________
+
+### **Sugestão de Corretora**
+
+Tela onde o usuário terá que sugestões de corretoras de investimentos. Atendendo ao requisito RF-005.
+
+ <div align="center">
+  
+![image](https://user-images.githubusercontent.com/58302377/235825080-e1130d25-62be-4a35-9c7d-5e984bcdf662.png)
+  
+ </div>
+ ________________________________________________________________________________________________________________________________________________________
+
+### **Gerenciamento Financeiro**
+
+Tela onde o usuário cadastrado pode gerenciar suas fontes de receita, despesas, emitir um relatório de despesas do mês e visualizar um gráfico com os balanços de despesas. Atende aos Requisitos RF-010, RF-011, RF-012 e RF-013
+
+ <div align="center">
+  
+![image](https://user-images.githubusercontent.com/58302377/235825626-58d0bb94-2c32-47e6-a7d4-efd74cd260cb.png)
+  
+ </div>
+ 
+  <div align="center">
+  
+ ![image](https://user-images.githubusercontent.com/58302377/235825832-c442ca93-71a0-4379-86e5-c2a2d77afa51.png)
+  
+   </div>
+________________________________________________________________________________________________________________________________________________________
+
+### **Gerenciamento de metas financeiras**
+
+Esta tela permite que o usuário indique seus objetivos financeiros e com base nisso, é fornecida a informação do valor a ser poupado. Atende ao requisito RF-018 
+
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/58302377/235832759-49572797-df0d-49c7-bb77-b83cf51b82c7.png)
+
+ </div>
+________________________________________________________________________________________________________________________________________________________
+
+### **Suporte via Chat**
+Nesta tela, o usuário conseguirá suporte via chat. Atendendo ao requisito RF-014. 
+
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/58302377/235832957-462b6dda-9c49-4a84-b4ae-ad666407b322.png)
+
+ </div>
+________________________________________________________________________________________________________________________________________________________
+
+### **Gerenciamento de perfil**
+Tela onde o usuário poderá gerenciar seu cadastro, atendendo ao RF-008
+
+ <div align="center">
+  
+![image](https://user-images.githubusercontent.com/58302377/235832021-014e0509-fbee-473d-ad94-b43a7af38389.png)
+
+ </div>
+ 
+  <div align="center">
+  
+ ![image](https://user-images.githubusercontent.com/58302377/235832145-02ab6338-119f-4c20-a323-92945246c1a8.png)
+
+   </div>
+   
+   <div align="center">
+  
+ ![image](https://user-images.githubusercontent.com/58302377/235832269-4523ff8b-bc68-444e-8f60-d5aabe2476e5.png)
+  
+   </div>
+   
+  <div align="center">  
+  
+ ![image](https://user-images.githubusercontent.com/58302377/235832387-664543c3-5187-44b1-9639-036a85ee6347.png)
+  
+  </div>
+  ________________________________________________________________________________________________________________________________________________________
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
