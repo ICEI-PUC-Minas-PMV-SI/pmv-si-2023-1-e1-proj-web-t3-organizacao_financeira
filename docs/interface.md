@@ -49,7 +49,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 
 ## Wireframes
- ________________________________________________________________________________________________________________________________________________________
+
 ## **Página Inicial**
 
 Tela em que o usuário pode acessar a página com dicas financeiras, FAQ, dicas de economia doméstica e dicas de investimento, atendendo aos requisitos RF-001, RF-002, RF-003 e RF-004.
