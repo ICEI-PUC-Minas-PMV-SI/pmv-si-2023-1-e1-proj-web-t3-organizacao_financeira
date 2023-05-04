@@ -40,6 +40,31 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 ## Iconografia
 
+Na aplicação serão utilizados os seguintes ícones:
+
+1. Ícone Add: utilizado para adicionar uma receita, despesa ou meta financeira. 
+
+![baseline_add_black_24dp](https://user-images.githubusercontent.com/127874059/236079989-176da631-ee08-4f51-8b44-a1d0ccad1113.png)
+
+2. Ícone Edit: utilizado para editar uma receita, despesa ou meta financeira previamente adicionada.
+
+![baseline_edit_black_24dp](https://user-images.githubusercontent.com/127874059/236080019-4dcdf190-79f2-4ab2-bee7-77450b9f72ee.png)
+
+3. Ícone Clear: utilizado para excluir uma receita, despesa ou meta financeira previamente adicionada.
+
+![baseline_clear_black_24dp](https://user-images.githubusercontent.com/127874059/236080049-313941b4-bc56-4d79-977f-c86561b797e0.png)
+
+4. Ícone Menu: utilizado para acessar o menu superior em tela mobile.
+
+![baseline_menu_black_24dp](https://user-images.githubusercontent.com/127874059/236080130-3d985f18-be76-4dff-baac-717cfd49a579.png)
+
+5. Ícone Account Circle: ícone padrão após registro de usuário na plataforma. Pode ser modificado com a alteração de foto de perfil pelo usuário.
+
+![baseline_account_circle_black_24dp](https://user-images.githubusercontent.com/127874059/236080216-dbb1a244-00a2-4669-9a41-98878d7c29f9.png)
+
+Todos os ícones acima foram utilizados da plataforma Google Fonts - Material Symbols and Icons.
+
+
 Defina os ícones que serão utilizados e suas respectivas funções.
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
