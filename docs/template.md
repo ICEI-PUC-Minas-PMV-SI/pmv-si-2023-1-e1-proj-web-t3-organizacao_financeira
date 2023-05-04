@@ -12,10 +12,6 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 ## Cores
 A paleta de cores utilizada será: 
 
-<img width="834" alt="Cores Projeto" src="https://user-images.githubusercontent.com/127874059/235463336-b12194de-1fe3-4f9d-850f-eec75e309a1d.png">
-
-Segunda opção de imagem:
-
 <img width="1400" alt="cores rgb hexa" src="https://user-images.githubusercontent.com/128002460/235803781-3a1bb296-7fa8-48c3-b2b6-4b98896ea843.png">
 
 
