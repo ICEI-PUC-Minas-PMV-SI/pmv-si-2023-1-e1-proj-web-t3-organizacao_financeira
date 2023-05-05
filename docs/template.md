@@ -8,6 +8,16 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
+A imagem a seguir representa a tela inicial da aplicação, tamanho desktop.
+
+<img width="960" alt="Tela desktop" src="https://user-images.githubusercontent.com/127874059/236567534-966e39b6-a936-4a15-87b6-5c727b0972d9.png">
+
+A seguir, são apresentadas as telas no tamanho mobile. O menu superior direito da tela tamanho desktop é substituída por um menu hambúrguer. A primeira imagem representa o menu fechado. A segunda imagem apresenta o menu aberto. 
+
+<img width="201" alt="365x667" src="https://user-images.githubusercontent.com/127874059/236567698-97ec13ae-5264-41c5-9f11-110149cf75a9.png">
+<img width="202" alt="365x667 menu aberto" src="https://user-images.githubusercontent.com/127874059/236567775-869c9763-a6f5-4ae4-8eb7-842e9cb9e75f.png">
+
+
 
 ## Cores
 A paleta de cores utilizada será: 
