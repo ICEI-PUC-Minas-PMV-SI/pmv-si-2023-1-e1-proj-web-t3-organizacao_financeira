@@ -60,7 +60,7 @@ Na aplicação serão utilizados os seguintes ícones:
 
 ![baseline_account_circle_black_24dp](https://user-images.githubusercontent.com/127874059/236080216-dbb1a244-00a2-4669-9a41-98878d7c29f9.png)
 
-Todos os ícones acima foram utilizados da plataforma Google Fonts - Material Symbols and Icons.
+Todos os ícones acima foram retirados da plataforma Google Fonts - Material Symbols and Icons.
 
 
 Defina os ícones que serão utilizados e suas respectivas funções.
