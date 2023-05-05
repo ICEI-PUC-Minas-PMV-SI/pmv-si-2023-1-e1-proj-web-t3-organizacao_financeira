@@ -13,7 +13,7 @@ O primeiro bloco de telas apresenta o menu superior, onde o usuário poderá ace
 
 
 O segundo bloco de telas, apresentado abaixo, demonstra as páginas estáticas apresentadas através do carrossel na página inicial.
-![2Carrossel 1](https://user-images.githubusercontent.com/127874059/236082909-d3ffcd54-ae6d-4a55-8196-34a45f9b003b.jpg)
+<img width="588" alt="2 carrossel 2" src="https://user-images.githubusercontent.com/127874059/236572034-e6a20a1b-64bb-411c-ac82-38f437a4ce0d.png">
 
 Os próximos dois blocos de telas apresentam o caminho feito para o login e recuperação de senha.
 
@@ -137,7 +137,7 @@ ________________________________________________________________________________
 
 ### **Gerenciamento de metas financeiras**
 
-Esta tela permite que o usuário indique seus objetivos financeiros e com base nisso, é fornecida a informação do valor a ser poupado. Atende ao requisito RF-018 
+Esta tela permite que o usuário indique seus objetivos financeiros e com base nisso, é fornecida a informação do valor a ser poupado. Atende aos requisitos RF-017 e  RF-018 
 
 <div align="center">
   
@@ -182,22 +182,3 @@ Tela onde o usuário poderá gerenciar seu cadastro, atendendo ao RF-008
  ![image](https://user-images.githubusercontent.com/58302377/235832387-664543c3-5187-44b1-9639-036a85ee6347.png)
   
   </div>
-  ________________________________________________________________________________________________________________________________________________________
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
-
-### Exemplo
-
-A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
