@@ -14,6 +14,8 @@ A paleta de cores utilizada será:
 
 <img width="1400" alt="cores rgb hexa" src="https://user-images.githubusercontent.com/128002460/235803781-3a1bb296-7fa8-48c3-b2b6-4b98896ea843.png">
 
+Escolhemos a cor #92F725 como a principal utilizada na aplicação. A cor verde foi escolhida pois é uma cor que remete ao assunto dinheiro ou finanças. Ao aplicar a regra de harmonia de cores "Dividir Complementar Duas Vezes" do Adobe Color a partir da cor mencionada acima como cor base, modificamos apenas a segunda cor apresentada na paleta para preto #000000, pois será aplicada como background de todas as páginas da aplicação.
+
 
 
 Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
