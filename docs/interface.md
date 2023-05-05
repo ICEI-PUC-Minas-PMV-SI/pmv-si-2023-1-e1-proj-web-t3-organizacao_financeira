@@ -9,43 +9,42 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 O fluxo de usuário da aplicação está dividido em algumas telas que demonstram o caminho que será percorrido pelo usuário na página.
 
 O primeiro bloco de telas apresenta o menu superior, onde o usuário poderá acessar as Páginas Sobre, F.A.Q e o Chat.
-![1userflow menu](https://user-images.githubusercontent.com/127874059/236082902-df66ffa5-bd7b-4cba-813d-9a95d5b98def.jpg)
+![1userflow menu](https://user-images.githubusercontent.com/127874059/236552206-36be76b8-94ef-4574-883b-b9c21d4e8469.jpg)
+
 
 O segundo bloco de telas, apresentado abaixo, demonstra as páginas estáticas apresentadas através do carrossel na página inicial.
 ![2Carrossel 1](https://user-images.githubusercontent.com/127874059/236082909-d3ffcd54-ae6d-4a55-8196-34a45f9b003b.jpg)
 
 Os próximos dois blocos de telas apresentam o caminho feito para o login e recuperação de senha.
-![3Login e minha conta](https://user-images.githubusercontent.com/127874059/236082919-d7cdf858-4297-4fc0-bfc6-aee89b4fdad8.jpg)
 
-<img width="937" alt="4Login e recuperar senha" src="https://user-images.githubusercontent.com/127874059/236082928-a18e432f-6dce-49cf-ac0f-3c7b86cb1c93.png">
+![3Login e minha conta](https://user-images.githubusercontent.com/127874059/236552405-eb9c178f-009a-4c65-a0b9-933b2f90577f.jpg)
+
+
+![4Login e recuperar senha](https://user-images.githubusercontent.com/127874059/236552548-924ae132-6eda-4433-a5ee-150e32c61dec.png)
+
+
 
 O bloco a seguir apresenta a página de registro na aplicação.
-<img width="939" alt="5Registre-se" src="https://user-images.githubusercontent.com/127874059/236082935-c449938d-a4b9-422d-a3c2-280f26032ee6.png">
+![5Registre-se](https://user-images.githubusercontent.com/127874059/236552688-5fb5b963-dd53-4c7f-87a2-92bf958889f7.png)
+
 
 A partir da página "Minha Conta", o usuário poderá ter acesso a várias funcionalidades, como mudar foto de perfil, senha ou excluir perfil.
-<img width="959" alt="6Mudar foto de perfil" src="https://user-images.githubusercontent.com/127874059/236082950-c66ed1c2-b508-47b0-89b1-ae688fad5a64.png">
+![6Mudar foto de perfil](https://user-images.githubusercontent.com/127874059/236552803-2185ba35-9de5-4aad-9a18-12d14186a37a.png)
 
-<img width="953" alt="7trocar senha - minha página" src="https://user-images.githubusercontent.com/127874059/236082956-0e12de88-71ad-4e1b-a503-ca60c2470c47.png">
+![7trocar senha - minha página](https://user-images.githubusercontent.com/127874059/236552946-7fec8383-e464-4cd2-af56-8ba93299561a.png)
 
-![8excluir conta](https://user-images.githubusercontent.com/127874059/236084140-14d1ad52-678c-45c0-8b25-49fbdb3eda1a.jpg)
+![8excluir conta](https://user-images.githubusercontent.com/127874059/236553051-1a6a14c6-d63a-4fb9-806e-f43e1f88e07b.jpg)
+
 
 Na página "Minha Conta", também é possível gerenciar receitas e metas financeiras, além de exibir um gráfico com os dados previamente adicionados pelo usuário.
-
-<img width="929" alt="9Gerenciar receitas e despesas" src="https://user-images.githubusercontent.com/127874059/236082976-b17776df-14dd-426f-ba37-53bdff737a9b.png">
-
-![11Gerenciar metas financeiras](https://user-images.githubusercontent.com/127874059/236082992-48535371-b1de-44b1-a71c-e11e7d0539f8.jpg)
-
-<img width="916" alt="10exibir relatórios" src="https://user-images.githubusercontent.com/127874059/236082988-49da607f-353a-4d46-9688-409100483b52.png">
+![9Gerenciar receitas e despesas](https://user-images.githubusercontent.com/127874059/236553161-ffec2b3d-0218-475f-bdf4-6ba9198cb779.png)
 
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![11Gerenciar metas financeiras](https://user-images.githubusercontent.com/127874059/236553201-43f8db20-2239-46bf-bc76-c0f5202e32b5.jpg)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![10exibir relatórios](https://user-images.githubusercontent.com/127874059/236553245-34863eb8-6ce9-4403-bf6f-82aa9aa9ec30.png)
+
 
 
 ## Wireframes
