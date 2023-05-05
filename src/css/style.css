@@ -62,13 +62,19 @@ body {
 
 @media screen and (min-width: 1000px) {     /*Responsividade: Em telas maiores de 1000px de largura, faça isso: */
     .dropdown {    /*Menu Hamburguer (dropdown) desaparece)*/
-    display: none;
+        display: none;
     }
 }
 
 @media screen and (max-width: 1000px) { /*Responsividade: Em telas menores de 1000px de largura, faça isso: */
+    .carousel-caption {
+        top: 0;
+    }
+    .page-title {
+        font-size: 35px;
+    }
     .dropdown {    /*Menu Hamburguer (dropdown) aparece na direita)*/
-    display: inline;
-    float: right;
+        display: inline;
+        float: right;
     }
 }

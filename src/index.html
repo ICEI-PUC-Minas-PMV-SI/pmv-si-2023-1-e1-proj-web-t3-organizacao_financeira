@@ -17,9 +17,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
-<body> <!--Menu comum-->
+<body> <!--Menu bar/hamburguer menu-->
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
+      <button class="navbar-toggler ms-auto" type="button" id="dropdownMenu2" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-haspopup="true" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
@@ -42,65 +46,57 @@
     </div>
   </nav>
 
-  <div class="dropdown"> <!--Menu hamburger-->
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Menu
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-      <button class="dropdown-item" type="button">Action</button>
-      <button class="dropdown-item" type="button">Another action</button>
-      <button class="dropdown-item" type="button">Something else here</button>
-    </div>
+  <div class="p-5 text-center text-light"> <!--Área do Logotipo-->
+    <h1 class="mb-3 page-title">Economy+ <img class="money-bag" src="img/money-bag-svgrepo-com.svg" alt="money bag">
+    </h1>
   </div>
 
-    <div class="p-5 text-center text-light">  <!--Área do Logotipo-->
-      <h1 class="mb-3">Economy+ <img class="money-bag" src="img/money-bag-svgrepo-com.svg" alt="money bag"> </h1>
+  <div id="homePageCarousel" class="carousel slide m-5" data-bs-ride="carousel"> <!--Carrossel-->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-
-    <div id="homePageCarousel" class="carousel slide m-5" data-bs-ride="carousel"> <!--Carrossel-->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner carousel-border">
-        <div class="carousel-item active">
-          <a href="#"><img src="img/dicasinvest.png" class="d-block w-100" alt="Foto de investimentos" /></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5><a href="#">Dicas de Investimento</a></h5>
-            <p><a href="#">Nulla vitae elit libero, a pharetra augue mollis interdum.</a></p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="#"><img src="img/financas.png" class="d-block w-100" alt="Foto sobre finanças" /></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5><a href="#">Finanças</a></h5>
-            <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></p>
-          </div> 
-        </div>
-        <div class="carousel-item">
-          <a href="#"><img src="img/economiadomestica.png" class="d-block w-100" alt="Foto de economias domesticas" /></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5><a href="#">Economia Doméstica</a></h5>
-            <p><a href="#">Praesent commodo cursus magna, vel scelerisque nisl.</a></p>
-          </div>
+    <div class="carousel-inner carousel-border">
+      <div class="carousel-item active">
+        <a href="#"><img src="img/dicasinvest.png" class="d-block w-100 c-img" alt="Foto de investimentos" /></a>
+        <div class="carousel-caption mt-4">
+          <h5><a href="#">Dicas de Investimento</a></h5>
+          <p><a href="#">Nulla vitae elit libero, a pharetra augue mollis interdum.</a></p>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#homePageCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#homePageCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="carousel-item">
+        <a href="#"><img src="img/financas.png" class="d-block w-100 c-img" alt="Foto sobre finanças" /></a>
+        <div class="carousel-caption mt-4">
+          <h5><a href="#">Finanças</a></h5>
+          <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="#"><img src="img/economiadomestica.png" class="d-block w-100 c-img"
+            alt="Foto de economias domesticas" /></a>
+        <div class="carousel-caption mt-4">
+          <h5><a href="#">Economia Doméstica</a></h5>
+          <p><a href="#">Praesent commodo cursus magna, vel scelerisque nisl.</a></p>
+        </div>
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#homePageCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homePageCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <div class="mt-5 d-grid gap-2 col-md-6 col-sm-8 col-xs-12 mx-auto">  <!--Botão de Faça Parte-->
-      <a class="btn home-page-btn fw-bold" href="#">Faça parte do Economy+, uma ferramenta fácil para gerenciar seus
-        gastos</a>
-    </div>
-    
+  <div class="mt-5 d-grid gap-2 col-md-6 col-sm-8 col-xs-12 mx-auto"> <!--Botão de Faça Parte-->
+    <a class="btn home-page-btn fw-bold" href="#">Faça parte do Economy+, uma ferramenta fácil para gerenciar seus
+      gastos</a>
+  </div>
+
 </body>
+
 </html>
