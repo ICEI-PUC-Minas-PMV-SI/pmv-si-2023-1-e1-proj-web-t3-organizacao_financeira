@@ -1,21 +1,14 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-Explique as guias de estilo utilizadas no seu projeto.
-
 ## Design
-
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
 A imagem a seguir representa a tela inicial da aplicação, tamanho desktop.
 
-<img width="960" alt="Tela desktop" src="https://user-images.githubusercontent.com/127874059/236567534-966e39b6-a936-4a15-87b6-5c727b0972d9.png">
+<img width="100%" alt="Tela desktop" src="https://user-images.githubusercontent.com/127874059/236567534-966e39b6-a936-4a15-87b6-5c727b0972d9.png">
 
 A seguir, são apresentadas as telas no tamanho mobile. O menu superior direito da tela tamanho desktop é substituída por um menu hambúrguer. A primeira imagem representa o menu fechado. A segunda imagem apresenta o menu aberto. 
 
-<img width="201" alt="365x667" src="https://user-images.githubusercontent.com/127874059/236567698-97ec13ae-5264-41c5-9f11-110149cf75a9.png">
-<img width="202" alt="365x667 menu aberto" src="https://user-images.githubusercontent.com/127874059/236567775-869c9763-a6f5-4ae4-8eb7-842e9cb9e75f.png">
+<img width="201" alt="365x667" src="https://user-images.githubusercontent.com/127874059/236567698-97ec13ae-5264-41c5-9f11-110149cf75a9.png"> <img width="202" alt="365x667 menu aberto" src="https://user-images.githubusercontent.com/127874059/236567775-869c9763-a6f5-4ae4-8eb7-842e9cb9e75f.png">
 
 
 
@@ -24,11 +17,7 @@ A paleta de cores utilizada será:
 
 <img width="1400" alt="cores rgb hexa" src="https://user-images.githubusercontent.com/128002460/235803781-3a1bb296-7fa8-48c3-b2b6-4b98896ea843.png">
 
-Escolhemos a cor #92F725 como a principal utilizada na aplicação. A cor verde foi escolhida pois é uma cor que remete ao assunto dinheiro ou finanças. Ao aplicar a regra de harmonia de cores "Dividir Complementar Duas Vezes" do Adobe Color a partir da cor mencionada acima como cor base, modificamos apenas a segunda cor apresentada na paleta para preto #000000, pois será aplicada como background de todas as páginas da aplicação.
-
-
-
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+A cor escolhida como a principal utilizada na aplicação foi a #92F725. A cor verde foi escolhida pois é uma cor que remete ao assunto dinheiro ou finanças. Ao aplicar a regra de harmonia de cores "Dividir Complementar Duas Vezes" do Adobe Color a partir da cor mencionada acima como cor base, foi modificada apenas a segunda cor apresentada na paleta para preto #000000, pois será aplicada como background de todas as páginas da aplicação.
 
 
 ## Tipografia
@@ -42,9 +31,6 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 **Verdana**: A fonte Verdana é a escolha tipográfica secundária em toda a aplicação, servindo como alternativa caso ocorra algum problema com o funcionamento da fonte primária. A Verdana é uma fonte sem serifa, bastante legível em telas de computador, especialmente em tamanhos menores. Por ser uma fonte presente na maioria dos navegadores, é considerada uma das "fontes seguras para a web".
 
 ![VerdanaPost](https://user-images.githubusercontent.com/128002460/235503078-1943b6b5-de8c-4458-9996-0332a09ba156.png)
-
-
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 
 ## Iconografia
 
@@ -71,18 +57,3 @@ Na aplicação serão utilizados os seguintes ícones:
 ![baseline_account_circle_black_24dp](https://user-images.githubusercontent.com/127874059/236080216-dbb1a244-00a2-4669-9a41-98878d7c29f9.png)
 
 Todos os ícones acima foram retirados da plataforma Google Fonts - Material Symbols and Icons.
-
-
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
