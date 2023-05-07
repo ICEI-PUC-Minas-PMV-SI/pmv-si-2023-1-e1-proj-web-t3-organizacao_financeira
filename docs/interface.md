@@ -12,14 +12,13 @@ O fluxo de usuário da aplicação está dividido em algumas telas que demonstra
 O primeiro bloco de telas apresenta o menu superior, onde o usuário poderá acessar as páginas Sobre, F.A.Q e o Chat.
 
 ![1userflow menu](https://user-images.githubusercontent.com/127874059/236552206-36be76b8-94ef-4574-883b-b9c21d4e8469.jpg)
-<br><br>
+<br>
 
 
 ### Páginas estáticas
 O segundo bloco de telas, apresentado abaixo, demonstra as páginas estáticas que podem ser acessadas através do carrossel na página inicial.
 
 <img width="75%" alt="paginas estáticas" src="https://user-images.githubusercontent.com/127874059/236572034-e6a20a1b-64bb-411c-ac82-38f437a4ce0d.png">
-<br>
 
 
 ### Login/Recuperação de senha
@@ -30,14 +29,14 @@ Os próximos dois blocos de telas apresentam o caminho feito para o login e recu
 
 > Recuperação de senha:
 ![4Login e recuperar senha](https://user-images.githubusercontent.com/127874059/236552548-924ae132-6eda-4433-a5ee-150e32c61dec.png)
-<br><br><br>
+<br>
 
 
 ### Registro
 O bloco a seguir apresenta o caminho para o usuário se registrar na aplicação.
 
 ![5Registre-se](https://user-images.githubusercontent.com/127874059/236552688-5fb5b963-dd53-4c7f-87a2-92bf958889f7.png)
-<br><br><br>
+<br>
 
 
 ### "Minha Conta"
@@ -51,9 +50,7 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
 
 > Excluir perfil:
 ![8excluir conta](https://user-images.githubusercontent.com/127874059/236553051-1a6a14c6-d63a-4fb9-806e-f43e1f88e07b.jpg)
-<br><br>
 
-<br>
 
 #### Na página "Minha Conta", também é possível gerenciar receitas e metas financeiras, além de exibir um gráfico com os dados previamente adicionados pelo usuário.
 
@@ -66,8 +63,9 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
 > Exibir relatórios:
 ![10exibir relatórios](https://user-images.githubusercontent.com/127874059/236553245-34863eb8-6ce9-4403-bf6f-82aa9aa9ec30.png)
 
-<br><br>
-## Wireframes
+<br>
+
+<h2 align="center">Wireframes</h3>
 
 <h3 align="center">Página Inicial</h3>
 <p align="center">Tela em que o usuário pode acessar a página com dicas financeiras, FAQ, dicas de economia doméstica e dicas de investimento, atendendo aos requisitos <b>RF-001, RF-002, RF-003 e RF-004.</b></p>
@@ -75,7 +73,6 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
 <p align="center">
  <img width="80%" src="https://user-images.githubusercontent.com/128002460/236654589-7619c714-bcde-458e-b03d-4e62de411ec0.jpg">
 </p>
- <br>
  
 ---
 
@@ -85,9 +82,7 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
  <p align="center">
  <img width="30%" src="https://user-images.githubusercontent.com/58302377/235821394-d56183a9-988e-41c1-9ed2-95ab99759f6d.png">
 </p>
- 
- <br>
- 
+
 ---
 
 <h3 align="center">Cotação do Dólar</h3>
@@ -96,8 +91,7 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
   
 ![image](https://user-images.githubusercontent.com/58302377/235823778-721354ad-90f5-489d-9186-06d644dbfdbb.png)
  </div>
- 
- <br>
+
  
 ---
 
@@ -107,8 +101,7 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
 <p align="center">
  <img width="85%" src="https://user-images.githubusercontent.com/128002460/236655145-fd0951a3-cc5c-4223-a689-8ef6a7e23af8.jpg">
 </p>
- 
-<br>
+
 
 ---
 
@@ -120,8 +113,6 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
   <img width="30%" src="https://user-images.githubusercontent.com/58302377/235824872-1e8feef5-aba8-4ee5-acf2-967b0e755872.png">  
  </div>
 
-<br>
-<br>
 
 ---
 
@@ -131,9 +122,6 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
 <div align="center">
   <img width="32%" src="https://user-images.githubusercontent.com/58302377/235825080-e1130d25-62be-4a35-9c7d-5e984bcdf662.png">  
 </div>
- 
-<br>
-<br>
 
 ---
 
@@ -145,8 +133,7 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
   ![gerenciamento financeiro](https://user-images.githubusercontent.com/128002460/236655777-a0dc68f4-46e3-4789-a27c-dadddb1feab5.png)
  
 </div>
-   
-<br>
+
 
 ---
 
@@ -156,9 +143,7 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
 <div align="center">
   <img width="32%" src="https://user-images.githubusercontent.com/58302377/235832759-49572797-df0d-49c7-bb77-b83cf51b82c7.png">
  </div>
- 
-<br>
-<br>
+
 
 ---
 
@@ -169,8 +154,6 @@ A partir da página "Minha Conta", o usuário terá acesso a várias funcionalid
    <img width="32%" src="https://user-images.githubusercontent.com/58302377/235832957-462b6dda-9c49-4a84-b4ae-ad666407b322.png">
  </div>
 
-<br>
-<br>
 
 ---
 
