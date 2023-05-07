@@ -1,9 +1,6 @@
 
 # Projeto de Interface
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
-Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+O projeto de interface da aplicação apresenta todas as propostas de páginas, incluindo tanto as estáticas (F.A.Q, Sobre, Dicas sobre o tema, etc) quanto as dinâmicas (Chat, Adicionar despesas, Páginas de registro e login, etc). As principais funcionalidades da aplicação estarão disponíveis na página "Minha Conta", que requer registro para que os usuários tenham acesso. Além disso, há funcionalidades disponíveis para usuários não registrados, como a visualização da cotação do dólar, por exemplo. Todas essas funcionalidades estarão facilmente acessíveis por meio da página inicial.
 
 ## User Flow
 O fluxo de usuário da aplicação está dividido em algumas telas que demonstram o caminho que será percorrido pelo usuário na página.<br>
