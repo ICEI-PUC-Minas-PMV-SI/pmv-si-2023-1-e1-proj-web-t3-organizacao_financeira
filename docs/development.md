@@ -25,6 +25,29 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
+|ID    | Descrição do Requisito  | Responsável| Artefato |
+|------|-----------------------------------------|----| ----|
+|RF-001| Permitir que o usuário visitante acesse uma página com dicas financeiras | Rafael |   |
+|RF-002| A aplicação deverá ter uma página que apresente e responda perguntas frequentes - FAQ (Frequently Asked Questions) |  |  |
+|RF-003| A aplicação deverá ter uma página que apresente informações de investimentos | |  |
+|RF-004| A aplicação deverá ter uma página que apresente dicas de economia doméstica   | Victor | |
+|RF-005| A aplicação deverá ter uma página com sugestões de corretoras de investimentos | Nathan | |
+|RF-006| A aplicação deverá ter uma página com informações sobre indicadores econômicos  |Beatriz| indicadores-economicos.html |
+|RF-007| Permitir que o usuário visitante veja a cotação do Dólar do dia  | | index.html |
+|RF-008| Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração)  | | |
+|RF-009| Permitir que o usuário consiga redefinir sua senha através de seu e-mail  | | |
+|RF-010| Permitir que o usuário cadastrado gerencie suas fontes de receita   | | |
+|RF-011| Permitir que o usuário cadastrado gerencie suas fontes de despesa  | | |
+|RF-012| Emitir um relatório de despesas do mês  | | |
+|RF-013| Mostrar gráficos com o balanço do usuário   | | |
+|RF-014| Permitir que o usuário consiga suporte via chat   |  | |
+|RF-015| Permitir que o usuário tenha a confirmação de cadastro através do seu email| |
+|RF-016| A aplicação deve enviar ao usuário email para redefinição de senha | |
+|RF-017| Permitir que o usuário cadastrado informe seus objetivos financeiros | |
+|RF-018| A aplicação deve, com base na meta e renda, indicar ao usuário valor a ser poupado. | |
+
+### Requisitos Funcionais
+
 |ID    | Descrição do Requisito | Prioridade | Artefato Criado |
 |------|------------------------|------------|-----------------|
 |RF-001| O sistema deve exibir as notícias mais populares. | ALTA | index.html |
