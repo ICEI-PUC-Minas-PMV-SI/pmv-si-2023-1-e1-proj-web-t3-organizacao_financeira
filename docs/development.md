@@ -55,6 +55,48 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
+## Registro do usuário 
+
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Nome            | Texto  | Nome completo do usuário          | João da Silva                                             |
+| E-mail         | Texto             | E-mail do usuário                        | joaodasilva@gmail.com                       |
+| Telefone       | Numero (Inteiro)| Telefone do usuário                      |(31) 99998-9998                           |
+| Senha       | Texto| Senha do usuário                     |abcd123@                           |
+
+## Login
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| E-mail         | Texto             | E-mail do usuário                        | joaodasilva@gmail.com                       |
+| Senha       | Texto| Senha do usuário                     |abcd123@                           |
+
+## Registro de Receitas
+
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Nome da Receita       | Texto  | Título da receita dado pelo usuário          | Salário                                             |
+| Valor       | Número            | Valor da receita adicionada                       | 4.000,00                   |
+| Categoria       | Texto| Categoria da receita adicionada                      |Salário                           |
+
+## Registro de Despesas
+
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Nome da Despesa       | Texto  | Título da despesa dado pelo usuário          | Aluguel                                           |
+| Valor       | Número            | Valor da receita adicionada                       | 1.250,00                 |
+| Categoria       | Texto| Categoria da despesa adicionada                      |Moradia                         |
+
+## Registro de Metas Financeiras
+
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Nome da Meta      | Texto  | Título da meta dado pelo usuário          | Viagem                                          |
+| Valor Total      | Número            | Valor total necessário para a meta adicionada                       | 5.000,00                 |
+| Valor que já possuo      | Número| Valor que usuário já possui separado para a meta estipulada                      |1.000,00                       |
+
+
+
+
 ## Notícia
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
