@@ -21,7 +21,7 @@ body {
 }
 
 .money-bag {
-    width: 0.9em;  /*O ícone de bolsa de dinheiro acompanhará o tamanho da fonte ao ajustar a tela*/
+    width: 0.8em;  /*O ícone de bolsa de dinheiro acompanhará o tamanho da fonte ao ajustar a tela*/
     transform: rotate(45deg);
     padding-bottom: 1%;
 }
