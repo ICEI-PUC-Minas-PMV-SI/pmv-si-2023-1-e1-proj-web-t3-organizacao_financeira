@@ -1,0 +1,51 @@
+.titulo {
+    padding-top: 0.8em;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+}
+
+#subtitulo {
+    color: white;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+.container {
+    margin-bottom: 3em;
+}
+
+.container .card {
+    color: black;
+    background-color: #92F725;
+    margin: 20px;
+    padding: 0 auto;
+    padding-top: 0.7em;
+    width: 30%;
+    min-width: 400px;    
+    display: flex;
+    justify-self: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    transition: transform 0.5s;
+}
+
+.card img:hover {
+    transform: scale(1.02);
+}
+
+.card-text {
+    text-shadow: none;
+    text-align: justify;
+}
+
+.card-body h5 {
+    font-weight: 800;
+}
+
