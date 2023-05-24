@@ -28,9 +28,6 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
-            <a class="nav-link text-light" href="../index.html">Início</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link text-light" href="#">Dólar: R$4,95</a>
           </li>
           <li class="nav-item">
@@ -50,16 +47,17 @@
     </div>
   </nav>
 
-  <div class="p-5 text-center text-light"> <!--Área do Logotipo-->
-    <h1 class="mb-3 page-title">Economy+ <img class="money-bag" src="../img/moneybag.png" alt="money bag">
-    </h1>
+  <!--Logotipo Economy+ com o Id de LogoPages (sem ser a página index)-->
+  <div id="divLogoPages" class="p-3 text-light position-absolute" style="top: 0; left: 0; transition: top 0.3s, left 0.3s;">
+    <a href="../index.html"><h1 id="textoLogoPages" class="mb-3 page-title">Economy+ <img id="imagemLogoPages" class="money-bag" src="../img/moneybag.png" alt="money bag"></h1></a>
   </div>
 
-  <div class="titulo-dicas text-center text-light">
-    <h1 class="titulo">Dicas de Economia Doméstica</h1>
-  </div>
-
+  <!--Início do Container-->
   <div class="container">
+
+    <div class="titulo-dicas text-center text-light">
+      <h1 class="titulo">Dicas de Economia Doméstica</h1>
+    </div>
 
     <p id="subtitulo">Aqui vão 6 dicas para ajudar você
       a maximizar seus recursos e alcançar uma vida financeira saudável. 
@@ -67,7 +65,9 @@
        em seu dia a dia, você pode criar uma base sólida para economizar e prosperar.
        Aproveite essa sessão e comece a trilhar o caminho rumo à estabilidade financeira e independência.</p>
 
+    <!--Cada "div class=card" é um cartão de dicas-->
     <div class="row justify-content-center align-items-stretch">
+
         <div class="card">
           <img src="../img/economiadomestica-dica1.png" class="card-img-top" alt="Uma pessoa usando uma calculadora.">
           <div class="card-body">

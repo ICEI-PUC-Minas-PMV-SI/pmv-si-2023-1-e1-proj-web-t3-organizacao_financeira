@@ -1,6 +1,8 @@
 body {
     background-color: black;
     font-family: 'Poppins', Verdana, sans-serif;    /*Escolha da tipografia*/
+    margin: 0;
+    padding: 0;
 }
 
 .nav-item {   /*Estilo do menu normal*/
@@ -11,13 +13,17 @@ body {
     text-decoration: underline;
 }
 
-.p-5 {    /*Estilo da div da Logo + bolsa de dinheiro*/
+#divLogoIndex { /*Estilo da div da Logo + bolsa de dinheiro na página Index*/
     display: block;
     margin-bottom: -50px;
 }
 
-.mb-3 {    /*Estilo do Logo "Economy+*/
+#textoLogoIndex { /*Estilo do Texto do Logo "Economy+ na página Index*/
     font-size: 55px;
+}
+
+#textoLogoPages { /*Estilo do Texto do Logo "Economy+ nas outras páginas*/
+    font-size: 18px;
 }
 
 .money-bag {

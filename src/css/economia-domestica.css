@@ -1,17 +1,26 @@
+#divLogoPages a {
+    text-decoration: none;
+    color: white;
+}
+
+.titulo-dicas {
+    margin-top: 2.5em;
+}
+
 .titulo {
-    padding-top: 0.8em;
+    padding-top: 0.2em;
     font-weight: 600;
     margin-bottom: 0.8em;
 }
 
 #subtitulo {
     color: white;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 300;
     margin: 0 auto;
     justify-content: center;
     text-align: center;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.8em;
 }
 
 .container {
@@ -48,4 +57,3 @@
 .card-body h5 {
     font-weight: 800;
 }
-
