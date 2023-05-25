@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economy +</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/economia-domestica.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body> <!--Menu bar/hamburguer menu-->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler ms-auto" type="button" id="dropdownMenu2" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-haspopup="true" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Dólar: R$4,95</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Logotipo Economy+ com o Id de LogoPages (sem ser a página index)-->
+  <div id="divLogoPages" class="p-3 text-light position-absolute"
+    style="top: 0; left: 0; transition: top 0.3s, left 0.3s;">
+    <a href="../index.html">
+      <h1 id="textoLogoPages" class="mb-3 page-title">Economy+ <img id="imagemLogoPages" class="money-bag"
+          src="../img/moneybag.png" alt="money bag"></h1>
+    </a>
+  </div>
+
+  <!--Início do Container-->
+  <div class="container">
+
+    <div class="titulo-dicas text-center text-light">
+      <h1 class="titulo">Dicas de Finanças</h1>
+    </div>
+
+    <p id="subtitulo">Aqui vão 9 dicas para ajudar você
+      a organizar suas finanças pessoais (Fonte: <a
+        href="https://www.contabilizei.com.br/contabilidade-online/9-dicas-para-organizar-suas-financas-pessoais/"><cite>Blog
+          Contabilizei</cite></a>).
+    </p>
+
+    <!--Cada "div class=card" é um cartão de dicas-->
+    <div class="row justify-content-center align-items-stretch">
+
+      <div class="card">
+        <img src="../img/dicas_financas/dicas-financas-img-1.jpg" class="card-img-top"
+          alt="Uma pessoa usando uma calculadora.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Faça um orçamento</h4>
+          <p class="card-text">Elabore uma lista com todos os seus custos fixos,
+            como água, luz, telefone, aluguel etc. Depois calcule qual é a quantia média de todas essas despesas no mês.
+            O valor encontrado é o seu custo de vida. O valor que sobrar é o que você tem disponível para aplicar em
+            custos
+            variáveis, fazer investimentos ou criar uma reserva financeira.</p>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img src="../img/dicas_financas/dicas-financas-img-2.jpg" class="card-img-top"
+          alt="Letras da palavra meta penduradas em um varal.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Estabeleça metas para economizar</h4>
+          <p class="card-text">A economia não pode ser feita somente com o dinheiro que sobrou no final do mês.
+            Ela deve ser um objetivo, pois assim você não só monitora suas despesas como também passa a ter uma projeção
+            financeira.
+            Para isso, você pode determinar um valor mensal para reservar e, ao receber o salário, separar imediatamente
+            essa quantia
+            em um lugar diferente da conta que você usa para os gastos diários.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/dicas_financas/dicas-financas-img-3.jpg" class="card-img-top" alt="Uma carteira acorrentada.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Restrinja seus gastos do dia a dia</h4>
+          <p class="card-text">Da mesma forma que você deve estipular metas para economizar, uma boa ideia é definir
+            metas
+            para os gastos, estabelecendo um limite máximo por mês que pode ser empregado em cada tipo de despesa.
+            Você pode fazer essa divisão por categorias, por exemplo:
+          <ul>
+            <li>15% com supermercado;</li>
+            <li>10% com lazer;</li>
+            <li>5% com vestuário e demais acessórios;</li>
+          </ul>
+          Isso não significa que você deve gastar esse valor todo mês, mas sim que é o máximo que pode investir em cada
+          modalidade.
+          Esse é um grande avanço no seu processo para organizar as finanças pessoais.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/dicas_financas/dicas-financas-img-4.jpg" class="card-img-top"
+          alt="Uma pessoa segurando notas de dinheiro em chamas.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Evite gastos desnecessários</h4>
+          <p class="card-text">Quando entende para onde sua renda está indo, fica mais fácil avaliar o que é importante
+            e o
+            que é dispensável em seu orçamento pessoal. Dessa forma, você consegue evitar o comprometimento do seu
+            salário
+            com despesas que não pode pagar. Quando for comprar algo, pergunte para si mesmo se tem condições de pagar e
+            se
+            realmente aquilo é necessário. Às vezes a vontade fala mais alto, mas é preciso se controlar, já que é
+            melhor não ter aquilo do que se endividar.
+            Caso tenha mais de uma prioridade, porém só possa arcar com uma delas, dê preferência a mais essencial. Em
+            alguns momentos é necessário ponderar algumas coisas.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/dicas_financas/dicas-financas-img-5.jpg" class="card-img-top"
+          alt="Uma pessoa presa a uma bola de ferro onde está escrito dívidas.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Fique longe das dívidas</h4>
+          <p class="card-text">Caso você não tenha dívidas, já está indo por um bom caminho em relação ao controle das
+            finanças pessoais. Contudo, caso tenha, esse é o primeiro problema que deve solucionar para se organizar
+            financeiramente.
+            Contas em atraso acarretam outros custos, já que taxas e juros são cobrados e tiram a chance de você
+            economizar e se controlar. Nessas situações, todo o dinheiro que entra é gasto com pagamentos das contas, e
+            o objetivo principal passa a ser quitar a dívida.
+            Como forma de resolver esse problema, você pode tentar renegociar ou parcelar a dívida, e ficar livre dessa
+            “pedra” no seu projeto de organização financeira.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/dicas_financas/dicas-financas-img-6.jpeg" class="card-img-top"
+          alt="Um cofre quebrado e as siglas IPVA e IPTU.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Separe um valor para as despesas anuais</h4>
+          <p class="card-text">Um erro cometido pela maioria das pessoas é focar somente nos gastos mensais e deixar de
+            considerar as despesas anuais, por exemplo, IPVA, IPTU e seguros. Esses gastos acabam se tornando um
+            problema quando não são programados, já que, se você não se planeja para pagá-los, pode passar por aperto
+            quando eles chegarem.
+            Por esse motivo, o adequado é reservar uma quantia para essas despesas no decorrer do ano. Uma ideia é você
+            separar um valor específico todo mês para elas.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/dicas_financas/dicas-financas-img-7.png" class="card-img-top"
+          alt="Um cofre com dinheiro dentro e uma mão com um martelo próximo.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Tenha uma reserva para emergências</h4>
+          <p class="card-text">Situações inesperadas podem acontecer a qualquer momento, por isso é preciso estar
+            preparado. A finalidade de criar um fundo de emergência é se prevenir para os imprevistos, como rescisão de
+            contratos, problemas de saúde, consertos no carro, entre outros. É necessário ter tranquilidade financeira
+            em horas como essas e a reserva emergencial assegura isso.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/dicas_financas/dicas-financas-img-8.png" class="card-img-top"
+          alt="Uma mão equilibrando uma balança com um coração de um lado e uma maleta do outro.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Separe as contas pessoais das contas profissionais</h4>
+          <p class="card-text">O controle financeiro deve ser feito por qualquer pessoa. Mas, quando você também é uma
+            pessoa jurídica, é necessário ter atenção redobrada. As contas pessoais nunca podem se misturar com as
+            contas profissionais e isso vai além da questão de se organizar.
+            Se misturar essas contas e usar sua renda pessoal para quitar dívidas da pessoa jurídica e vice-versa, além
+            de poder ter sérias consequências, por exemplo, a impossibilidade de planejamento financeiro do negócio, sua
+            contabilidade também ficará comprometida. Isso, porque, todo CNPJ deve fazer a conciliação bancária que é a
+            verificação do extrato bancário da conta PJ com a declaração de entradas e saídas da empresa. Ao misturar
+            finanças pessoais e profissionais, a conta não fecha.
+            Para não ter esse problema, o ideal é abrir duas contas bancárias diferentes: uma para pessoa física e outra
+            para pessoa jurídica. Com isso, você evita que as contas e rendas das duas se misturem.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="../img/dicas_financas/dicas-financas-img-9.png" class="card-img-top"
+          alt="Uma mão segurando um celular que mostra uma dashboard de um aplicativo.">
+        <div class="card-body">
+          <h4 class="text-center fw-bold">Use a tecnologia a seu favor</h4>
+          <p class="card-text">Existem diversos aplicativos disponíveis no mercado que podem auxiliar nessa tarefa de
+            organizar as finanças pessoais no seu dia a dia. Dessa forma, fica mais fácil registrar e controlar todos os
+            gastos que fazem parte da sua rotina.
+            Isso vai permitir que você identifique quais valores estão sendo gastos desnecessariamente e, assim, poderá
+            cortá-los. O importante é aprender a controlar as finanças, economizar e cuidar melhor da sua renda.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
