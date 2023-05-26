@@ -1,27 +1,27 @@
-#divLogoPages a {
+#divLogoPages a {   /*Estilo do logotipo Economy+*/
     text-decoration: none;
     color: white;
 }
 
-.titulo-sobre {
+.titulo-sobre {    /*Estilo da DIV do título da página*/
     margin-top: 2.5em;
 }
 
-.titulo {
+.titulo {        /*Estilo de texto do título da página*/
     padding-top: 0.2em;
     font-weight: 600;
     margin-bottom: 0.8em;
 }
 
-.titulo-sobre h3 {
+.titulo-sobre h3 {    /*Estilo de texto "Desenvolvedores do Projeto"*/
     margin-top: 1.8em;
 }
 
-.subtitulo {
+.subtitulo {        /*Estilo de texto do subtítulo*/
     font-size: 1.2em;
 }
 
-.cartao {
+.cartao {           /*Estilo do cartão*/
     margin: 30px auto;
     justify-content: center;
     text-align: center;
@@ -29,15 +29,15 @@
     position: relative;
 }
 
-.cartao img {
+.cartao img {       /*Estilo da imagem do cartão*/
     max-width: 150px;
     transition: transform 0.5s;
 }
 
-.cartao img:hover {
+.cartao img:hover {     /*Estilo da imagem do cartão ao passar o mouse*/
     transform: scale(1.03);
 }
 
-#orientadora {
+#orientadora {      /*Espaçamento ao fim da foto da orientadora*/
     padding-bottom: 3em;
 }

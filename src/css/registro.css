@@ -1,0 +1,73 @@
+#divLogoPages a {       /*Estilo do logotipo Economy+*/
+    text-decoration: none;
+    color: white;
+}
+
+.titulo-registro {      /*Estilo da DIV do título da página*/
+    margin-top: 2.5em;
+}
+
+.imagemPorco {          /*Estilo da imagem do cofrinho de porco*/
+    margin-top: 2em;
+    width: 90%;
+    padding-right: 20px;
+    transition: transform 0.4s;
+}
+
+.imagemPorco:hover {    /*Estilo da imagem do cofrinho de porco ao passar o mouse*/
+    transform: scale(1.02);
+}
+
+.formRegistro {     /*Estilo da DIV do form de registro*/
+    padding-top: 2em;
+}
+
+.form-group label {    /*Estilo dos itens "Nome Completo, Email, Etc."*/
+    color: white;
+    font-size: larger;
+}
+
+.form-group input {    /*Estilo do input (entrada de dados)*/
+    margin-bottom: 1em;
+}
+
+.conteudo {     /*Estilo do Container que engloba tudo*/
+    margin-top: 3em;
+}
+
+#botaoRegistro {     /*Estilo do botão de Registrar*/
+    background-color: #92F725;
+    font-weight: bolder;
+    margin-top: 1em;
+}
+
+#botaoRegistro:hover {   /*Estilo do botão de Registrar ao passar o mouse*/
+    color: black;
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+
+@media screen and (max-width: 768px) {     /*Responsividade: Em telas menores de 768px de largura, faça isso: */
+    .imagemPorco {
+        display: none;
+    }
+}
+
+/*-----------PÁGINA DE CONTA CRIADA COM SUCESSSO------------*/
+
+.titulo-registro2 {     /*Estilo da DIV do título da página*/
+    padding-top: 10em;
+}
+
+#botaoAcessoConta {     /*Estilo do botão de acessar Minha Conta*/
+    background-color: #92F725;
+    font-weight: bolder;
+    margin-top: 3em;
+    transition: transform 0.2s;
+}
+
+#botaoAcessoConta:hover {     /*Estilo do botão de acessar Minha Conta ao passar o mouse*/
+    color: black;
+    transform: scale(1.011);
+
+}

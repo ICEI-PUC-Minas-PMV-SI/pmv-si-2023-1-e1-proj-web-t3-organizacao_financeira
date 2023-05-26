@@ -12,7 +12,7 @@
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/sobre.css">
+  <link rel="stylesheet" href="../css/registro.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -54,53 +54,54 @@
   </div>
 
   <div class="container">
-    <div class="titulo-sobre text-center text-light">
-        <h1 class="titulo">Sobre a Economy+</h1>
-        <p class="subtitulo">Somos um grupo de 6 estudantes
-            que uniram suas habilidades para criar uma solução funcional 
-            no gerenciamento financeiro. Nossa missão é capacitar os usuários 
-            da aplicação a tomarem melhores decisões financeiras, fornecendo 
-            ferramentas e recursos que simplifiquem o processo de gerenciamento 
-            de dinheiro. Acreditamos que, com um planejamento adequado, é 
-            possível conquistar objetivos financeiros e ter uma vida mais tranquila.</p>
-        <h3>Desenvolvedores do Projeto</h3>
+    <div class="titulo-registro text-center text-light">
+      <h1 class="titulo">Registre-se no Economy+ e comece a administrar suas finanças!</h1>
     </div>
   </div>
 
-  <div class="container">
+  <div class="conteudo container">
     <div class="row justify-content-center">
-      <div class="cartao col-md-4">
-        <a target="_blank" href="https://github.com/beatrizfont"><img src="../img/sobre/git-beatriz.png" alt="Foto GitHub Beatriz" class="img-fluid"></a>
-      </div>
-      <div class="cartao col-md-4">
-        <a target="_blank" href="https://github.com/marquesrf-pucmg"><img src="../img/sobre/git-rafael.png" alt="Foto GitHub Rafael" class="img-fluid"></a>
-      </div>
-      <div class="cartao col-md-4">
-        <a target="_blank" href="https://github.com/victorhenriquep"><img src="../img/sobre/git-victor.png" alt="Foto GitHub Victor" class="img-fluid"></a>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="cartao col-md-4">
-        <a target="_blank" href="https://github.com/lucasbnery0"><img src="../img/sobre/git-lucasnery.png" alt="Foto GitHub Lucas Nery" class="img-fluid"></a>
-      </div>
-      <div class="cartao col-md-4">
-        <a target="_blank" href="https://github.com/LucasWarley42"><img src="../img/sobre/git-lucaswarley.png" alt="Foto GitHub Lucas Warley" class="img-fluid"></a>
-      </div>
-      <div class="cartao col-md-4">
-        <a target="_blank" href="https://github.com/NSantos6"><img src="../img/sobre/git-nathan.png" alt="Foto GitHub Nathan" class="img-fluid"></a>
-      </div>
-    </div>
-  </div>
-  
-  <div class="titulo-sobre text-center text-light">
-     <h3>Orientadora do Projeto</h3>
+
+        <div class="col-md-3">
+            <img class="imagemPorco" src="../img/registro/cofre-de-porquinho.png"  alt="Cofre de porquinho.">
+        </div>
+
+        <div class="formRegistro col-md-7">
+                <div class="form-group">
+                  <label for="nome">Nome Completo:</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo" name="nome">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone/celular" name="telefone">
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" class="form-control" id="senha" placeholder="Escolha uma senha" name="senha">
+                </div>
+                <div class="form-group">
+                    <label for="senha2">Confirme sua senha:</label>
+                    <input type="password" class="form-control" id="senha2" placeholder="Confirme sua senha" name="senha2">
+                </div>
+                <div class="form-group">
+                  <label for="idade">Você é maior de 18 anos?</label><br>
+                  <input type="radio" class="form-check-input" id="menos18" name="idade" checked>
+                  <label class="form-check-label" for="menos18">Não</label><br>
+                  <input type="radio" class="form-check-input" id="mais18" name="idade">
+                  <label class="form-check-label" for="mais18">Sim</label>
+                </div>
+
+                <a href="registro2.html"><button type="" class="btn btn-lg" id="botaoRegistro">Registrar</button></a>
+
+            </form>
+        </div>
+    </div>    
   </div>
 
-  <div id="orientadora" class="row justify-content-center">
-    <div class="cartao col-md-4">
-        <a target="_blank" href="https://github.com/ldenardin"><img src="../img/sobre/git-luciana.png" alt="Imagem 6" class="img-fluid"></a>
-    </div>
-</div>
 
 </body>
 </html>

@@ -41,29 +41,31 @@ body {
 }
 
 .carousel-item h5, p {  /*Estilo do título e texto do carrossel*/
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .carousel-item h5 a {   /*Estilo apenas do título do carrossel*/
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 800;
     text-decoration: none;
     color: white ;
 }
 
 .carousel-item p a {   /*Estilo apenas do texto do carrossel*/
-    font-size: 2vw;
+    font-size: 1.8vw;
     font-weight: 500;
     text-decoration: none;
     color: white ;
 }
 
-.home-page-btn {           /*Estilo do botão de "Faça parte do Economy+*/
-    background-color: rgb(146,247,37,97);
+#botaoFacaParte {           /*Estilo do botão de "Faça parte do Economy+*/
+    background-color: #92F725;
+    transition: transform 0.4s;
+    font-size: 110%;
 }
 
-.home-page-btn:hover {     /*Estilo do botão de "Faça parte do Economy+ ao passar o mouse*/
-    background-color: rgb(146,247,0,97);
+#botaoFacaParte:hover {     /*Estilo do botão de "Faça parte do Economy+ ao passar o mouse*/
+    transform: scale(1.01);
 }
 
 @media screen and (min-width: 1000px) {     /*Responsividade: Em telas maiores de 1000px de largura, faça isso: */
