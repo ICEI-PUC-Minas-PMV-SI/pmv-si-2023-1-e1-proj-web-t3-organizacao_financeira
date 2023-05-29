@@ -1,0 +1,87 @@
+body {
+    /* margin: 8px; */
+    /*margem página*/
+    /* padding: 0px; */
+    background-color: black;
+    font-family: 'Poppins', Verdana, sans-serif;
+    /*Escolha da tipografia*/
+    height: 100vh;
+    margin: 0;
+
+
+}
+
+#divLogoPages a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.money-bag {
+    width: 1em;
+    /*O ícone de bolsa de dinheiro acompanhará o tamanho da fonte ao ajustar a tela*/
+    transform: rotate(45deg);
+    padding-bottom: 1%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+p2 {
+    color: black;
+}
+
+#subtitulo {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+}
+
+
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 560px;
+    margin: 0 auto;
+
+}
+
+.itens {
+
+    flex: 1 1 200px;
+    margin: 10px;
+    background-color: #92f735;
+    padding: 6px;
+    border-radius: 2px;
+    text-align: centr;
+
+}
+
+.itens:hover {
+    transform: scale(1.02);
+}
+
+.imagem {
+    max-width: 100%;
+    display: block;
+}
+
+#texto {
+    text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 290px;
+        margin: 0 auto;
+    }
+}
