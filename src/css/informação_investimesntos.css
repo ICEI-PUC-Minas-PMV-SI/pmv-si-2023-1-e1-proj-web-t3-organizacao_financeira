@@ -1,0 +1,73 @@
+#divLogoPages a {     /*Estilo do logotipo Economy+*/
+    text-decoration: none;
+    color: white;
+}
+
+.titulo-dicas {    /*Estilo da DIV do título da página*/
+    margin-top: 2.5em;
+}
+
+.titulo {            /*Estilo de texto do título da página*/
+    padding-top: 0.2em;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+}
+
+#subtitulo {    /*Estilo de texto do subtítulo*/
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1.8em;
+}
+
+#linkExterno {    /*Estilo do link de Fontes*/
+    text-decoration: none;
+    color: white;
+
+}
+
+#linkExterno:hover {  /*Estilo do link de Fontes ao passar o mouse*/
+    color:#92F725;
+    
+}
+
+.container {         /*Estilo da DIV que engloba título, subtítulo e todos os cards*/
+    margin-bottom: 3em;
+}
+
+.container .card {     /*Estilo do cartão*/
+    color: black;
+    background-color: #92F725;
+    margin: 20px;
+    padding: 0 auto;
+    padding-top: 0.7em;
+    width: 30%;
+    min-width: 400px;    
+    display: flex;
+    justify-self: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {     /*Estilo da imagem do cartão*/
+    transition: transform 0.5s;
+}
+
+.card img:hover {  /*Estilo da imagem do cartão ao passar o mouse*/
+    transform: scale(1.02);
+}
+
+.card-text {         /*Estilo do texto do cartão*/
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    text-shadow: none;
+    text-align: justify;
+
+}
+
+.card-body h5 {   /*Estilo do título do cartão*/
+    font-weight: 800;
+}
