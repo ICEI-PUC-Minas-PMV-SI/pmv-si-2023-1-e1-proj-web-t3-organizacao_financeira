@@ -36,14 +36,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| Permitir que o usuário visitante veja a cotação do Dólar do dia  | | index.html |
 |RF-008| Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração)  | | |
 |RF-009| Permitir que o usuário consiga redefinir sua senha através de seu e-mail  | | |
-|RF-010| Permitir que o usuário cadastrado gerencie suas fontes de receita   | | |
+|RF-010| Permitir que o usuário cadastrado gerencie suas fontes de receita   | Beatriz | gerenciar-receitas.html |
 |RF-011| Permitir que o usuário cadastrado gerencie suas fontes de despesa  | | |
 |RF-012| Emitir um relatório de despesas do mês  | | |
 |RF-013| Mostrar gráficos com o balanço do usuário   | | |
 |RF-014| Permitir que o usuário consiga suporte via chat   |  | |
 |RF-015| Permitir que o usuário tenha a confirmação de cadastro através do seu email| |
 |RF-016| A aplicação deve enviar ao usuário email para redefinição de senha | |
-|RF-017| Permitir que o usuário cadastrado informe seus objetivos financeiros | |
+|RF-017| Permitir que o usuário cadastrado informe seus objetivos financeiros |Beatriz| gerenciar-metas.html |
 |RF-018| A aplicação deve, com base na meta e renda, indicar ao usuário valor a ser poupado. | |
 
 ### Requisitos Funcionais
