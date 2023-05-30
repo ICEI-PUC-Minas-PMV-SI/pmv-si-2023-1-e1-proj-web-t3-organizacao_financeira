@@ -23,9 +23,8 @@ body {
 }
 
 #textoLogoPages{
-    font-size:large;
+    font-size: large;
 }
-
 
 #titulo {
     color: white;
@@ -198,6 +197,7 @@ fieldset .grupo .campo {
         margin: 0 auto;
     }
 }
+
 @media screen and (max-width: 1000px){
     .modal .conteudoModal {
         max-height: 450px;
