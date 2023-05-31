@@ -1,0 +1,24 @@
+p {
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    justify-content: center;
+    margin-bottom: 1.8em;
+}
+
+#select-mes-ano, #botao-exibir-grafico {
+    background-color: #92F725;
+    transition: transform 0.4s;
+    font-size: 110%;
+    border-radius: 12px 12px 12px 12px;
+}
+
+#meu-relatorio-lista-registros {
+    margin-top: 1.8em;
+    margin-bottom: 2.8em;
+}
+
+#meu-relatorio-botao-exibir-grafico {
+    justify-content: center;
+    text-align: center;
+}
