@@ -17,6 +17,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="icon" href="../img/icon.png" type="image/x-icon">
+  <script src="../js/registro.js"></script>
+  <script src="/js/apidolar.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body> <!--Menu bar/hamburguer menu-->
@@ -29,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Dólar: R$4,95</a>
+            <a id="dolar" class="nav-link text-light" href="https://www.bcb.gov.br/conversao" target="_blank">Dólar: R$...</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="sobre.html">Sobre</a>
@@ -53,55 +56,72 @@
     <a href="../index.html"><h1 id="textoLogoPages" class="mb-3 page-title">Economy+ <img id="imagemLogoPages" class="money-bag" src="../img/moneybag.png" alt="money bag"></h1></a>
   </div>
 
-  <div class="container">
+  <div id ="idTitulo" class="container">
     <div class="titulo-registro text-center text-light">
       <h1 class="titulo">Registre-se no Economy+ e comece a administrar suas finanças!</h1>
     </div>
   </div>
 
-  <div class="conteudo container">
+  <div id="content" class="conteudo container">
     <div class="row justify-content-center">
 
         <div class="col-md-3">
             <img class="imagemPorco" src="../img/registro/cofre-de-porquinho.png"  alt="Cofre de porquinho.">
         </div>
 
-        <div class="formRegistro col-md-7">
+        <form class="formRegistro col-md-7">
                 <div class="form-group">
                   <label for="nome">Nome Completo:</label>
-                  <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo" name="nome">
+                  <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo" name="nome" required>
                 </div>
                 <div class="form-group">
                   <label for="email">Email:</label>
-                  <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email">
+                  <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email" required>
                 </div>
                 <div class="form-group">
                     <label for="telefone">Telefone:</label>
-                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone/celular" name="telefone">
+                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone/celular" name="telefone" required>
                 </div>
                 <div class="form-group">
                     <label for="senha">Senha:</label>
-                    <input type="password" class="form-control" id="senha" placeholder="Escolha uma senha" name="senha">
+                    <input type="password" class="form-control" id="senha" placeholder="Escolha uma senha" name="senha" required>
                 </div>
                 <div class="form-group">
                     <label for="senha2">Confirme sua senha:</label>
-                    <input type="password" class="form-control" id="senha2" placeholder="Confirme sua senha" name="senha2">
+                    <input type="password" class="form-control" id="senha2" placeholder="Confirme sua senha" name="senha2" required>
                 </div>
                 <div class="form-group">
                   <label for="idade">Você é maior de 18 anos?</label><br>
-                  <input type="radio" class="form-check-input" id="menos18" name="idade" checked>
+                  <input type="radio" class="form-check-input" id="menos18" name="idade" required>
                   <label class="form-check-label" for="menos18">Não</label><br>
-                  <input type="radio" class="form-check-input" id="mais18" name="idade">
+                  <input type="radio" class="form-check-input" id="mais18" name="idade" required>
                   <label class="form-check-label" for="mais18">Sim</label>
                 </div>
 
-                <a href="registro2.html"><button type="" class="btn btn-lg" id="botaoRegistro">Registrar</button></a>
+               <button type="submit" class="btn btn-lg" id="botaoRegistro">Registrar</button>
 
             </form>
         </div>
     </div>    
   </div>
 
+    <div id="avisoMenores" class="avisoMenores container">
+      <div class="row justify-content-center">        
+        <h2 class="titulo text-center text-light">Não permitimos o cadastro de menores de idade!</h2>
+        <div class="d-flex justify-content-center">
+        <a href="../index.html"><button type="" class="btn" id="botaoVoltar">Voltar para a página inicial</button></a>
+      </div>
+    </div>
+    </div>
+
+    <div id="avisoMaiores" class="avisoMaiores container">
+      <div class="row justify-content-center">
+        <h1 class="titulo text-center text-light">Sua conta foi criada com sucesso!</h1>
+        <div class="d-flex justify-content-center">
+        <a href="minha-conta.html"><button type="" class="btn" id="botaoAcessar">Clique aqui para acessar sua conta do Economy+</button></a>
+      </div>
+    </div>
+    </div>
 
 </body>
 </html>

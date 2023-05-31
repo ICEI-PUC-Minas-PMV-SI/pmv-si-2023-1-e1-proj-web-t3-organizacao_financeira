@@ -16,6 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="icon" href="img/icon.png" type="image/x-icon">
+  <script src="/js/apidolar.js"></script>
 </head>
 
 <body> <!--Menu bar/hamburguer menu-->
@@ -28,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Dólar: R$4,95</a>
+            <a id="dolar" class="nav-link text-light" href="https://www.bcb.gov.br/conversao" target="_blank">Dólar: R$...</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="html/sobre.html">Sobre</a>
@@ -60,10 +61,12 @@
         aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#homePageCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
     <div class="carousel-inner carousel-border">
       <div class="carousel-item active">
-        <a href="#"><img src="img/dicasinvest.png" class="d-block w-100 c-img" alt="Foto de investimentos" /></a>
+        <a href="html/informação_investimesntos.html"><img src="img/dicasinvest.png" class="d-block w-100 c-img" alt="Foto de investimentos" /></a>
         <div class="carousel-caption mt-4">
           <h5><a href="#">Dicas de Investimento</a></h5>
           <p><a href="#">Nulla vitae elit libero, a pharetra augue mollis interdum</a></p>
@@ -85,6 +88,22 @@
           <p><a href="html/economia-domestica.html">Veja algumas dicas de como economizar dinheiro em casa</a></p>
         </div>
       </div>
+      <div class="carousel-item">
+        <a href="html/indicadores-economicos.html"><img src="img/indicadores.png" class="d-block w-100 c-img"
+            alt="Foto de indicadores econômicos." /></a>
+        <div class="carousel-caption mt-4">
+          <h5><a href="html/indicadores-economicos.html">Indicadores Econômicos</a></h5>
+          <p><a href="html/indicadores-economicos.html">Nulla vitae elit libero, a pharetra augue mollis interdum</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="#"><img src="img/corretoras.png" class="d-block w-100 c-img"
+            alt="Foto sobre corretoras." /></a>
+        <div class="carousel-caption mt-4">
+          <h5><a href="html/dicas-financas.html">Corretoras</a></h5>
+          <p><a href="html/dicas-financas.html">Nulla vitae elit libero, a pharetra augue mollis interdum</a></p>
+        </div>
+      </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#homePageCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -100,7 +119,5 @@
     <a id="botaoFacaParte" class="btn home-page-btn fw-bold" href="html/registro.html">Faça parte do Economy+, uma ferramenta fácil para gerenciar seus
       gastos</a>
   </div>
-
 </body>
-
 </html>
