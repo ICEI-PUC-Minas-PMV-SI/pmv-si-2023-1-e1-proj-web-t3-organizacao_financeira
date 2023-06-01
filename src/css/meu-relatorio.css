@@ -13,7 +13,7 @@ p {
     border-radius: 12px 12px 12px 12px;
 }
 
-#meu-relatorio-lista-registros {
+#meu-relatorio-lista-registros, #grafico-resumo-despesas {
     margin-top: 1.8em;
     margin-bottom: 2.8em;
 }
