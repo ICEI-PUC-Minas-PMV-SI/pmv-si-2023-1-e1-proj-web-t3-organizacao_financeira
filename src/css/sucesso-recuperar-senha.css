@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: 'Poppins', Verdana, sans-serif;    /*Escolha da tipografia*/
+    margin: 0;
+    padding: 0;
+}
+
+
+#divLogoPages a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  #botaoRegistro {     /*Estilo do botão de Registrar*/
+    background-color: #92F725;
+    font-weight: bolder;
+    margin-top: 1em;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #divTitulo {
+    margin-top: 50px;
+  }
+  
+  #botaoRegistro {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #divTitulo {
+      margin-top: 20px;
+    }
+  
+    #botaoRegistro {
+      display: block;
+      margin-top: 20px;
+    }
+  }
+  

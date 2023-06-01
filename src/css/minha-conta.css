@@ -62,9 +62,10 @@ h3 {
     flex: 1 1 200px;
     margin: 10px;
     background-color: #92f735;
-    padding: 6px;
-    border-radius: 2px;
-    text-align: centr;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.5s;
 
 }
 
