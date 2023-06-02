@@ -1,4 +1,10 @@
 # Organização Financeira
+<br>
+<div align="center"> 
+  
+![logo](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/assets/128002460/54ebdfdb-e738-4635-85a3-d6a0314392f3)
+  
+</div>
 
 `CURSO: Sistemas de Informação`
 
@@ -7,6 +13,8 @@
 `SEMESTRE: 1º`
 
 O projeto tem como propósito fornecer ferramentas que auxiliem qualquer pessoa a organizar suas finanças de maneira básica, com acesso a dicas práticas, realizando o registro de receitas e despesas e visualizando relatórios demonstrativos, de forma a atingir o equilíbrio e prosperidade financeira.
+
+Link do Projeto: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app
 
 ## Integrantes
 
