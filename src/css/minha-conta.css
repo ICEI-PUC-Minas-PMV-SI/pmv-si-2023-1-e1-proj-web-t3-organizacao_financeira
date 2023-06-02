@@ -28,6 +28,9 @@ body {
     font-size: large;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
 
 h2 {
     color: white;

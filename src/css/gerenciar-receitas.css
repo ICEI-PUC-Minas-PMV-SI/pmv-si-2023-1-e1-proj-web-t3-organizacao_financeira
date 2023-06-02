@@ -26,6 +26,10 @@ body {
     font-size: large;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 #titulo {
     color: white;
     text-align: center;
@@ -175,7 +179,7 @@ fieldset .grupo .campo {
     border-radius: 10px;
 }
 
-.minhas-metas {
+.minhas-receitas {
     flex: 1 1 200px;
     margin: 10px;
     background-color: #92f725;
@@ -184,7 +188,7 @@ fieldset .grupo .campo {
     text-align: left;
 }
 
-.minhas-metas:hover{
+.minhas-receitas:hover{
     transform: scale(1.02);
 }
 

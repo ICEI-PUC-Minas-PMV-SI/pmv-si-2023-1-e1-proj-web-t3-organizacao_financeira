@@ -22,14 +22,13 @@ body {
     padding-bottom: 1%;
 }
 
-#textoLogoPages{
-    font-size:large;
+#textoLogoPages {
+    font-size: large;
 }
 
-.nav-link:hover {
+.nav-link:hover{
     text-decoration: underline;
 }
-
 #titulo {
     color: white;
     text-align: center;
@@ -179,7 +178,7 @@ fieldset .grupo .campo {
     border-radius: 10px;
 }
 
-.minhas-metas {
+.minhas-despesas {
     flex: 1 1 200px;
     margin: 10px;
     background-color: #92f725;
@@ -188,7 +187,7 @@ fieldset .grupo .campo {
     text-align: left;
 }
 
-.minhas-metas:hover{
+.minhas-despesas:hover {
     transform: scale(1.02);
 }
 
@@ -201,11 +200,13 @@ fieldset .grupo .campo {
         margin: 0 auto;
     }
 }
-@media screen and (max-width: 1000px){
+
+@media screen and (max-width: 1000px) {
     .modal .conteudoModal {
         max-height: 450px;
     }
-    .modal .conteudoModal2{
+
+    .modal .conteudoModal2 {
         max-height: 450px;
     }
 }
