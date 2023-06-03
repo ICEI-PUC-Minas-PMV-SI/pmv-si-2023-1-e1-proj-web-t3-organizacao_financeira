@@ -64,20 +64,114 @@
             </a>
         </div>
         <h2>Meu Perfil</h2>
-        <p id="meu-perfil-nome-usuario"> João Silva</p>
+        <p id="meu-perfil-nome-usuario">João Silva</p>
     </header>
     <div class="container">
         <div id="meu-perfil-foto-usuario"></div>
         <div id="meu-perfil-link-alterar-foto">
-            <a href="#">Editar foto de perfil</a>
+                <!-- Link para abrir o modal de Editar Foto-->
+        <a href="#" class="itensMenu" data-toggle="modal" data-target="#modalEditarFoto">Editar foto de perfil</a>
+          
+        <!-- Modal Editar Foto -->
+        <div class="modal fade" id="modalEditarFoto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Editar Foto de Perfil</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div id="meu-perfil-foto-usuario"></div>
+                <label class="textoEscolhaFoto" for="foto">Escolha uma nova foto</label><br>
+                <input type="file"
+                       id="foto" name="foto"
+                       accept="image/png, image/jpeg">
+                     
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-success">Salvar</button>
+              </div>
+            </div>
+          </div>
+        </div>   
+        <!--Fim do Modal-->             
         </div>
 
         <div id="meu-perfil-links">
-            <p><a href="#">Alterar Senha</a></p>
-            <p><a href="#">Excluir Conta</a></p>
-            <p><a href="#">Sair</a></p>
+            <!-- Link para abrir o modal de Alterar Senha-->
+        <a href="#" class="itensMenu" data-toggle="modal" data-target="#modalAlterarSenha">Alterar Senha</a>
+          
+          <!-- Modal Alterar Senha -->
+          <div class="modal fade" id="modalAlterarSenha" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Alteração de Senha</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <form class="formAlteraSenha col-md-7">
+                        <div class="form-group">
+                          <label for="senhaAtual">Senha atual:</label>
+                          <input type="password" class="form-control" id="senhaAtual" placeholder="Digite sua senha atual" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="senhaNova">Nova senha:</label>
+                          <input type="password" class="form-control" id="senhaNova" placeholder="Digite a nova senha desejada" name="email" required>
+                        </div>                    
+                    </form>                    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn btn-success">Salvar</button>
+                </div>
+              </div>
+            </div>
+          </div>   
+          <!--Fim do Modal-->               
+        <br><br>
+          <!-- Link para abrir o modal de Excluir conta-->
+        <a href="#" class="itensMenu" data-toggle="modal" data-target="#modalExcluirConta">Excluir Conta</a>
+          
+        <!-- Modal Alterar Senha -->
+        <div class="modal fade" id="modalExcluirConta" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Deseja excluir sua conta?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form class="formExcluirConta col-md-7">
+                    <div class="form-group">
+                      <label for="senhaAtual">Confirme sua senha:</label>
+                      <input type="password" class="form-control" id="senhaExclusao" placeholder="Digite sua senha" name="senhaExclusao" required>
+                    </div>                  
+                </form>        
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-danger">Excluir</button>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <!--Fim do Modal-->
+            <p class="itensMenu"><a href="#">Sair</a></p>
         </div>
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
