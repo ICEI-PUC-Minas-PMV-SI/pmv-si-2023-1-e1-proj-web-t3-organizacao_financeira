@@ -27,13 +27,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Responsável| Artefato |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário visitante acesse uma página com dicas financeiras | Rafael |   |
-|RF-002| A aplicação deverá ter uma página que apresente e responda perguntas frequentes - FAQ (Frequently Asked Questions) |  |  |
-|RF-003| A aplicação deverá ter uma página que apresente informações de investimentos | |  |
-|RF-004| A aplicação deverá ter uma página que apresente dicas de economia doméstica   | Victor | |
-|RF-005| A aplicação deverá ter uma página com sugestões de corretoras de investimentos | Nathan | |
+|RF-001| Permitir que o usuário visitante acesse uma página com dicas financeiras | Rafael | dicas-financas.html |
+|RF-002| A aplicação deverá ter uma página que apresente e responda perguntas frequentes - FAQ (Frequently Asked Questions) | Lucas Nery | FAQ.html |
+|RF-003| A aplicação deverá ter uma página que apresente informações de investimentos | Lucas Warley | dicas-investimentos.html |
+|RF-004| A aplicação deverá ter uma página que apresente dicas de economia doméstica   | Victor | economia-domestica.html |
+|RF-005| A aplicação deverá ter uma página com sugestões de corretoras de investimentos | Nathan | corretoras.html |
 |RF-006| A aplicação deverá ter uma página com informações sobre indicadores econômicos  |Beatriz| indicadores-economicos.html |
-|RF-007| Permitir que o usuário visitante veja a cotação do Dólar do dia  | | index.html |
+|RF-007| Permitir que o usuário visitante veja a cotação do Dólar do dia  | Victor | index.html, registro.html, sobre.html, login.html, FAQ.html, esqueceu-senha.html, dicas-investimentos.html, dicas-financas.html, economia-domestica.html, indicadores-economicos.html, corretoras.html |
 |RF-008| Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração)  | | |
 |RF-009| Permitir que o usuário consiga redefinir sua senha através de seu e-mail  | | |
 |RF-010| Permitir que o usuário cadastrado gerencie suas fontes de receita   | Beatriz | gerenciar-receitas.html |
