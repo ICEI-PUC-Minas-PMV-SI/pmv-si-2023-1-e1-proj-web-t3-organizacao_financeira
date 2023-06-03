@@ -1,0 +1,39 @@
+a {
+    color: white;
+}
+
+#meu-perfil-foto-usuario {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('../img/meu-perfil/placeholder.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#meu-perfil-nome-usuario {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#meu-perfil-link-alterar-foto {
+    display: block;
+    text-align: center;
+}
+#meu-perfil-links {
+    margin-top: 50px;
+}
+
+.container {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
