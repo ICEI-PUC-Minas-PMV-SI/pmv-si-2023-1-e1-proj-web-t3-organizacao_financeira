@@ -36,6 +36,14 @@ a {
     margin-top: 20px;
 }
 
+.itensMenu:hover {
+    color: #92F725;
+}
+
+#menuSair:hover {
+    color: #92F725;
+}
+
 .container {
     display: block;
     grid-template-columns: 1fr 1fr;

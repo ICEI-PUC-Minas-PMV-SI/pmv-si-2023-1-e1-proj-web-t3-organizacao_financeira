@@ -58,6 +58,10 @@ body, h1, p, form, input {
     text-decoration: none;
     color: white;
   }
+
+  #textoFacaLogin {
+    font-size: 2em;
+  }
   
   @media screen and (max-width: 480px) {
     .container {
