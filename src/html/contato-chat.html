@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato-Chat</title>
+    <link rel="stylesheet" href="/src/css/contato-chat.css">
+    <link rel="icon" href="../img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/src/css/style.css">
+
+
+
+</head>
+
+<body>
+    <div class="caixa-perguntas">
+        <div class="header">
+            <div id="divLogoPages" class="p-3 text-light position-absolute"
+                style="top: 0; left: 0; transition: top 0.3s, left 0.3s;">
+                <h4 id="textoLogoPages" class="mb-3 page-title">Economy+ <img id="imagemLogoPages" class="money-bag"
+                        src="../img/moneybag.png" alt="money bag"></h4>
+            </div>
+        </div>
+        <p id="status"></p>
+        <div id="historic">
+            <!-- AQUI VEM O CHAT-->
+        </div>
+        <div class="footer">
+            <input type="text" placeholder="Pergunte aqui..." id="message-input">
+            <button id="btn-enviar" onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+ 
+</body>
+<script src="/src/js/contato-chat.js"></script>
+</html>
