@@ -59,7 +59,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id Usuário             | Numero (Inteiro)  | Identificador único do usuário           | 1                                              |
-| Tipo de entrada           | Booleano | Identifica se usuário fez entrada de dados de receita ou despesa. Se true = receita, se false = despesa       | False                                           |
+| Tipo de entrada           | Texto | Identifica se usuário fez entrada de dados de receita ou despesa      | Despesa                                         |
 | Nome da Receita       | Texto  | Título da receita ou despesa dado pelo usuário          | Salário                                             |
 | Valor       | Número            | Valor da receita ou despesa adicionada                       | 4.000,00                   |
 | Categoria       | Texto| Categoria da receita ou despesa adicionada                      |Salário                           |
