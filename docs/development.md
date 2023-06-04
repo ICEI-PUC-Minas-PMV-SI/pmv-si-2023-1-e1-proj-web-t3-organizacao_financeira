@@ -15,7 +15,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-005| A aplicação deverá ter uma página com sugestões de corretoras de investimentos | Nathan | corretoras.html |
 |RF-006| A aplicação deverá ter uma página com informações sobre indicadores econômicos  |Beatriz| indicadores-economicos.html |
 |RF-007| Permitir que o usuário visitante veja a cotação do Dólar do dia  | Victor | index.html, corretoras.html, dicas-financeiras.html, dicas-investimentos.html, economia-domestica.html, esqueceu-senha.html, FAQ.html, gerenciar-despesas.html, gerenciar-metas.html, gerenciar-receitas.html, grafico-despesas.html, indicadores-economicos.html, login.html, meu-perfil.html, meu-relatorio.html, minha-conta.html, registro.html, sobre.html, sucesso-recuperar-senha.html, contato-chat.html |
-|RF-008| Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração)  | Rafael, Victor | registro.html, meu-perfil.html, |
+|RF-008| Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração)  | Rafael, Victor | registro.html, meu-perfil.html |
 |RF-009| Permitir que o usuário consiga redefinir sua senha através de seu e-mail  | Nathan | esqueceu-senha.html |
 |RF-010| Permitir que o usuário cadastrado gerencie suas fontes de receita   | Beatriz | gerenciar-receitas.html |
 |RF-011| Permitir que o usuário cadastrado gerencie suas fontes de despesa  | Beatriz | gerenciar-despesas.html |
