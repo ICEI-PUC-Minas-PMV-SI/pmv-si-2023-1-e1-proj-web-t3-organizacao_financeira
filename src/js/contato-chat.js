@@ -1,4 +1,4 @@
-const apiKey = "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"
+
 
 function sendMessage() {
     var message = document.getElementById('message-input')
