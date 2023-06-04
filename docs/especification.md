@@ -62,7 +62,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004| A aplicação deve ser capaz de se integrar com outros sistemas de serviços financeiros  | MÉDIA | |
 |RNF-005| Ter um layout intuitivo e de fácil entendimento para os usuários  | ALTA | |
 |RNF-006| A Aplicação precisa comunicar-se com API para obter dados econômicos (dolar e outros índices)   | ALTA | |
-|RNF-007| A Aplicação precisa comunicar-se com API para oferecer suporte via chat aos usuários   | ALTA | |
+|RNF-007| A Aplicação precisa comunicar-se com API para oferecer suporte via chat aos usuários   | MÉDIA| |
+|RNF-008| Os gráficos serão gerados a partir do uso de uma API   | MÉDIA| |
 
 ## Restrições
 
