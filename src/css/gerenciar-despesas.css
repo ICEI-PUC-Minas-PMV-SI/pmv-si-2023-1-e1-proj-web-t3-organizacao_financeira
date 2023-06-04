@@ -33,6 +33,7 @@ body {
     color: white;
     text-align: center;
     margin-top: 50px;
+    font-weight: 600;
 }
 
 .subtitulo {
@@ -44,6 +45,10 @@ body {
 
 h3 {
     color: black;
+}
+
+.container p {
+    text-shadow: none;
 }
 
 .principal {

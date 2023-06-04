@@ -32,9 +32,11 @@ body {
     text-decoration: underline;
 }
 
-h2 {
+.titulo {
     color: white;
     text-align: center;
+    padding-top: 1em;
+    font-weight: 600;
 }
 
 p2 {
@@ -48,6 +50,8 @@ p2 {
 
 h3 {
     color: black;
+    font-size: 1.3em;
+    padding-top: 0.5em;
 }
 
 

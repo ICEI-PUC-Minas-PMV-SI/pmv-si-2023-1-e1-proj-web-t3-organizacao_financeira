@@ -1,13 +1,9 @@
 body {
-
     background-color: black;
     font-family: 'Poppins', Verdana, sans-serif;
     /*Escolha da tipografia*/
     height: 100vh;
     margin: auto;
-
-
-
 }
 
 #divLogoPages a {
@@ -15,25 +11,33 @@ body {
     color: white;
 }
 
-
 .money-bag {
     width: 1em;
     /*O ícone de bolsa de dinheiro acompanhará o tamanho da fonte ao ajustar a tela*/
     transform: rotate(45deg);
     padding-bottom: 1%;
 }
+
 #textoLogoPages{
     font-size: large;
 }
 
-h2 {
+.divTitulo {
+    margin-top: 2.5em;
+}
+
+.titulo {
     color: white;
     text-align: center;
+    padding-top: 0.2em;
+    font-weight: 600;
+    margin-bottom: 0.8em;    
 }
 
 #subtitulo {
     color: white;
     text-align: center;
+    font-size: 1.2em;
 }
 
 h3 {

@@ -4,6 +4,18 @@ body {
     margin: 0;
     padding: 0;
   }
+
+.divTitulo {
+    margin-top: 2.5em;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    padding-top: 0.2em;
+    font-weight: 600;
+    margin-bottom: 0.8em;    
+}
   
   .box {
       position: relative;
@@ -51,12 +63,11 @@ body {
     
     #subtitulo {
       color: white;
-      font-size: 1.5em;
+      font-size: 1.2em;
       font-weight: 300;
       margin: 0 auto;
       justify-content: center;
       text-align: center;
-      margin-top: 2.5em;
   }
   
   #divLogoPages a {
