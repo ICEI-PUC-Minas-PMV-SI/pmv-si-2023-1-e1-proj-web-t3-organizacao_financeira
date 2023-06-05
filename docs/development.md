@@ -38,7 +38,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RNF-005| Ter um layout intuitivo e de fácil entendimento para os usuários  | Beatriz, Rafael, Victor, Nathan, Lucas Nery, Lucas Warley | index.html, corretoras.html, dicas-financeiras.html, dicas-investimentos.html, economia-domestica.html, esqueceu-senha.html, FAQ.html, gerenciar-despesas.html, gerenciar-metas.html, gerenciar-receitas.html, grafico-despesas.html, indicadores-economicos.html, login.html, meu-perfil.html, meu-relatorio.html, minha-conta.html, registro.html, sobre.html, sucesso-recuperar-senha.html, contato.html |
 |RNF-006| A Aplicação precisa comunicar-se com API para obter dados econômicos (dolar e outros índices)   | Victor | index.html, corretoras.html, dicas-financeiras.html, dicas-investimentos.html, economia-domestica.html, esqueceu-senha.html, FAQ.html, gerenciar-despesas.html, gerenciar-metas.html, gerenciar-receitas.html, grafico-despesas.html, indicadores-economicos.html, login.html, meu-perfil.html, meu-relatorio.html, minha-conta.html, registro.html, sobre.html, sucesso-recuperar-senha.html, contato.html |
 |RNF-007| A Aplicação precisa comunicar-se com API para oferecer suporte via chat aos usuários   | Lucas Warley  | contato.html |
-|RNF-008| Os gráficos serão gerados a partir do uso de uma API   | Rafael | grafico-despesas.html|
+|RNF-008| Os gráficos serão gerados a partir do uso de uma biblioteca  | Rafael | grafico-despesas.html|
 
 
 ## Descrição das estruturas:
