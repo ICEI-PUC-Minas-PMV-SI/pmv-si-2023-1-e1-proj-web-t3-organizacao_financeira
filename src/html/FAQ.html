@@ -1,182 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Economy +</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/faq.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="../img/icon.png" type="image/x-icon" />
-    <script src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js"></script>
-  </head>
 
-  <body>
-    <!--Menu bar/hamburguer menu-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler ms-auto"
-          type="button"
-          id="dropdownMenu2"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-            <li class="nav-item">
-              <a
-                id="dolar"
-                class="nav-link text-light"
-                href="https://www.bcb.gov.br/conversao"
-                target="_blank"
-                >Dólar: R$...</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="sobre.html">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="login.html">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="../html/contato.html" target="_blank">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Economy +</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/faq.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="icon" href="../img/icon.png" type="image/x-icon" />
+  <script
+    src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js"></script>
+</head>
 
-    <!--Logotipo Economy+ com o Id de LogoPages (sem ser a página index)-->
-
-    <div
-      id="divLogoPages"
-      class="p-3 text-light position-absolute"
-      style="top: 0; left: 0; transition: top 0.3s, left 0.3s"
-    >
-      <a href="../index.html"
-        ><h1 id="textoLogoPages" class="mb-3 page-title">
-          Economy+
-          <img
-            id="imagemLogoPages"
-            class="money-bag"
-            src="../img/moneybag.png"
-            alt="money bag"
-          /></h1
-      ></a>
-    </div>
-
-    <div class="container">
-      <div class="hero">
-        <img src="../img/interrogacao.jpg" />
-        <div class="describe">
-          <h1>Frequently Asked Questions (FAQ)</h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-      </div>
-
-      <div class="questions-session">
-        <div class="question">
-          <div class="question-title">
-            <h2 id="question-1-title">Pergunta 1</h2>
-          </div>
-          <p id="question-1-answer">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-
-        <div class="question">
-          <div class="question-title">
-            <h2 id="question-2-title">Pergunta 2</h2>
-          </div>
-          <p id="question-2-answer">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-
-        <div class="question">
-          <div class="question-title">
-            <h2 id="question-3-title">Pergunta 3</h2>
-          </div>
-          <p id="question-3-answer">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-
-        <div class="question">
-          <div class="question-title">
-            <h2 id="question-4-title">Pergunta 4</h2>
-          </div>
-          <p id="question-4-answer">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
+<body>
+  <!--Menu bar/hamburguer menu-->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler ms-auto" type="button" id="dropdownMenu2" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-haspopup="true" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a id="dolar" class="nav-link text-light" href="https://www.bcb.gov.br/conversao" target="_blank">Dólar:
+              R$...</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../html/contato.html" target="_blank">Contato</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </body>
-  <script src="../js/faq.js"></script>
+  </nav>
+
+  <!--Logotipo Economy+ com o Id de LogoPages (sem ser a página index)-->
+
+  <div id="divLogoPages" class="p-3 text-light position-absolute"
+    style="top: 0; left: 0; transition: top 0.3s, left 0.3s">
+    <a href="../index.html">
+      <h1 id="textoLogoPages" class="mb-3 page-title">
+        Economy+
+        <img id="imagemLogoPages" class="money-bag" src="../img/moneybag.png" alt="money bag" />
+      </h1>
+    </a>
+  </div>
+
+  <div class="container">
+    <div class="hero">
+      <img src="../img/interrogacao.jpg" />
+      <div class="describe">
+        <h1>Frequently Asked Questions (FAQ)</h1>
+        <p>
+          Tire suas dúvidas aqui sobre tópicos importantes relacionados a finanças.
+        </p>
+      </div>
+    </div>
+
+    <div class="questions-session">
+      <div class="question">
+        <div class="question-title">
+          <h2 id="question-1-title">O que são investimentos de Renda Fixa?</h2>
+        </div>
+        <p id="question-1-answer">
+          Os investimentos de renda fixa são tipos de investimentos mais seguros pois possuem uma remuneração
+          previamente definida e conhecida pelo investidor desde o início da aplicação. Geralmente, as instituições que
+          emitem títulos nessa modalidade são o governo, empresas ou bancos. Apesar de possuir uma previsibilidade
+          maior, é importante lembrar que nenhum tipo de investimento está livre de riscos. <a
+            href="https://www.infomoney.com.br/guias/renda-fixa/" target="_blank"> Fonte: InfoMoney, 2022.</a>
+        </p>
+      </div>
+
+      <div class="question">
+        <div class="question-title">
+          <h2 id="question-2-title">O que são investimentos de Renda Variável?</h2>
+        </div>
+        <p id="question-2-answer">
+          São investimentos que não possuem a taxa de retorno estabelecida. Essa taxa é calculada de acordo com as
+          condições do mercado financeiro em determinada época. A Renda Variável é, portanto, considerada uma modalidade
+          de investimentos de maior risco. Por outro lado, em uma situação favorável, esses tipos de investimentos podem
+          ter uma remuneração consideravelmente maior do que os investimentos de Renda Fixa. <a
+            href="https://www.infomoney.com.br/guias/renda-variavel/" target="_blank"> Fonte: InfoMoney, 2022. </a>
+        </p>
+      </div>
+
+      <div class="question">
+        <div class="question-title">
+          <h2 id="question-3-title">Como posso investir em ações?</h2>
+        </div>
+        <p id="question-3-answer">
+          De forma resumida, é necessário definir sua estratégia de investimento, considerando o nível de risco você
+          está disposto a correr, seus objetivos com o investimento e ter uma quantia em dinheiro que não será utilizada
+          no curto prazo para o investimento. Em seguida, é necessário encontrar uma corretora autorizada e escolher em
+          quais ações você quer investir e se o investimento será feito via Home Broker ou mesa de operações. <a
+            href="https://www.infomoney.com.br/guias/como-investir-em-acoes/" target="_blank"> Fonte:
+            InfoMoney, 2022. </a>
+        </p>
+      </div>
+
+      <div class="question">
+        <div class="question-title">
+          <h2 id="question-4-title">Como investir com pouco dinheiro?</h2>
+        </div>
+        <p id="question-4-answer">
+          Começar a investir pode ainda ser um assunto muito nebuloso para muitas pessoas. No entanto, ele está cada vez
+          mais em evidência e muito mais democrático e acessível.
+          Atualmente existem diversas maneiras de se investir, com muito ou pouco dinheiro. Alguns investimentos
+          permitem que você comece com apenas 50 reais. Alguns exemplos são:
+          * Ações;
+          * Tesouro Direto;
+          * Fundos de investimento.
+
+
+
+          O ideal é entender as suas necessidades e o seu perfil de investidor para realizar simulações de investimentos
+          e decidir qual caminho seguir. <a href="https://blog.xpeducacao.com.br/perguntas-sobre-educacao-financeira/"
+            target="_blank"> Fonte: XPE, 2022. </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../js/faq.js"></script>
+
 </html>
