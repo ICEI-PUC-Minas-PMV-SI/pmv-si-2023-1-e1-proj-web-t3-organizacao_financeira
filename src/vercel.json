@@ -1,28 +1,14 @@
 {
-  "usuarios": [
+  "functions": {
+    "api/server.js": {
+      "memory": 1024,
+      "includeFiles": "db.json"
+    }
+  },
+  "rewrites": [
     {
-      "id": "1",
-      "nome": "Administrador",
-      "email": "admin",
-      "telefone": "31987654321",
-      "senha": "123",
-      "status": "1"
-    },
-    {
-      "id": "2",
-      "nome": "João da Silva",
-      "email": "joao@teste.com",
-      "telefone": "32987654321",
-      "senha": "123456",
-      "status": "1"
-    },
-    {
-      "id": "3",
-      "nome": "Usuario 3",
-      "email": "usuario3@gmail.com",
-      "telefone": "9999999",
-      "senha": "123123",
-      "status": "1"
+      "source": "/(.*)",
+      "destination": "api/server.js"
     }
   ]
 }
