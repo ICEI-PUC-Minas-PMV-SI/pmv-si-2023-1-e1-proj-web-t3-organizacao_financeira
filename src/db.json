@@ -1,0 +1,20 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Administrador",
+      "email": "admin",
+      "telefone": "31987654321",
+      "senha": "123",
+      "status": "1"
+    },
+    {
+      "id": "2",
+      "nome": "João da Silva",
+      "email": "joao@teste.com",
+      "telefone": "32987654321",
+      "senha": "123456",
+      "status": "1"
+    }
+  ]
+}
