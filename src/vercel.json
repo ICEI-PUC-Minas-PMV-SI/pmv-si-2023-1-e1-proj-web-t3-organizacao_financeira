@@ -15,6 +15,14 @@
       "telefone": "32987654321",
       "senha": "123456",
       "status": "1"
+    },
+    {
+      "id": "3",
+      "nome": "Usuario 3",
+      "email": "usuario3@gmail.com",
+      "telefone": "9999999",
+      "senha": "123123",
+      "status": "1"
     }
   ]
 }

@@ -1,4 +1,4 @@
-URL = 'https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/db.json'
+URL = 'https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/usuarios'
 
 
 //=================================================================================================
