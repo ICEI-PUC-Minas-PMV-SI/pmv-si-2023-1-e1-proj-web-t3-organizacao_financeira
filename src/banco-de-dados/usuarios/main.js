@@ -1,4 +1,4 @@
-URL = 'http://localhost:3000/usuarios'
+URL = 'https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/db.json'
 
 
 //=================================================================================================
