@@ -1,3 +1,6 @@
+// URL da API de dados
+URL = 'http://localhost:3000/usuarios'
+
 // Aguardar o carregamento completo da página
 window.addEventListener('DOMContentLoaded', function() {
     var botaoRegistro = document.getElementById('botaoRegistro');
@@ -34,13 +37,32 @@ window.addEventListener('DOMContentLoaded', function() {
     tudo.style.display = "none";
     title.style.display = "none";
     avisoMaiores.style.display = "block"; 
+  
+  
+
+
+// userForm.addEventListener('submit', (e) => {
+
+
+    // RECUPERA OS DADOS DO USUÁRIO
+    const usuario = JSON.stringify({
+        id: document.getElementById('user-id').value,
+        nome: document.getElementById('user-nome').value,
+        email: document.getElementById('user-email').value,
+        telefone: document.getElementById('user-tel').value,
+        senha: document.getElementById('user-senha').value,
+        status: document.getElementById('user-status').value
+    })
+ 
   }
 
+
+
   function validarFormulario() {    //Função que testa a integridade dos dados digitados pelo usuário.
-    var nome = document.getElementById('nome').value;
-    var email = document.getElementById('email').value;
-    var telefone = document.getElementById('telefone').value;
-    var senha = document.getElementById('senha').value;
+    var nome = document.getElementById('user-nome').value;
+    var email = document.getElementById('user-email').value;
+    var telefone = document.getElementById('user-tel').value;
+    var senha = document.getElementById('user-senha').value;
     var senha2 = document.getElementById('senha2').value;
     var menos18 = document.getElementById('menos18');
     var mais18 = document.getElementById('mais18');
@@ -51,12 +73,12 @@ window.addEventListener('DOMContentLoaded', function() {
 
     else if (senha !== senha2) {
       // Armazena os valores dos campos do formulário no localStorage
-      localStorage.setItem('nome', nome);
-      localStorage.setItem('email', email);
-      localStorage.setItem('telefone', telefone);
+      localStorage.setItem('user-nome', nome);
+      localStorage.setItem('user-email', email);
+      localStorage.setItem('user-tel', telefone);
 
       // Limpa o campo de senha
-      document.getElementById('senha').value = "";
+      document.getElementById('user-senha').value = "";
       document.getElementById('senha2').value = "";
 
       // Exibe o alerta
@@ -69,12 +91,12 @@ window.addEventListener('DOMContentLoaded', function() {
 
 // Recupera os valores dos campos do formulário do localStorage após o carregamento da página
 window.onload = function() {
-  document.getElementById('nome').value = localStorage.getItem('nome');
-  document.getElementById('email').value = localStorage.getItem('email');
-  document.getElementById('telefone').value = localStorage.getItem('telefone');
+  document.getElementById('user-nome').value = localStorage.getItem('user-nome');
+  document.getElementById('user-email').value = localStorage.getItem('user-email');
+  document.getElementById('user-tel').value = localStorage.getItem('user-tel');
 
   // Limpa os dados do localStorage
-  localStorage.removeItem('nome');
-  localStorage.removeItem('email');
-  localStorage.removeItem('telefone');
+  localStorage.removeItem('user-nome');
+  localStorage.removeItem('user-email');
+  localStorage.removeItem('user-tel');
 };
