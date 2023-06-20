@@ -6,22 +6,25 @@ function entrar(){
     let senhaLabel = document.querySelector ('#senhaLabel')
 
     let msgError = document.querySelector('#msgError')
-    let listaUser = []
+    let listaUser = [];
 
     let userValid ={
+        nome:'',
         email:'',
         senha:''
-    }
+    };
 
     listaUser = JSON.parse(localStorage.getItem('listaUser'))
     
     listaUser.forEach((item) => {
         if (email.value == item.emailCad && senha.value == item.senhaCad){
             userValid = {
-            email: emailCad,
-            senha: senhaCad
+            nome: item.nomeCad,
+            email: item.emailCad,
+            senha: item.senhaCad
         }
         }
     })
     console.log(userValid)
+   event.preventDefault();
 }
