@@ -33,13 +33,18 @@ body, h1, p, form, input {
     color: white;
   }
   
-  form input {
+ #user-email, #user-senha, #botaoLogar {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
   }
+
+  #emailLabel, #senhaLabel {
+    display: none;
+  }
   
-  form input[type="entrar"] {
+  #botaoLogar {
+    width: 100%;
     background-color: #95FE25;
     color: black;
     font-weight: bold;
@@ -48,7 +53,7 @@ body, h1, p, form, input {
     text-align: center;
   }
   
-  form input[type="entrar"]:hover {
+  #botaoLogar:hover {
     color: blue;
     transform: scale(1.02);
     transition: transform 0.2s;
