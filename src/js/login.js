@@ -25,6 +25,24 @@ function entrar(){
         }
         }
     })
-    console.log(userValid)
+    // console.log(userValid)
    event.preventDefault();
+if(email.value == userValid.email && senha.value == userValid.senha){
+window.location.href='../html/minha-conta.html'
+
+let token = Math.random().toString(16).substring(2)
+localStorage.setItem('token', token)
+
+localStorage.setItem('userLogado', JSON.stringify(userValid))
+
+} else{
+    emailLabel.setAttribute('style', 'color:red')
+    senhaLabel.setAttribute('style', 'color:red')
+    msgError.setAttribute('style','display:block')
+    msgError.innerHTML= 'Usuário ou senha incorretos.'
+    email.focus()
+
+}
+
+   
 }
