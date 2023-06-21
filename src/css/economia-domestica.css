@@ -23,17 +23,6 @@
     margin-bottom: 1.8em;
 }
 
-#linkExterno {    /*Estilo do link de Fontes*/
-    text-decoration: none;
-    color: white;
-
-}
-
-#linkExterno:hover {  /*Estilo do link de Fontes ao passar o mouse*/
-    color:#92F725;
-    
-}
-
 .container {         /*Estilo da DIV que engloba título, subtítulo e todos os cards*/
     margin-bottom: 3em;
 }

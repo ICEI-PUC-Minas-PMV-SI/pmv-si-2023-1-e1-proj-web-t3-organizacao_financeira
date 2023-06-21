@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="icon" href="../img/icon.png" type="image/x-icon">
-  <script src="../js/registro.js"></script>
+  
   <script src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
@@ -69,59 +69,61 @@
             <img class="imagemPorco" src="../img/registro/cofre-de-porquinho.png"  alt="Cofre de porquinho.">
         </div>
 
-        <form class="formRegistro col-md-7">
-                <div class="form-group">
-                  <label for="nome">Nome Completo:</label>
-                  <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo" name="nome" required>
-                </div>
-                <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone/celular" name="telefone" required>
-                </div>
-                <div class="form-group">
-                    <label for="senha">Senha:</label>
-                    <input type="password" class="form-control" id="senha" placeholder="Escolha uma senha" name="senha" required>
-                </div>
-                <div class="form-group">
-                    <label for="senha2">Confirme sua senha:</label>
-                    <input type="password" class="form-control" id="senha2" placeholder="Confirme sua senha" name="senha2" required>
-                </div>
-                <div class="form-group">
-                  <label for="idade">Você é maior de 18 anos?</label><br>
-                  <input type="radio" class="form-check-input" id="menos18" name="idade" required>
-                  <label class="form-check-label" for="menos18">Não</label><br>
-                  <input type="radio" class="form-check-input" id="mais18" name="idade" required>
-                  <label class="form-check-label" for="mais18">Sim</label>
-                </div>
+        <form class="formRegistro col-md-7" id="formRegistro">
+          <div class="form-group">
+            <label id="labelNome" for="user-nome">Nome Completo:</label>
+            <input type="text" class="form-control" id="user-nome" placeholder="Digite seu nome completo" name="nome" required>
+          </div>
+          <div class="form-group">
+            <label id="labelEmail" for="user-email">Email:</label>
+            <input type="email" class="form-control" id="user-email" placeholder="Digite seu email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label id="labelTelefone" for="user-tel">Telefone:</label>
+              <input type="tel" class="form-control" id="user-tel" placeholder="Digite seu telefone/celular" name="telefone" required>
+          </div>
+          <div class="form-group">
+              <label id="labelSenha" for="user-senha">Senha:</label>
+              <input type="password" class="form-control" id="user-senha" placeholder="Escolha uma senha" name="senha" required>
+          </div>
+          <div class="form-group">
+              <label id="labelSenha2" for="senha2">Confirme sua senha:</label>
+              <input type="password" class="form-control" id="senha2" placeholder="Confirme sua senha" name="senha2" required>
+          </div>
+          <div class="form-group">
+            <label for="idade">Você é maior de 18 anos?</label><br>
+            <input type="radio" class="form-check-input" id="menos18" name="idade" required>
+            <label class="form-check-label" for="menos18">Não</label><br>
+            <input type="radio" class="form-check-input" id="mais18" name="idade" required>
+            <label class="form-check-label" for="mais18">Sim</label>
+          </div>
 
-               <button type="submit" class="btn btn-lg" id="botaoRegistro">Registrar</button>
+         <button onclick="cadastrar()" type="submit" class="btn btn-lg" id="botaoRegistro">Registrar</button>
 
-            </form>
-        </div>
-    </div>    
+      </form>
   </div>
+</div>    
+</div>
 
-    <div id="avisoMenores" class="avisoMenores container">
-      <div class="row justify-content-center">        
-        <h2 class="titulo text-center text-light">Não permitimos o cadastro de menores de idade!</h2>
-        <div class="d-flex justify-content-center">
-        <a href="../index.html"><button type="" class="btn" id="botaoVoltar">Voltar para a página inicial</button></a>
-      </div>
-    </div>
-    </div>
+<div id="avisoMenores" class="avisoMenores container">
+<div class="row justify-content-center">        
+  <h2 class="titulo text-center text-light">Não permitimos o cadastro de menores de idade!</h2>
+  <div class="d-flex justify-content-center">
+  <a href="../index.html"><button type="" class="btn" id="botaoVoltar">Voltar para a página inicial</button></a>
+</div>
+</div>
+</div>
 
-    <div id="avisoMaiores" class="avisoMaiores container">
-      <div class="row justify-content-center">
-        <h1 class="titulo text-center text-light">Sua conta foi criada com sucesso!</h1>
-        <div class="d-flex justify-content-center">
-        <a href="minha-conta.html"><button type="" class="btn" id="botaoAcessar">Clique aqui para acessar sua conta do Economy+</button></a>
-      </div>
-    </div>
-    </div>
+<div id="avisoMaiores" class="avisoMaiores container">
+<div class="row justify-content-center">
+  <h1 class="titulo text-center text-light">Sua conta foi criada com sucesso!</h1>
+  <div class="d-flex justify-content-center">
+  <a href="minha-conta.html"><button type="" class="btn" id="botaoAcessar">Clique aqui para acessar sua conta do Economy+</button></a>
+</div>
+</div>
+</div>
+
+    <script src="../js/registro2.js"></script>
 
 </body>
 </html>
