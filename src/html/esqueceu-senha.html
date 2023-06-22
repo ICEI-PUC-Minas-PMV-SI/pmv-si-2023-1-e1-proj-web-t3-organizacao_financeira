@@ -57,9 +57,11 @@
   <div class="container">
     <h1 id="textoLogoPages" class="mb-3 page-title">Para recuperar sua senha, digite seu email </h1>
     <form>
-      <label id="emailLabel" for="user-email"></label>
-      <input type="email" placeholder="Endereço de email">
-      <button id="botaoEnviar" onclick="enviar()"><input type="enviar"  value="Enviar"></button>
+
+      <input type="email" id="user-email">
+      <label for="user-email">Enviar</label>
+    
+      <button id="botaoEnviar" onclick="enviar()">Enviar></button>
     </form>
   </div>
     <script src="../js/recuperar-senha.js"></script>
