@@ -74,6 +74,7 @@ senha2.addEventListener('keyup', () =>{
     } else{
         labelSenha2.innerHTML = 'Confirme sua senha'
         validSenha2 = true
+        senha2.setAttribute ('style', 'border-color:white')
     }
 } )
 
