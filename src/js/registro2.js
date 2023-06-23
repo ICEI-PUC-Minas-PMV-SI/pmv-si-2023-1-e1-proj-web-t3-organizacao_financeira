@@ -54,8 +54,6 @@ telefone.addEventListener('keyup', () =>{
     }
 })
 
-
-
 senha.addEventListener('keyup', () =>{
     if(senha.value.length <= 5){
         labelSenha.innerHTML = 'Senha: (Insira no mínimo 6 caracteres)'
@@ -78,46 +76,83 @@ senha2.addEventListener('keyup', () =>{
     }
 } )
 
-function cadastrar(){
-    // reload(); // para checar se e-mail está sendo digitado corretamente
-
-    if (validNome && validEmail && validTelefone && validSenha && validSenha2){ //Função que testa a integridade dos dados digitados pelo usuário.
-        // incrmenta listaUser se ja estiver criada ou cria uma lista vazia se não houver cadastro
-    let listaUser = JSON.parse(localStorage.getItem ('listaUser') || '[]') 
-
-
-    listaUser.push(
-        {
-            nomeCad: nome.value,
-            emailCad: email.value,
-            telCad: telefone.value,
-            senhaCad: senha.value
-        }
-    )
-
+function cadastrar() {
+    var menos18RadioButton = document.querySelector('#menos18');
+    var mais18RadioButton = document.querySelector('#mais18');
+  
+    if (!menos18RadioButton.checked && !mais18RadioButton.checked) {
+      reload();
+      return;
+    }
+  
+    if (validNome && validEmail && validTelefone && validSenha && validSenha2) {
+      if (menos18RadioButton.checked) {
+        var tudo = document.getElementById('content');
+        var avisoMenos18 = document.getElementById('avisoMenores');
+        var title = document.getElementById('idTitulo');
+        tudo.style.display = "none";
+        title.style.display = "none";
+        avisoMenos18.style.display = "block";
+  
+        document.getElementById('user-nome').value = localStorage.getItem('user-nome');
+        document.getElementById('user-email').value = localStorage.getItem('user-email');
+        document.getElementById('user-tel').value = localStorage.getItem('user-tel');
+  
+        localStorage.removeItem('user-nome');
+        localStorage.removeItem('user-email');
+        localStorage.removeItem('user-tel');
+        event.preventDefault();
+        return;
+      }
+  
+      let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
+  
+      listaUser.push({
+        nomeCad: nome.value,
+        emailCad: email.value,
+        telCad: telefone.value,
+        senhaCad: senha.value
+      });
+  
+      localStorage.setItem('listaUser', JSON.stringify(listaUser));
+  
+      var tudo = document.getElementById('content');
+      var avisoMaiores = document.getElementById('avisoMaiores');
+      var title = document.getElementById('idTitulo');
+      tudo.style.display = "none";
+      title.style.display = "none";
+      avisoMaiores.style.display = "block";
+  
+      setTimeout(() => {
+        window.location.href = 'https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/login.html';
+      }, 9000);
+      event.preventDefault();
+    } else {
+      if (senha.value != senha2.value) {
+        var nomeDigitado = document.getElementById('user-nome').value;
+        var emailDigitado = document.getElementById('user-email').value;
+        var telefoneDigitado = document.getElementById('user-tel').value;
+  
+        localStorage.setItem('user-nome', nomeDigitado);
+        localStorage.setItem('user-email', emailDigitado);
+        localStorage.setItem('user-tel', telefoneDigitado);
+  
+        document.getElementById('user-senha').value = "";
+        document.getElementById('senha2').value = "";
+  
+        reload();
+      }
+    }
+  }
+  
+  window.onload = function() {
+    document.getElementById('user-nome').value = localStorage.getItem('user-nome');
+    document.getElementById('user-email').value = localStorage.getItem('user-email');
+    document.getElementById('user-tel').value = localStorage.getItem('user-tel');
+  
+    localStorage.removeItem('user-nome');
+    localStorage.removeItem('user-email');
+    localStorage.removeItem('user-tel');
+  };
     
 
-    localStorage.setItem('listaUser', JSON.stringify(listaUser))
-
-    alert('Cadastrado com Sucesso')
-
-
-setTimeout(() => {
-   // colocar link para redirecionar para página do login após cadastro
-   window.location.href = 'https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/login.html' 
-}, 2000);
-
-
-
-} else{
-        alert ('Preencha todos os campos corretamente')
-        nome.value = "",
-        email.value = "",
-        telefone.value ="",
-        senha.value = "",
-        senha2.value = ""
-
-        reload()
-
-    }
-}
