@@ -85,15 +85,15 @@
                     <form>
                         <fieldset class="grupo">
                             <div class="campo">
-                                <label for="nomeReceita"> <strong>Nome da Receita:</strong></label>
-                                <input type="text" , name="nomeReceita" id="nomeReceita" required>
+                                <label id="labelNomeReceita" for="nomeReceita"> <strong>Nome da Receita:</strong></label>
+                                <input id="nomeReceita" type="text" , name="nomeReceita" id="nomeReceita" required>
                             </div>
                             <div class="campo">
-                                <label for="totalReceita"><strong>Valor da receita (R$):</strong></label>
-                                <input type="number" , name="totalReceita" id="totalReceita" required>
+                                <label id="labelTotalReceita" for="totalReceita"><strong>Valor da receita (R$):</strong></label>
+                                <input id="totalReceita" type="number" , name="totalReceita" id="totalReceita" required>
                             </div>
                             <div class="campo">
-                                <label for="categoriaReceita"> <strong>Categoria da receita:</strong></label>
+                                <label id="labelCategoriaReceita" for="categoriaReceita"> <strong>Categoria da receita:</strong></label>
                                 <select id="meta" required>
                                     <option selected disabled value>Selecione</option>
                                     <option>Salário</option>
@@ -104,7 +104,7 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button class="botao" type="submit">Salvar</button>
+                    <button id="botaoSalvar" class="botao" type="submit" onclick="salvar()">Salvar</button>
                     </form>
                 </div>
             </div>
@@ -140,18 +140,18 @@
                             </div>
                             <div class="campo">
                                 <label for="novoNomeReceita"><strong>Novo nome da Receita: </strong></label>
-                                <input type="text" , name="novoNomeReceita" id="novoNomeReceita" required>
+                                <input id="novoNomeReceita" type="text" , name="novoNomeReceita" id="novoNomeReceita" required>
                             </div>
                             <div class="campo">
                                 <label for="novoValorReceita"> <strong>Novo valor da receita (R$): </strong></label>
-                                <input type="number" , name="novoValorReceita" id="novoValorReceita" required>
+                                <input id="novoValorReceita" type="number" , name="novoValorReceita" id="novoValorReceita" required>
                             </div>
 
                         </fieldset>
 
                 </div>
                 <div class="modal-footer">
-                    <button class="botao" type="submit">Salvar receita</button>
+                    <button id="botaoEditar" class="botao" type="submit" onclick="editar()">Editar receita</button>
                     </form>
                 </div>
             </div>
@@ -162,17 +162,17 @@
 
     <h2 id="titulo">Minhas Receitas</h2>
 
-    <div class="container">
-        <div class="minhas-receitas">
-            <h4>Nome Receita 1 <span class="material-symbols-outlined">
+    <div class="container" id="dadosReceitas">
+        <div id="minhas-receitas" class="minhas-receitas">
+            <!-- <h4>Nome Receita 1 <span class="material-symbols-outlined">
                     delete
                 </span>
                 </label></h4>
             <br>
             <p>Nome da receita adicionada:</p>
-            <p>Valor: R$____,__</p>
-        </div>
-        <div class="minhas-receitas">
+            <p>Valor: R$____,__</p> -->
+        <!-- </div>
+        <div id="2minhas-receitas" class="minhas-receitas">
             <h4>Nome Receita 2<span class="material-symbols-outlined">
                     delete
                 </span></h4>
@@ -180,14 +180,14 @@
             <p>Nome da receita adicionada:</p>
             <p>Valor: R$____,__</p>
         </div>
-        <div class="minhas-receitas">
+        <div id="3minhas-receitas" class="minhas-receitas">
             <h4>Nome Receita 3<span class="material-symbols-outlined">
                     delete
                 </span></h4>
             <br>
             <p>Nome da receita adicionada:</p>
             <p>Valor: R$____,__</p>
-        </div>
+        </div> -->
     </div>
 
 
