@@ -76,6 +76,17 @@ senha2.addEventListener('keyup', () =>{
     }
 } )
 
+// Gera ID aleatório de 8 caracteres para cada novo usuário cadastrado
+function generateID() {
+  const characters =
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let id = '';
+  for (let i = 0; i < 8; i++) {
+    id += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  return id;
+}
+
 function cadastrar() {
     var menos18RadioButton = document.querySelector('#menos18');
     var mais18RadioButton = document.querySelector('#mais18');
@@ -108,6 +119,7 @@ function cadastrar() {
       let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
   
       listaUser.push({
+        id: generateID(),
         nomeCad: nome.value,
         emailCad: email.value,
         telCad: telefone.value,
