@@ -13,18 +13,21 @@ function salvar() {   // FUNÇÃO PARA SALVAR RECEITAS NOVAS
   var total = totalReceita.value;
   var categoria = document.querySelector('#categoria').value;
 
-  if ((nome.lenght < 1) || (total < 0.01) || (categoria == 0)) {
+  if ((nome.lenght < 1) || (total < 0.01) || (categoria == 0)) {   // CONDIÇÕES PARA NÃO SALVAR A RECEITA
     alert("Insira os dados corretamente");
     return;
   }
-  else {
+  else {     // CASO AS CONDIÇÕES SEJAM CUMPRIDAS...
 
   var receitas = JSON.parse(localStorage.getItem('Receitas')) || [];
+  var emailLogado = JSON.parse(localStorage.getItem('userLogado')) || [];  //salva na variável emailLogado todo o conteúdo de 'userLogado'
+  var emailLogado2 = emailLogado.email;  //salva na variável emailLogado2 apenas o email do userLogado
 
   var novaReceita = {
     nome: nome,
     total: total,
     categoria: categoria,
+    emailReceita: emailLogado2    //salva o email do usuário logado junto com a receita
   };
 
   receitas.push(novaReceita);
@@ -38,14 +41,22 @@ function salvar() {   // FUNÇÃO PARA SALVAR RECEITAS NOVAS
 
 function mostrarDados() {
   var receitas = JSON.parse(localStorage.getItem('Receitas')) || [];
+  var emailLogado = JSON.parse(localStorage.getItem('userLogado')) || []; //salva na variável emailLogado todo o conteúdo de 'userLogado'
+  var emailLogado2 = emailLogado.email;   //salva na variável emailLogado2 apenas o email do userLogado
 
   // se já tem alguma receita, tira mensagem "voce ainda não adicionou receitas" e coloca a receita adicionada na tela
   if (receitas.length > 0) {
     var container = document.getElementById('dados');
     container.innerHTML = '';
 
-    receitas.forEach(function (receita, index) {
-// as receitas aparecem de forma separada
+    receitas.forEach(function (receita, index) { // as receitas aparecem de forma separada
+
+      if (emailLogado2 != receita.emailReceita)  {   //Se o email cadastrado na receita for diferente do email do usuário logado...
+         return ;
+      }
+
+            //Se o email cadastrado na função for igual ao email do usuário logado...
+
       var receitaElement = document.createElement('div');
       receitaElement.id = 'exibirReceitas' + index;
 
@@ -71,7 +82,7 @@ function mostrarDados() {
       receitaElement.appendChild(categoriaElement);
       receitaElement.appendChild(btnExcluir);
 
-      container.appendChild(receitaElement);
+      container.appendChild(receitaElement); 
     });
   } else {
     //enquanto o usuario não adicionar receita, aparece essa mensagem
