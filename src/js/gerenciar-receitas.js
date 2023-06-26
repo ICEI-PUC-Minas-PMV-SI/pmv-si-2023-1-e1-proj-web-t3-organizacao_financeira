@@ -1,109 +1,179 @@
-// // Recupera o array do Local Storage
-// const dadosArmazenados = localStorage.getItem("listaUser");
+// Tentativa de salvar as receitas criando um novo objeto no local storage
 
-// // Verifica se o array existe no Local Storage
-// if (dadosArmazenados) {
-//   // Converte o valor recuperado de volta para um array JavaScript
-//   const array = JSON.parse(dadosArmazenados);
-
-//   const mostraID = array.map(listaUser => listaUser.id) // procura todos os ids do listaUser
-
-//   console.log(mostraID);
-// } else {
-//   console.log("O array não foi encontrado no Local Storage.");
-// }
-
-
-
-let nomeReceita = document.querySelector('#nomeReceita')
+let nomeReceita = document.querySelector('#nomeReceita');
 let labelNomeReceita = document.querySelector('#labelNomeReceita')
-let validNomeReceita = false
 
-let totalReceita = document.querySelector('#totalReceita')
+let totalReceita = document.querySelector('#totalReceita');
 let labelTotalReceita = document.querySelector('#labelTotalReceita')
-let validTotalReceita = false
-
-let categoriaReceita = document.querySelector('#labelCategoriaReceita')
-
 
 function salvar() {
-  // Obtem valores digitados pelo usuário
+
   var nome = nomeReceita.value;
   var total = totalReceita.value;
-  var categoria = document.querySelector('#meta').value;
+  var categoria = document.querySelector('#categoria').value;
 
-  // Cria o novo array ou utiliza o que já existe
   var receitas = JSON.parse(localStorage.getItem('Receitas')) || [];
 
-  // Cria um objeto com as informações da receita
+
   var novaReceita = {
     nome: nome,
     total: total,
-    categoria: categoria
+    categoria: categoria,
   };
 
-  // Adicione a nova receita ao array de receitas
   receitas.push(novaReceita);
-
-  // Salve o array
   localStorage.setItem('Receitas', JSON.stringify(receitas));
-
-  
-  
-
+  mostrarDados();
 }
 
+function mostrarDados() {
+  var receitas = JSON.parse(localStorage.getItem('Receitas')) || [];
+
+  // se já tem alguma receita, tira mensagem "voce ainda não adicionou receitas" e coloca a receita adicionada na tela
+  if (receitas.length > 0) {
+    var container = document.getElementById('dados');
+    container.innerHTML = '';
+
+    receitas.forEach(function (receita, index) {
+// as receitas aparecem de forma separada
+      var receitaElement = document.createElement('div');
+      receitaElement.id = 'exibirReceitas' + index;
+
+      var nomeElement = document.createElement('p');
+      nomeElement.textContent = 'Nome da Receita: ' + receita.nome;
+
+      var totalElement = document.createElement('p');
+      totalElement.textContent = 'Valor da Receita (R$): ' + receita.total;
+
+      var categoriaElement = document.createElement('p');
+      categoriaElement.textContent = 'Categoria: ' + receita.categoria;
+
+      // botao que deleta a receita do local storage e da tela. Função aparece abaixo
+      var btnExcluir = document.createElement('button');
+      btnExcluir.textContent = 'Excluir';
+      btnExcluir.addEventListener('click', function () {
+      
+        excluirReceita(index);
+      });
+
+      receitaElement.appendChild(nomeElement);
+      receitaElement.appendChild(totalElement);
+      receitaElement.appendChild(categoriaElement);
+      receitaElement.appendChild(btnExcluir);
+
+      container.appendChild(receitaElement);
+    });
+  } else {
+    //enquanto o usuario não adicionar receita, aparece essa mensagem
+    document.getElementById('dados').innerHTML = 'Você ainda não adicionou nenhuma receita.';
+  }
+}
+
+function excluirReceita(index) {
+  var receitas = JSON.parse(localStorage.getItem('Receitas')) || [];
+
+  if (index >= 0 && index < receitas.length) {
+    receitas.splice(index, 1);
+    localStorage.setItem('Receitas', JSON.stringify(receitas));
+    mostrarDados();
+    
+  }
+}
+mostrarDados();
 
 
 
+// // // // tentativa de salvar a receita no userLogado
+
+// let nomeReceita = document.querySelector('#nomeReceita');
+// let labelNomeReceita = document.querySelector('#labelNomeReceita')
 
 
+// let totalReceita = document.querySelector('#totalReceita');
+// let labelTotalReceita = document.querySelector('#labelTotalReceita')
 
-// function salvar() {
+
+// function salvar (){
 //   var nome = nomeReceita.value;
 //   var total = totalReceita.value;
-//   var categoria = document.querySelector('#meta').value;
+//   var categoria = document.querySelector('#categoria').value;
 
+//   // Busca o userLogado
 //   var userLogado = JSON.parse(localStorage.getItem('userLogado')) || {};
-
-//   var receitas = userLogado.receitas || [];
-
-//   var id = receitas.length + 1; // Gera um ID único para a nova receita
+//   userLogado.receitas = userLogado.receitas || [];
 
 //   var novaReceita = {
-//     id: id,
 //     nome: nome,
 //     total: total,
-//     categoria: categoria
+//     categoria: categoria,
+  
+    
 //   };
+//   userLogado.receitas.push(novaReceita);
 
-//   var index = receitas.findIndex(item => item.id === id);
-
-//   if (index !== -1) {
-//     receitas[index] = novaReceita;
-//   } else {
-//     receitas.push(novaReceita);
+//     localStorage.setItem('userLogado', JSON.stringify(userLogado));
 //   }
 
-//   userLogado.receitas = receitas;
 
-//   localStorage.setItem('userLogado', JSON.stringify(userLogado));
-// }
+//   let container = document.querySelector('#dados');
 
-let novoNomeReceita = document.querySelector('#novoNomeReceita')
+//   function exibirReceitas() {
+//     var userLogado = JSON.parse(localStorage.getItem('userLogado')) || {};
+//     var receitas = userLogado.receitas || [];
+  
+//     var container = document.getElementById('dados');
+  
+//     container.innerHTML = '';
+  
+//     if (receitas.length > 0) {
+//       container.innerHTML = '';
 
-let novoValorReceita = document.querySelector('#novoValorReceita')
+//       receitas.forEach(function (receita, index) {
+        
+//         var receitaElement = document.createElement('div');
+//         receitaElement.id = 'exibirReceitas' + index;
 
-function editar(){
-  var dados = JSON.parse(localStorage.getItem('Receitas'));
-  dados[nome].value = novoNomeReceita;
-
-  localStorage.setItem('nomeDaChave', JSON.stringify(dados));
-
-}
-
-
-
-
-
+//         var nomeElement = document.createElement('p');
+//         nomeElement.textContent = 'Nome da Receita: ' + receita.nome;
+  
+//         var totalElement = document.createElement('p');
+//         totalElement.textContent = 'Valor da Receita (R$): ' + receita.total;
+  
+//         var categoriaElement = document.createElement('p');
+//         categoriaElement.textContent = 'Categoria: ' + receita.categoria;
+  
+//         // botão que deleta a receita
+//         var btnExcluir = document.createElement('button');
+//         btnExcluir.textContent = 'Excluir';
+//         btnExcluir.addEventListener('click', function () {
+//           //deleta na tela e no localstorage
+//           excluirReceita(index);
+//         });
+//         receitaElement.appendChild(nomeElement);
+//         receitaElement.appendChild(totalElement);
+//         receitaElement.appendChild(categoriaElement);
+//         receitaElement.appendChild(btnExcluir);
+  
+//         container.appendChild(receitaElement);
+//       });
+//     } else {
+//       // mensagem quando não tiver receita salva
+//       container.innerHTML = 'Você ainda não adicionou nenhuma receita.';
+//     }
+//   }
+  
+//   function excluirReceita(index) {
+//     var userLogado = JSON.parse(localStorage.getItem('userLogado')) || {};
+//     var receitas = userLogado.receitas || [];
+  
+//     if (index >= 0 && index < receitas.length) {
+//       receitas.splice(index, 1);
+//       userLogado.receitas = receitas;
+//       localStorage.setItem('userLogado', JSON.stringify(userLogado));
+//       exibirReceitas();
+//     }
+//   }
+  
+//   exibirReceitas();
+  
 

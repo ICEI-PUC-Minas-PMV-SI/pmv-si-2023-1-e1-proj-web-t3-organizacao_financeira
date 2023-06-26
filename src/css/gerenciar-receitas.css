@@ -175,8 +175,11 @@ fieldset .grupo .campo {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+display: block;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    background-color: black;
+    color: white;
 
     margin: 10px auto;
     align-items: center;
@@ -187,7 +190,8 @@ fieldset .grupo .campo {
 .minhas-receitas {
     flex: 1 1 200px;
     margin: 10px;
-    background-color: #92f725;
+    background-color: black;
+    color:white;
     padding: 6px;
     border-radius: 10px;
     text-align: left;

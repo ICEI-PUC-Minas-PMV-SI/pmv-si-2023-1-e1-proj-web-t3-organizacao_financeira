@@ -94,7 +94,7 @@
                             </div>
                             <div class="campo">
                                 <label id="labelCategoriaReceita" for="categoriaReceita"> <strong>Categoria da receita:</strong></label>
-                                <select id="meta" required>
+                                <select id="categoria" required>
                                     <option selected disabled value>Selecione</option>
                                     <option>Salário</option>
                                     <option>Outros</option>
@@ -131,12 +131,13 @@
                         <fieldset class="grupo">
                             <div class="campo">
                                 <label for="editarReceita"> <strong>Selecione qual receita você quer editar</strong></label>
-                                <select id="meta" required>
+                                <!-- <select id="meta" required>
                                     <option selected disabled value>Selecione</option>
                                     <option>Nome receita 1</option>
                                     <option>Nome receita 2</option>
                                     <option>Nome receita 3</option>
-                                </select>
+                                </select> -->
+                                <select id="selectReceitas"></select>
                             </div>
                             <div class="campo">
                                 <label for="novoNomeReceita"><strong>Novo nome da Receita: </strong></label>
@@ -160,10 +161,10 @@
     </div>
 
 
-    <h2 id="titulo">Minhas Receitas</h2>
+    <h2 id="titulo">Minhas Receitas</h2> <br>
 
-    <div class="container" id="dadosReceitas">
-        <div id="minhas-receitas" class="minhas-receitas">
+    <div class="container" id="dados"onclick="mostrarDados()">
+        <div id="exibirReceitas" class="minhas-receitas">
             <!-- <h4>Nome Receita 1 <span class="material-symbols-outlined">
                     delete
                 </span>
