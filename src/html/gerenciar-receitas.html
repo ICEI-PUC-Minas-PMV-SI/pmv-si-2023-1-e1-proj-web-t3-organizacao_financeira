@@ -85,16 +85,16 @@
                     <form>
                         <fieldset class="grupo">
                             <div class="campo">
-                                <label for="nome"> <strong>Nome da Receita:</strong></label>
-                                <input type="text" , name="nome" id="nome" required>
+                                <label id="labelNomeReceita" for="nomeReceita"> <strong>Nome da Receita:</strong></label>
+                                <input id="nomeReceita" type="text" , name="nomeReceita" id="nomeReceita" required>
                             </div>
                             <div class="campo">
-                                <label for="total"><strong>Valor da receita (R$):</strong></label>
-                                <input type="number" , name="total" id="total" required>
+                                <label id="labelTotalReceita" for="totalReceita"><strong>Valor da receita (R$):</strong></label>
+                                <input id="totalReceita" type="number" , name="totalReceita" id="totalReceita" required>
                             </div>
                             <div class="campo">
-                                <label for="nome"> <strong>Categoria da receita:</strong></label>
-                                <select id="meta" required>
+                                <label id="labelCategoriaReceita" for="categoriaReceita"> <strong>Categoria da receita:</strong></label>
+                                <select id="categoria" required>
                                     <option selected disabled value>Selecione</option>
                                     <option>Salário</option>
                                     <option>Outros</option>
@@ -104,7 +104,7 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button class="botao" type="submit">Salvar</button>
+                    <button id="botaoSalvar" class="botao" type="submit" onclick="salvar()">Salvar</button>
                     </form>
                 </div>
             </div>
@@ -130,28 +130,29 @@
                     <form>
                         <fieldset class="grupo">
                             <div class="campo">
-                                <label for="nome"> <strong>Selecione qual receita você quer editar</strong></label>
-                                <select id="meta" required>
+                                <label for="editarReceita"> <strong>Selecione qual receita você quer editar</strong></label>
+                                <!-- <select id="meta" required>
                                     <option selected disabled value>Selecione</option>
                                     <option>Nome receita 1</option>
                                     <option>Nome receita 2</option>
                                     <option>Nome receita 3</option>
-                                </select>
+                                </select> -->
+                                <select id="selectReceitas"></select>
                             </div>
                             <div class="campo">
-                                <label for="total"><strong>Novo nome da Receita: </strong></label>
-                                <input type="text" , name="total" id="total" required>
+                                <label for="novoNomeReceita"><strong>Novo nome da Receita: </strong></label>
+                                <input id="novoNomeReceita" type="text" , name="novoNomeReceita" id="novoNomeReceita" required>
                             </div>
                             <div class="campo">
-                                <label for="ja-tenho"> <strong>Novo valor da receita (R$): </strong></label>
-                                <input type="number" , name="ja-tenho" id="ja-tenho" required>
+                                <label for="novoValorReceita"> <strong>Novo valor da receita (R$): </strong></label>
+                                <input id="novoValorReceita" type="number" , name="novoValorReceita" id="novoValorReceita" required>
                             </div>
 
                         </fieldset>
 
                 </div>
                 <div class="modal-footer">
-                    <button class="botao" type="submit">Salvar receita</button>
+                    <button id="botaoEditar" class="botao" type="submit" onclick="editar()">Editar receita</button>
                     </form>
                 </div>
             </div>
@@ -160,19 +161,19 @@
     </div>
 
 
-    <h2 id="titulo">Minhas Receitas</h2>
+    <h2 id="titulo">Minhas Receitas</h2> <br>
 
-    <div class="container">
-        <div class="minhas-receitas">
-            <h4>Nome Receita 1 <span class="material-symbols-outlined">
+    <div class="container" id="dados"onclick="mostrarDados()">
+        <div id="exibirReceitas" class="minhas-receitas">
+            <!-- <h4>Nome Receita 1 <span class="material-symbols-outlined">
                     delete
                 </span>
                 </label></h4>
             <br>
             <p>Nome da receita adicionada:</p>
-            <p>Valor: R$____,__</p>
-        </div>
-        <div class="minhas-receitas">
+            <p>Valor: R$____,__</p> -->
+        <!-- </div>
+        <div id="2minhas-receitas" class="minhas-receitas">
             <h4>Nome Receita 2<span class="material-symbols-outlined">
                     delete
                 </span></h4>
@@ -180,16 +181,18 @@
             <p>Nome da receita adicionada:</p>
             <p>Valor: R$____,__</p>
         </div>
-        <div class="minhas-receitas">
+        <div id="3minhas-receitas" class="minhas-receitas">
             <h4>Nome Receita 3<span class="material-symbols-outlined">
                     delete
                 </span></h4>
             <br>
             <p>Nome da receita adicionada:</p>
             <p>Valor: R$____,__</p>
-        </div>
+        </div> -->
     </div>
 
+
+    <script src="../js/gerenciar-receitas.js"></script>
 
 </body>
 
