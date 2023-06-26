@@ -123,7 +123,8 @@ function cadastrar() {
         nomeCad: nome.value,
         emailCad: email.value,
         telCad: telefone.value,
-        senhaCad: senha.value
+        senhaCad: senha.value,
+        receitas: []
       });
   
       localStorage.setItem('listaUser', JSON.stringify(listaUser));

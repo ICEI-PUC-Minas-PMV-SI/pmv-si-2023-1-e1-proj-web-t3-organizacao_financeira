@@ -13,7 +13,7 @@ function salvar() {   // FUNÇÃO PARA SALVAR RECEITAS NOVAS
   var total = totalReceita.value;
   var categoria = document.querySelector('#categoria').value;
 
-  if ((nome.lenght < 5) || (total < 0.01) || (categoria == 0)) {
+  if ((nome.lenght < 1) || (total < 0.01) || (categoria == 0)) {
     alert("Insira os dados corretamente");
     return;
   }
@@ -30,6 +30,7 @@ function salvar() {   // FUNÇÃO PARA SALVAR RECEITAS NOVAS
   receitas.push(novaReceita);
   localStorage.setItem('Receitas', JSON.stringify(receitas));
   mostrarDados();
+
   }
 }
 
