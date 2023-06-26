@@ -6,14 +6,20 @@ let labelNomeReceita = document.querySelector('#labelNomeReceita')
 let totalReceita = document.querySelector('#totalReceita');
 let labelTotalReceita = document.querySelector('#labelTotalReceita')
 
-function salvar() {
+
+function salvar() {   // FUNÇÃO PARA SALVAR RECEITAS NOVAS
 
   var nome = nomeReceita.value;
   var total = totalReceita.value;
   var categoria = document.querySelector('#categoria').value;
 
-  var receitas = JSON.parse(localStorage.getItem('Receitas')) || [];
+  if ((nome.lenght < 5) || (total < 0.01) || (categoria == 0)) {
+    alert("Insira os dados corretamente");
+    return;
+  }
+  else {
 
+  var receitas = JSON.parse(localStorage.getItem('Receitas')) || [];
 
   var novaReceita = {
     nome: nome,
@@ -24,7 +30,10 @@ function salvar() {
   receitas.push(novaReceita);
   localStorage.setItem('Receitas', JSON.stringify(receitas));
   mostrarDados();
+  }
 }
+
+/////////////////////////////////////////////////////////////
 
 function mostrarDados() {
   var receitas = JSON.parse(localStorage.getItem('Receitas')) || [];
