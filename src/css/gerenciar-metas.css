@@ -114,8 +114,8 @@ h3 {
 }
 
 .modal .conteudoModal {
-    width: 80%;
-    height: 75%;
+    width: auto;
+    height: auto;
     border: 1px solid black;
     border-radius: 10px;
     background-color: white;
@@ -124,8 +124,18 @@ h3 {
 }
 
 .modal .conteudoModal2 {
-    width: 80%;
-    height: 75%;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    overflow: auto;
+}
+
+.modal .editMetaModal {
+    width: auto;
+    height: auto;
     border: 1px solid black;
     border-radius: 10px;
     background-color: white;
@@ -177,7 +187,6 @@ fieldset .grupo .campo {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
     margin: 10px auto;
     align-items: center;
     justify-content: center;
@@ -211,6 +220,9 @@ fieldset .grupo .campo {
         max-height: 450px;
     }
     .modal .conteudoModal2{
+        max-height: 450px;
+    }
+    .modal .editMetaModal{
         max-height: 450px;
     }
 }
