@@ -1,4 +1,5 @@
 const metas = JSON.parse(window.localStorage.getItem('metas')) || [];
+const usuario = JSON.parse(localStorage.getItem('userLogado')) || [];
 
 function inserirMeta() {
     let counter = metas.length; // div com a meta
@@ -9,6 +10,7 @@ function inserirMeta() {
 
     let meta = {
         id: id,
+        userEmail: usuario.email,
         nome: nome,
         vlTotal: vlTotal,
         vlAtual: vlAtual,
@@ -24,41 +26,43 @@ function exibirMetas() {
     let listaMetas = document.getElementById('metas-criadas'); // div que vai receber as metas criadas
     if (metas.length > 0) {
         metas.forEach(meta => {
-            const newDiv = document.createElement('div');
-            newDiv.classList.add('minhas-metas');
-            const newBR = document.createElement('br');
-
-            const total = parseFloat(meta.vlTotal).toLocaleString("pt-BR", 
-            { style: "currency" , currency:"BRL"});
-            const atual = parseFloat(meta.vlAtual).toLocaleString("pt-BR", 
-            { style: "currency" , currency:"BRL"});
-            const faltando = parseFloat(meta.vlFaltando).toLocaleString("pt-BR", 
-            { style: "currency" , currency:"BRL"});
-
-            const elementoNome = document.createElement('h4');
-            const elementoVlTotal = document.createElement('p');
-            const elementoVlAtual = document.createElement('p');
-            const elementoVlFaltando = document.createElement('p');
-
-            const nome = document.createTextNode(meta.nome);
-            const vlTotal = document.createTextNode(`Total: ${total}`);
-            const vlAtual = document.createTextNode(`Já tenho:${atual}`);
-            const vlFaltando = document.createTextNode(`Faltam:${faltando}`);
-            
-            elementoNome.appendChild(nome);
-            elementoNome.innerHTML += "<span class=\"material-symbols-outlined\" data-bs-toggle=\"modal\" data-bs-target=\"#editMetaModal\" onclick=\"preparaFormAtualizacao("+meta.id+")\">edit</span>";
-            elementoNome.innerHTML += "<span class=\"material-symbols-outlined\" onclick=\"excluirMeta("+meta.id+")\">delete</span>";
-            elementoVlTotal.appendChild(vlTotal);
-            elementoVlAtual.appendChild(vlAtual);
-            elementoVlFaltando.appendChild(vlFaltando);
-            
-            newDiv.appendChild(elementoNome);
-            newDiv.appendChild(newBR);
-            newDiv.appendChild(elementoVlTotal);
-            newDiv.appendChild(elementoVlAtual);
-            newDiv.appendChild(elementoVlFaltando);
-            
-            listaMetas.appendChild(newDiv);
+            if (usuario.email == meta.userEmail) {
+                const newDiv = document.createElement('div');
+                newDiv.classList.add('minhas-metas');
+                const newBR = document.createElement('br');
+    
+                const total = parseFloat(meta.vlTotal).toLocaleString("pt-BR", 
+                { style: "currency" , currency:"BRL"});
+                const atual = parseFloat(meta.vlAtual).toLocaleString("pt-BR", 
+                { style: "currency" , currency:"BRL"});
+                const faltando = parseFloat(meta.vlFaltando).toLocaleString("pt-BR", 
+                { style: "currency" , currency:"BRL"});
+    
+                const elementoNome = document.createElement('h4');
+                const elementoVlTotal = document.createElement('p');
+                const elementoVlAtual = document.createElement('p');
+                const elementoVlFaltando = document.createElement('p');
+    
+                const nome = document.createTextNode(meta.nome);
+                const vlTotal = document.createTextNode(`Total: ${total}`);
+                const vlAtual = document.createTextNode(`Já tenho:${atual}`);
+                const vlFaltando = document.createTextNode(`Faltam:${faltando}`);
+                
+                elementoNome.appendChild(nome);
+                elementoNome.innerHTML += "<span class=\"material-symbols-outlined\" data-bs-toggle=\"modal\" data-bs-target=\"#editMetaModal\" onclick=\"preparaFormAtualizacao("+meta.id+")\">edit</span>";
+                elementoNome.innerHTML += "<span class=\"material-symbols-outlined\" onclick=\"excluirMeta("+meta.id+")\">delete</span>";
+                elementoVlTotal.appendChild(vlTotal);
+                elementoVlAtual.appendChild(vlAtual);
+                elementoVlFaltando.appendChild(vlFaltando);
+                
+                newDiv.appendChild(elementoNome);
+                newDiv.appendChild(newBR);
+                newDiv.appendChild(elementoVlTotal);
+                newDiv.appendChild(elementoVlAtual);
+                newDiv.appendChild(elementoVlFaltando);
+                
+                listaMetas.appendChild(newDiv);
+            }
         });
     }
 }
@@ -90,7 +94,7 @@ function atualizarMeta() {
             meta.vlFaltando = meta.vlTotal - meta.vlAtual;
         }
     });
-    localStorage.clear();
+    localStorage.clear("metas");
     window.localStorage.setItem("metas", JSON.stringify(metas));
     window.location.reload();
 }
@@ -99,7 +103,7 @@ function excluirMeta(id) {
     metas.forEach((meta, index) => {
         if (meta.id == id) {
             metas.splice(index, 1);
-            localStorage.clear();
+            localStorage.clear("metas");
             window.localStorage.setItem("metas", JSON.stringify(metas));
             window.location.reload();
         }
