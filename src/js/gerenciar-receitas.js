@@ -22,8 +22,11 @@ function salvar() {   // FUNÇÃO PARA SALVAR RECEITAS NOVAS
   var receitas = JSON.parse(localStorage.getItem('Receitas')) || [];
   var emailLogado = JSON.parse(localStorage.getItem('userLogado')) || [];  //salva na variável emailLogado todo o conteúdo de 'userLogado'
   var emailLogado2 = emailLogado.email;  //salva na variável emailLogado2 apenas o email do userLogado
+  var counter = receitas.length
+  var id = counter +1
 
   var novaReceita = {
+    id: id,
     nome: nome,
     total: total,
     categoria: categoria,
