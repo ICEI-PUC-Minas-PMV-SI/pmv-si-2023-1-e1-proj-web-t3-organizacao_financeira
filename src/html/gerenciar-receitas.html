@@ -21,7 +21,6 @@
     <script src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js"></script>
     <link rel="icon" href="../img/icon.png" type="image/x-icon">
 </head>
-
 <body>
     <!--Menu bar/hamburguer menu-->
     <header>
@@ -64,10 +63,11 @@
     </header>
 
     <h1 id="titulo">Gerenciar Receitas</h1>
-    <p class="subtitulo"> Adicione e edite suas receitas aqui! Utilizaremos esses dados para gerar o seu relatório.</p>
+    <p class="subtitulo">Adicione e edite suas receitas aqui! Utilizaremos esses dados para gerar o seu relatório.</p>
 
     <br>
 
+    <!-- Modal para inserir receita -->
     <div class="principal">
         <h3>Adicionar Receita</h3>
         <label for="modalExemplo" class="abrirModal"><span class="material-symbols-outlined">
@@ -75,125 +75,75 @@
             </span></label>
         <input type="checkbox" id="modalExemplo" class="checkboxModal">
         <div class="modal">
-            <label for="modalExemplo" class="fecharModal"> <strong>X</strong></label>
             <div class="conteudoModal">
-                <div class="modal-header">
-                    <h4 class="modal-title">Adicionar Receita</h4>
-                </div>
                 <div class="modal-body">
+                    <label for="modalExemplo" class="fecharModal"> <strong>X</strong></label>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Adicionar Meta</h4>
+                    </div>
 
-                    <form>
+                    <form id="inserir-meta" onsubmit="inserirReceita()">
                         <fieldset class="grupo">
                             <div class="campo">
-                                <label id="labelNomeReceita" for="nomeReceita"> <strong>Nome da Receita:</strong></label>
-                                <input id="nomeReceita" type="text" , name="nomeReceita" id="nomeReceita" required>
+                                <label for="nome"> <strong>Nome receita:</strong></label>
+                                <input type="text" name="nome" id="nome" required>
                             </div>
                             <div class="campo">
-                                <label id="labelTotalReceita" for="totalReceita"><strong>Valor da receita (R$):</strong></label>
-                                <input id="totalReceita" type="number" , name="totalReceita" id="totalReceita" required>
+                                <label for="vlTotal"><strong>Valor da receita(R$):</strong></label>
+                                <input type="number" min="1" step="any" name="vlTotal" id="vlTotal" required>
                             </div>
-                            <div class="campo">
-                                <label id="labelCategoriaReceita" for="categoriaReceita"> <strong>Categoria da receita:</strong></label>
-                                <select id="categoria" required>
-                                    <option selected disabled value>Selecione</option>
-                                    <option>Salário</option>
-                                    <option>Outros</option>
-                                </select>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                <button class="botao" type="submit">Salvar Receita</button>
                             </div>
                         </fieldset>
-
-                </div>
-                <div class="modal-footer">
-                    <button id="botaoSalvar" class="botao" type="submit" onclick="salvar()">Salvar</button>
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 
-    <br>
-    <div class="principal">
-        <h3>Editar Receita</h3>
-        <label for="modalExemplo2" class="abrirModal2"><span class="material-symbols-outlined">
-                edit
-            </span></label>
-        <input type="checkbox" id="modalExemplo2" class="checkboxModal2">
-        <div class="modal">
-            <label for="modalExemplo2" class="fecharModal2"> <strong>X</strong></label>
-            <div class="conteudoModal2">
+    <!-- Modal para atualizar meta -->
+    <div id="editReceitaModal" class="modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Editar receita</h4>
+                    <h4 class="modal-title">Atualizar Meta</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-
-                    <form>
+                    <form id="inserir-meta" onsubmit="atualizarReceita()">
                         <fieldset class="grupo">
                             <div class="campo">
-                                <label for="editarReceita"> <strong>Selecione qual receita você quer editar</strong></label>
-                                <!-- <select id="meta" required>
-                                    <option selected disabled value>Selecione</option>
-                                    <option>Nome receita 1</option>
-                                    <option>Nome receita 2</option>
-                                    <option>Nome receita 3</option>
-                                </select> -->
-                                <select id="selectReceitas"></select>
+                                <input type="hidden" name="receitaId" id="receitaId" value="">
                             </div>
                             <div class="campo">
-                                <label for="novoNomeReceita"><strong>Novo nome da Receita: </strong></label>
-                                <input id="novoNomeReceita" type="text" , name="novoNomeReceita" id="novoNomeReceita" required>
+                                <label for="editNome"> <strong>Dê um nome para sua meta:</strong></label>
+                                <input type="text" name="editNome" id="editNome" required>
                             </div>
                             <div class="campo">
-                                <label for="novoValorReceita"> <strong>Novo valor da receita (R$): </strong></label>
-                                <input id="novoValorReceita" type="number" , name="novoValorReceita" id="novoValorReceita" required>
+                                <label for="editVlTotal"><strong>Valor total da meta (R$):</strong></label>
+                                <input type="number" min="1" step="any" name="editVlTotal" id="editVlTotal" required>
                             </div>
-
+                            <div class="modal-footer">
+                                <button type="button" class="btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                <button id="botaoSalvar" class="btn btn-primary" type="submit">Salvar Meta</button>
+                            </div>
                         </fieldset>
-
-                </div>
-                <div class="modal-footer">
-                    <button id="botaoEditar" class="botao" type="submit" onclick="editar()">Editar receita</button>
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 
+    <h2 id="titulo">Minhas Receitas:</h2>
 
-    <h2 id="titulo">Minhas Receitas</h2> <br>
-
-    <div class="container" id="dados"onclick="mostrarDados()">
-        <div id="exibirReceitas" class="minhas-receitas">
-            <!-- <h4>Nome Receita 1 <span class="material-symbols-outlined">
-                    delete
-                </span>
-                </label></h4>
-            <br>
-            <p>Nome da receita adicionada:</p>
-            <p>Valor: R$____,__</p> -->
-        <!-- </div>
-        <div id="2minhas-receitas" class="minhas-receitas">
-            <h4>Nome Receita 2<span class="material-symbols-outlined">
-                    delete
-                </span></h4>
-            <br>
-            <p>Nome da receita adicionada:</p>
-            <p>Valor: R$____,__</p>
-        </div>
-        <div id="3minhas-receitas" class="minhas-receitas">
-            <h4>Nome Receita 3<span class="material-symbols-outlined">
-                    delete
-                </span></h4>
-            <br>
-            <p>Nome da receita adicionada:</p>
-            <p>Valor: R$____,__</p>
-        </div> -->
+    <div class="container" id="receitas-criadas">
+        
     </div>
-
-
-    <script src="../js/gerenciar-receitas.js"></script>
 
 </body>
+
+<script src="../js/gerenciar-receitas.js"></script>
 
 </html>

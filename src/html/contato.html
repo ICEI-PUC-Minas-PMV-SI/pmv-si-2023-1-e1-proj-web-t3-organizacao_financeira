@@ -62,8 +62,10 @@
     </header>
 
     <h2 id="titulo">Contato</h2>
+    <h3 id="subtitulo">Envie uma mensagem com a sua dúvida para o Economy+</h3>
 
-    <div class="container">
+
+    <!-- <div class="container">
         <div class="header">
             <h3>Chat</h3>
         </div>
@@ -78,3 +80,29 @@
             </form>
         </div>
     </div>
+</body>
+</html> -->
+
+<div class="container">
+    <form>
+        <div class="mb-3">
+            <div class="mb-3">
+                <label id="labelNome" for="exampleFormControlInput1" class="form-label">Nome:</label>
+                <input id="nome" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome Completo">
+              </div>
+                <label id="labelEmail" for="exampleFormControlInput1" class="form-label">Email:</label>
+                <input id="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@exemplo.com">
+              </div>
+              <div class="mb-3">
+                <label id="labelMensagem" for="exampleFormControlTextarea1" class="form-label">Digite aqui sua mensagem:</label>
+                <textarea id="mensagem" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <br>
+            <button id="submit" type="submit" class="btn btn-primary" onclick="enviaMensagem()">Enviar</button>
+            </div>
+        </div>
+        </form>
+    </div>
+    <script src="../js/contato.js"></script>
+</body>
+
+</html>

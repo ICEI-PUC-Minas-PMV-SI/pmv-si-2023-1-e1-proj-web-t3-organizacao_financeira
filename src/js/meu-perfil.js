@@ -16,17 +16,32 @@ function sair (){
 }
 
 function excluir() {
-    var senhaDigitada = document.getElementById('senhaExclusao').value;
-    var userLogado = JSON.parse(localStorage.getItem('userLogado'));
-  
-    if (senhaDigitada === userLogado.senha) {
-      localStorage.removeItem('token');
-      localStorage.removeItem('userLogado');
-      localStorage.removeItem('listaUser');
-      localStorage.removeItem('metas');
-      localStorage.removeItem('Receitas');
-      window.location.href = '../html/login.html';
-    } else {
-      alert('As senhas não conferem');
+  var senhaExclusao = document.getElementById('senhaExclusao').value;
+  var userLogado = JSON.parse(localStorage.getItem('userLogado'));
+
+  if (senhaExclusao === userLogado.senha) {
+    var listaUser = JSON.parse(localStorage.getItem('listaUser'));
+
+    // loop para procurar o index no listaUser que possui o mesmo email do userLogado
+    var index = -1;
+    for (var i = 0; i < listaUser.length; i++) {
+      if (listaUser[i].emailCad === userLogado.email) {
+        index = i;
+        break;
+      }
     }
+
+    if (index !== -1) {
+      // remove o index no listaUser
+      listaUser.splice(index, 1);
+      localStorage.setItem('listaUser', JSON.stringify(listaUser));
+    }
+
+    localStorage.removeItem('token');
+    localStorage.removeItem('userLogado');
+    window.location.href = '../html/login.html';
+  } else {
+    alert('As senhas não conferem');
   }
+}
+
