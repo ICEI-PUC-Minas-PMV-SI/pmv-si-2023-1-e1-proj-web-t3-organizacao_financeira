@@ -55,6 +55,6 @@ function enviarMensagem() {
         alert("Mensagem enviada com sucesso. Em breve, entraremos em contato.")
         reload()
     } else {
-        alert("Complete os campos corretamente")
+        alert("Por favor, preencha os campos corretamente antes de enviar a mensagem.")
     }
 }
