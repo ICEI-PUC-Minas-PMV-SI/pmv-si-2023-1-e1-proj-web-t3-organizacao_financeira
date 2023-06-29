@@ -18,16 +18,16 @@ function editarSenha() {
   if (senhaAntiga == senhaUsuarioLogado) {      // Se a senha antiga digitada for igual à senha do userLogado...
                                                        
         listaUsuarios.forEach(function(usuario) {         //Percorre o array de usuários cadastrados
-        if (senhaAntiga === usuario.senhaCad) {    //Detecta qual usuário possui a mesma senha digitada
+        if ((senhaAntiga === usuario.senhaCad) && (userLogado.email === usuario.emailCad)) {  //Detecta qual usuário possui a senha digitada e o email do usuario logado
           usuario.senhaCad = senhaNova;       //Altera o listaUser
           userLogado.senha = senhaNova;       //Altera o userLogado
-        }
-      });  
 
-    localStorage.setItem('listaUser', JSON.stringify(listaUsuarios));
-    localStorage.setItem('userLogado', JSON.stringify(userLogado));
-    location.reload();
-    alert("Senha alterada com sucesso!");    
+          localStorage.setItem('listaUser', JSON.stringify(listaUsuarios));
+          localStorage.setItem('userLogado', JSON.stringify(userLogado));
+          location.reload();
+          alert("Senha alterada com sucesso!");  
+        }
+      });    
     }
 
   else {
