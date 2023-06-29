@@ -26,7 +26,7 @@ function editarSenha() {
 
     localStorage.setItem('listaUser', JSON.stringify(listaUsuarios));
     localStorage.setItem('userLogado', JSON.stringify(userLogado));
-    fecharModal();
+    location.reload();
     alert("Senha alterada com sucesso!");    
     }
 
