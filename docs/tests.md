@@ -35,11 +35,61 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT02 - Criar conta parte 2**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
+**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login. <br>
 **Requisitos associados** | RF-001
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
+
+## Plano de Testes de Software - Economy+
+
+**Caso de Teste** | **CT01 - Criar conta**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário informa nome completo, email, telefone, senha, se possui mais de 18 anos e clica em “Registrar”.<br> 2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
+**Requisitos associados** | RF-008
+**Resultado esperado** | Criação de cadastro
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT02 - Login do usuário**
+ :--------------: | ------------
+**Procedimento**  | 1)	Usuário informa o email e senha cadastrados. <br> 2)	A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 3)	A aplicação direciona o usuário para a página Minha Conta.
+**Requisitos associados** | RF-008
+**Resultado esperado** | Usuário consegue entrar e acessar a página Minha Conta
+**Dados de entrada** | Inserção de dados válidos no formulário de login.
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT03 - Adicionar Receita**
+ :--------------: | ------------
+**Procedimento**  | 1)	Usuário clica em “Adicionar Receita” e preenche os dados “Nome da receita”, “Valor da receita (R$)” e clica em “Salvar”. <br> 2)	 A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 3)	 A aplicação armazena os dados e mostra na tela as receitas já adicionadas pelo usuário.
+**Requisitos associados** | RF-010
+**Resultado esperado** | Receita adicionada
+**Dados de entrada** | Inserção de dados válidos no formulário de receitas.
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT03 - Adicionar Despesa**
+ :--------------: | ------------
+**Procedimento**  |  -
+**Requisitos associados** | RF-011
+**Resultado esperado** | Despesa adicionada.
+**Dados de entrada** | Inserção de dados válidos no formulário de despesas.
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT03 - Adicionar Meta**
+ :--------------: | ------------
+**Procedimento**  |  1)	Usuário clica em “Adicionar meta” e preenche os dados “Dê um nome para sua meta”, “Valor total da meta (R$)” e “Valor que já tenho disponível (R$)” clica em “Salvar”. <br>2) A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 3) A aplicação armazena os dados, mostra na tela as metas já adicionadas pelo usuário e calcula quanto falta para que a meta do usuário seja atingida.
+**Requisitos associados** | RF-017 e RF-018
+**Resultado esperado** | Meta adicionada
+**Dados de entrada** | Inserção de dados válidos no formulário de metas.
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT03 - Excluir conta**
+ :--------------: | ------------
+**Procedimento**  |  1)	Usuário entra no ambiente “Meu Perfil” e clica em “Excluir Conta”. <br> 2) Usuário confirma a sua senha para que a exclusão da conta seja feita. <br> 3) A aplicação verifica se o dado fornecido confere com o dado armazenado e informa caso não seja. <br> 4) A aplicação exclui os dados de cadastro do usuário e o direciona para a tela de login.
+**Requisitos associados** | RF-008
+**Resultado esperado** | Conta excluída
+**Dados de entrada** | Inserção de dado válido para exclusão da conta.
+**Resultado obtido** | - 
 
 ## Registro dos Testes de Software
 
