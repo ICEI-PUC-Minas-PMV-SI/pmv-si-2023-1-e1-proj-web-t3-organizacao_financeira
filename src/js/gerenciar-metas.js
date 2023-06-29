@@ -94,7 +94,6 @@ function atualizarMeta() {
             meta.vlFaltando = meta.vlTotal - meta.vlAtual;
         }
     });
-    localStorage.clear("metas");
     window.localStorage.setItem("metas", JSON.stringify(metas));
     window.location.reload();
 }
@@ -103,13 +102,14 @@ function excluirMeta(id) {
     metas.forEach((meta, index) => {
         if (meta.id == id) {
             metas.splice(index, 1);
-            localStorage.clear("metas");
+            localStorage.removeItem("metas");
             window.localStorage.setItem("metas", JSON.stringify(metas));
             window.location.reload();
         }
     });
 }
 
-window.onload = function(){ //ensures the page is loaded before functions are executed.
+//ensures the page is loaded before functions are executed.
+window.onload = function(){
     exibirMetas();
 }
