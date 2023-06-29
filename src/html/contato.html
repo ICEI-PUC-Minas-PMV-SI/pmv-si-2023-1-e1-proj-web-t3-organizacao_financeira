@@ -18,8 +18,9 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script
-    src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js"></script>
+        src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js"></script>
 </head>
+
 <body>
     <!--Menu bar/hamburguer menu-->
     <header>
@@ -35,8 +36,9 @@
                             <a class="nav-link text-light" href="../index.html">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a id="dolar" class="nav-link text-light" href="https://www.bcb.gov.br/conversao" target="_blank">Dólar: R$...</a>
-                          </li>
+                            <a id="dolar" class="nav-link text-light" href="https://www.bcb.gov.br/conversao"
+                                target="_blank">Dólar: R$...</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="../html/sobre.html">Sobre</a>
                         </li>
@@ -64,43 +66,27 @@
     <h2 id="titulo">Contato</h2>
     <h3 id="subtitulo">Envie uma mensagem com a sua dúvida para o Economy+</h3>
 
-
-    <!-- <div class="container">
-        <div class="header">
-            <h3>Chat</h3>
-        </div>
-        <div class="body">
-            <p class="message">Olá! Digite sua dúvida aqui!</p>
-            <p class="message user_message">Oi!</p>
-        </div>
-        <div class="footer">
-            <form>
-                <input type="text" name="di">
-                <button>ENVIAR</button>
-            </form>
-        </div>
-    </div>
-</body>
-</html> -->
-
-<div class="container">
-    <form>
-        <div class="mb-3">
+    <div class="container">
+        <form>
             <div class="mb-3">
-                <label id="labelNome" for="exampleFormControlInput1" class="form-label">Nome:</label>
-                <input id="nome" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome Completo">
-              </div>
+                <div class="mb-3">
+                    <label id="labelNome" for="exampleFormControlInput1" class="form-label">Nome:</label>
+                    <input id="nome" type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Nome Completo">
+                </div>
                 <label id="labelEmail" for="exampleFormControlInput1" class="form-label">Email:</label>
-                <input id="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@exemplo.com">
-              </div>
-              <div class="mb-3">
-                <label id="labelMensagem" for="exampleFormControlTextarea1" class="form-label">Digite aqui sua mensagem:</label>
+                <input id="email" type="email" class="form-control" id="exampleFormControlInput2"
+                    placeholder="name@exemplo.com">
+            </div>
+            <div class="mb-3">
+                <label id="labelMensagem" for="exampleFormControlTextarea1" class="form-label">Digite aqui sua
+                    mensagem:</label>
                 <textarea id="mensagem" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 <br>
-            <button id="submit" type="submit" class="btn btn-primary" onclick="enviaMensagem()">Enviar</button>
+                <button id="submit" type="submit" class="btn btn-primary" onclick="enviarMensagem()">Enviar</button>
             </div>
-        </div>
-        </form>
+    </div>
+    </form>
     </div>
     <script src="../js/contato.js"></script>
 </body>
