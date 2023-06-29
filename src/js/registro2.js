@@ -124,7 +124,6 @@ function cadastrar() {
         emailCad: email.value,
         telCad: telefone.value,
         senhaCad: senha.value,
-        receitas: []
       });
   
       localStorage.setItem('listaUser', JSON.stringify(listaUser));

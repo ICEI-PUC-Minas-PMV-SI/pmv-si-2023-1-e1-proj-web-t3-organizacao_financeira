@@ -13,12 +13,22 @@ function editarSenha() {
   var senhaAntiga = document.getElementById('senhaAtual').value;    //Armazena o valor digitado na senha antiga.
   var senhaNova = document.getElementById('senhaNova').value;       // Armazena o valor digitado na senha nova.
   var senhaUsuarioLogado = userLogado.senha;                        // Armazena a senha salva no userLogado.
+  var listaUsuarios = JSON.parse(localStorage.getItem('listaUser'));
 
-  if (senhaAntiga == senhaUsuarioLogado) {  // Se a senha antiga digitada for igual à senha do userLogado...
-    var listaUsuarios = JSON.parse(localStorage.getItem('listaUser'));     //Faz procedimentos para salvar a nova senha no listaUser e userLogado.
-    listaUsuarios.senhaCad = senhaNova;
-    localStorage.setItem('listaUser', JSON.stringify(listaUser));
-  }
+  if (senhaAntiga == senhaUsuarioLogado) {      // Se a senha antiga digitada for igual à senha do userLogado...
+                                                       
+        listaUsuarios.forEach(function(usuario) {         //Percorre o array de usuários cadastrados
+        if (senhaAntiga === usuario.senhaCad) {    //Detecta qual usuário possui a mesma senha digitada
+          usuario.senhaCad = senhaNova;       //Altera o listaUser
+          userLogado.senha = senhaNova;       //Altera o userLogado
+        }
+      });  
+
+    localStorage.setItem('listaUser', JSON.stringify(listaUsuarios));
+    localStorage.setItem('userLogado', JSON.stringify(userLogado));
+    fecharModal();
+    alert("Senha alterada com sucesso!");    
+    }
 
   else {
     alert("Senha antiga incorreta.");
@@ -61,3 +71,7 @@ function excluir() {
   }
 }
 
+  function fecharModal() {
+    var modal = document.getElementById('modalAlterarSenha');
+    modal.style.display = 'none'; 
+  }
