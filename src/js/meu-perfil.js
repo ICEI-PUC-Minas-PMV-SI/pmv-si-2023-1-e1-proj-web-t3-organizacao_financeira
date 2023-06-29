@@ -4,9 +4,25 @@ let logado = document.querySelector('.logado')
 
 logado.innerHTML = userLogado.nome
 
-if(localStorage.getitem('token') == null){
+if(localStorage.getItem('token') == null){
     alert('Você precisa estar logado para acessar essa página')
     window.location.hred = '../html/login.html'
+}
+
+function editarSenha() {
+  var senhaAntiga = document.getElementById('senhaAtual').value;    //Armazena o valor digitado na senha antiga.
+  var senhaNova = document.getElementById('senhaNova').value;       // Armazena o valor digitado na senha nova.
+  var senhaUsuarioLogado = userLogado.senha;                        // Armazena a senha salva no userLogado.
+
+  if (senhaAntiga == senhaUsuarioLogado) {  // Se a senha antiga digitada for igual à senha do userLogado...
+    var listaUsuarios = JSON.parse(localStorage.getItem('listaUser'));     //Faz procedimentos para salvar a nova senha no listaUser e userLogado.
+    listaUsuarios.senhaCad = senhaNova;
+    localStorage.setItem('listaUser', JSON.stringify(listaUser));
+  }
+
+  else {
+    alert("Senha antiga incorreta.");
+  }  
 }
 
 function sair (){
