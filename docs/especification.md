@@ -47,9 +47,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-013| Mostrar gráficos com o balanço do usuário   | MÉDIA | |
 |RF-014| Permitir que o usuário consiga suporte via formulário de mensagem  | MÉDIA | |
 |RF-015| Permitir que o usuário tenha a confirmação de cadastro através do seu email|  MÉDIA |
-|RF-016| A aplicação deve enviar ao usuário email para redefinição de senha |  ALTA |
-|RF-017| Permitir que o usuário cadastrado informe seus objetivos financeiros |  ALTA |
-|RF-018| A aplicação deve, com base na meta e renda, indicar ao usuário valor a ser poupado. |  ALTA |
+|RF-016| Permitir que o usuário cadastrado informe seus objetivos financeiros |  ALTA |
+|RF-017| A aplicação deve, com base na meta e renda, indicar ao usuário valor a ser poupado. |  ALTA |
 
 
 ### Requisitos não Funcionais
