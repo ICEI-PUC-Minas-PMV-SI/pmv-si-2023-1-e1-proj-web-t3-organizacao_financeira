@@ -67,7 +67,23 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de receitas.
 **Resultado obtido** | - 
 
-**Caso de Teste** | **CT03 - Adicionar Despesa**
+**Caso de Teste** | **CT04 - Editar Receita**
+ :--------------: | ------------
+**Procedimento**  | 1)	Usuário clica no ícone "editar" dentro de cada receita já salva, edita os valores desejados e clica em “Salvar”. <br> 2)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 3)	 A aplicação armazena os dados e mostra na tela as receita atualizadas.
+**Requisitos associados** | RF-010
+**Resultado esperado** | Receita editada
+**Dados de entrada** | Inserção de dados válidos no formulário de receitas.
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT05 - Excluir Receita**
+ :--------------: | ------------
+**Procedimento**  | 1)	Usuário clica no ícone "delete" dentro de cada receita já salva <br> 2)	 A aplicação remove a receita selecionada da tela e do Local Storage.
+**Requisitos associados** | RF-010
+**Resultado esperado** | Receita excluída
+**Dados de entrada** | -
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT06 - Adicionar Despesa**
  :--------------: | ------------
 **Procedimento**  |  -
 **Requisitos associados** | RF-011
@@ -75,15 +91,55 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de despesas.
 **Resultado obtido** | - 
 
-**Caso de Teste** | **CT03 - Adicionar Meta**
+**Caso de Teste** | **CT07 - Editar Despesa**
+ :--------------: | ------------
+**Procedimento**  | -
+**Requisitos associados** | RF-011
+**Resultado esperado** | Despesa editada
+**Dados de entrada** | Inserção de dados válidos no formulário de despesas.
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT08 - Excluir Despesa**
+ :--------------: | ------------
+**Procedimento**  | 1)	Usuário clica no ícone "delete" dentro de cada despesa já salva <br> 2)	 A aplicação remove a despesa selecionada da tela e do Local Storage.
+**Requisitos associados** | RF-011
+**Resultado esperado** | Despesa excluída
+**Dados de entrada** | -
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT09 - Adicionar Meta**
  :--------------: | ------------
 **Procedimento**  |  1)	Usuário clica em “Adicionar meta” e preenche os dados “Dê um nome para sua meta”, “Valor total da meta (R$)” e “Valor que já tenho disponível (R$)” clica em “Salvar”. <br>2) A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 3) A aplicação armazena os dados, mostra na tela as metas já adicionadas pelo usuário e calcula quanto falta para que a meta do usuário seja atingida.
 **Requisitos associados** | RF-017 e RF-018
 **Resultado esperado** | Meta adicionada
 **Dados de entrada** | Inserção de dados válidos no formulário de metas.
 **Resultado obtido** | - 
+**Caso de Teste** | **CT10 - Editar Meta**
+ :--------------: | ------------
+**Procedimento**  | 1)	Usuário clica no ícone "editar" dentro de cada meta já salva, edita os valores desejados e clica em “Salvar”. <br> 2)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 3)	 A aplicação armazena os dados e mostra na tela as metas atualizadas.
+**Requisitos associados** | RF-017 e RF-018
+**Resultado esperado** | Meta editada
+**Dados de entrada** | Inserção de dados válidos no formulário de metas.
+**Resultado obtido** | - 
 
-**Caso de Teste** | **CT03 - Excluir conta**
+**Caso de Teste** | **CT11 - Excluir Meta**
+ :--------------: | ------------
+**Procedimento**  | 1)	Usuário clica no ícone "delete" dentro de cada meta já salva <br> 2)	 A aplicação remove a meta selecionada da tela e do Local Storage.
+**Requisitos associados** | RF-017 e RF-018
+**Resultado esperado** | Meta excluída
+**Dados de entrada** | -
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT12 - Alterar Senha**
+ :--------------: | ------------
+**Procedimento**  | 1)	Na página "Meu Perfil", usuário clica na opção "alterar senha", digita a sua senha atual e nova senha. <br> 2)	 A aplicação confere se o primeiro dado inserido corresponde ao que está salvo no Local Storage e informa ao usuário caso não seja. <br> 3) A aplicação substitui e armazena o dado atualizado.
+**Requisitos associados** | RF-008
+**Resultado esperado** | Senha alterada
+**Dados de entrada** | Inserção de dado válido para alteração de senha
+**Resultado obtido** | - 
+
+
+**Caso de Teste** | **CT13 - Excluir conta**
  :--------------: | ------------
 **Procedimento**  |  1)	Usuário entra no ambiente “Meu Perfil” e clica em “Excluir Conta”. <br> 2) Usuário confirma a sua senha para que a exclusão da conta seja feita. <br> 3) A aplicação verifica se o dado fornecido confere com o dado armazenado e informa caso não seja. <br> 4) A aplicação exclui os dados de cadastro do usuário e o direciona para a tela de login.
 **Requisitos associados** | RF-008
