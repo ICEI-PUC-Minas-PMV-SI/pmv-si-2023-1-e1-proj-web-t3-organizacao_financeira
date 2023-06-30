@@ -205,12 +205,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*TC-06 - Alterar Senha*                                         |
 |---|---|
-|Requisitos Associados |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração). |
+|Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração). |
 |Link do vídeo do teste realizado: | - | 
 
 |*Caso de Teste*                                 |*TC-07 - Excluir Conta*                                         |
 |---|---|
-|Requisitos Associados |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração). |
+|Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração). |
 |Link do vídeo do teste realizado: | - | 
 
 |*Caso de Teste*                                 |*TC-08 - Contato para Suporte*                                         |
@@ -218,9 +218,9 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado |RF-014 - Permitir que o usuário consiga suporte via formulário de mensagem. |
 |Link do vídeo do teste realizado: | - | 
 
-|*Caso de Teste*                                 |*TC-09 - Relatório e Grágfico*                                         |
+|*Caso de Teste*                                 |*TC-09 - Relatório e Gráfico*                                         |
 |---|---|
-|Requisitos Associados |RF-012 - Emitir um relatório de despesas do mês; RF-013 - Mostrar gráficos com o balanço do usuário   |
+|Requisito Associado |RF-012 - Emitir um relatório de despesas do mês; RF-013 - Mostrar gráficos com o balanço do usuário   |
 |Link do vídeo do teste realizado: | - | 
 
 ## Avaliação dos Testes de Software
