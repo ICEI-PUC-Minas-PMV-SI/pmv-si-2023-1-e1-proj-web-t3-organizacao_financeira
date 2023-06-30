@@ -49,7 +49,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-008
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso. 
 
 **Caso de Teste** | **CT02 - Login do usuário**
  :--------------: | ------------
@@ -57,7 +57,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-008
 **Resultado esperado** | Usuário consegue entrar e acessar a página Minha Conta
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT03 - Adicionar Receita**
  :--------------: | ------------
@@ -65,7 +65,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-010
 **Resultado esperado** | Receita adicionada
 **Dados de entrada** | Inserção de dados válidos no formulário de receitas.
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso. 
 
 **Caso de Teste** | **CT04 - Editar Receita**
  :--------------: | ------------
@@ -73,7 +73,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-010
 **Resultado esperado** | Receita editada
 **Dados de entrada** | Inserção de dados válidos no formulário de receitas.
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT05 - Excluir Receita**
  :--------------: | ------------
@@ -81,7 +81,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-010
 **Resultado esperado** | Receita excluída.
 **Dados de entrada** | -
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT06 - Adicionar Despesa**
  :--------------: | ------------
@@ -113,7 +113,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-016 e RF-017
 **Resultado esperado** | Meta adicionada.
 **Dados de entrada** | Inserção de dados válidos no formulário de metas.
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT10 - Editar Meta**
  :--------------: | ------------
@@ -121,7 +121,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-016 e RF-017
 **Resultado esperado** | Meta editada.
 **Dados de entrada** | Inserção de dados válidos no formulário de metas.
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT11 - Excluir Meta**
  :--------------: | ------------
@@ -129,7 +129,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-016 e RF-017
 **Resultado esperado** | Meta excluída.
 **Dados de entrada** | -
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT12 - Alterar Senha**
  :--------------: | ------------
@@ -137,7 +137,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-008
 **Resultado esperado** | Senha alterada.
 **Dados de entrada** | Inserção de dado válido para alteração de senha.
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT13 - Excluir conta**
  :--------------: | ------------
@@ -145,7 +145,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-008
 **Resultado esperado** | Conta excluída.
 **Dados de entrada** | Inserção de dado válido para exclusão da conta.
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT14 - Contato para suporte**
  :--------------: | ------------
@@ -153,7 +153,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-014
 **Resultado esperado** | Mensagem enviada.
 **Dados de entrada** | Inserção de dados válidos para envio de mensagem.
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT15 - Relatório e Gráfico**
  :--------------: | ------------
