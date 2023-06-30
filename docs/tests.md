@@ -79,7 +79,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | 1)	Usuário clica no ícone "delete" dentro de cada receita já salva <br> 2)	 A aplicação remove a receita selecionada da tela e do Local Storage.
 **Requisitos associados** | RF-010
-**Resultado esperado** | Receita excluída
+**Resultado esperado** | Receita excluída.
 **Dados de entrada** | -
 **Resultado obtido** | - 
 
@@ -95,7 +95,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | -
 **Requisitos associados** | RF-011
-**Resultado esperado** | Despesa editada
+**Resultado esperado** | Despesa editada.
 **Dados de entrada** | Inserção de dados válidos no formulário de despesas.
 **Resultado obtido** | - 
 
@@ -103,31 +103,31 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | 1)	Usuário clica no ícone "delete" dentro de cada despesa já salva <br> 2)	 A aplicação remove a despesa selecionada da tela e do Local Storage.
 **Requisitos associados** | RF-011
-**Resultado esperado** | Despesa excluída
+**Resultado esperado** | Despesa excluída.
 **Dados de entrada** | -
 **Resultado obtido** | - 
 
 **Caso de Teste** | **CT09 - Adicionar Meta**
  :--------------: | ------------
 **Procedimento**  |  1)	Usuário clica em “Adicionar meta” e preenche os dados “Dê um nome para sua meta”, “Valor total da meta (R$)” e “Valor que já tenho disponível (R$)” clica em “Salvar”. <br>2) A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 3) A aplicação armazena os dados, mostra na tela as metas já adicionadas pelo usuário e calcula quanto falta para que a meta do usuário seja atingida.
-**Requisitos associados** | RF-017 e RF-018
-**Resultado esperado** | Meta adicionada
+**Requisitos associados** | RF-016 e RF-017
+**Resultado esperado** | Meta adicionada.
 **Dados de entrada** | Inserção de dados válidos no formulário de metas.
 **Resultado obtido** | - 
 
 **Caso de Teste** | **CT10 - Editar Meta**
  :--------------: | ------------
 **Procedimento**  | 1)	Usuário clica no ícone "editar" dentro de cada meta já salva, edita os valores desejados e clica em “Salvar”. <br> 2)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 3)	 A aplicação armazena os dados e mostra na tela as metas atualizadas.
-**Requisitos associados** | RF-017 e RF-018
-**Resultado esperado** | Meta editada
+**Requisitos associados** | RF-016 e RF-017
+**Resultado esperado** | Meta editada.
 **Dados de entrada** | Inserção de dados válidos no formulário de metas.
 **Resultado obtido** | - 
 
 **Caso de Teste** | **CT11 - Excluir Meta**
  :--------------: | ------------
 **Procedimento**  | 1)	Usuário clica no ícone "delete" dentro de cada meta já salva <br> 2)	 A aplicação remove a meta selecionada da tela e do Local Storage.
-**Requisitos associados** | RF-017 e RF-018
-**Resultado esperado** | Meta excluída
+**Requisitos associados** | RF-016 e RF-017
+**Resultado esperado** | Meta excluída.
 **Dados de entrada** | -
 **Resultado obtido** | - 
 
@@ -135,16 +135,32 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | 1)	Na página "Meu Perfil", usuário clica na opção "alterar senha", digita a sua senha atual e nova senha. <br> 2)	 A aplicação confere se o primeiro dado inserido corresponde ao que está salvo no Local Storage e informa ao usuário caso não seja. <br> 3) A aplicação substitui e armazena o dado atualizado.
 **Requisitos associados** | RF-008
-**Resultado esperado** | Senha alterada
-**Dados de entrada** | Inserção de dado válido para alteração de senha
+**Resultado esperado** | Senha alterada.
+**Dados de entrada** | Inserção de dado válido para alteração de senha.
 **Resultado obtido** | - 
 
 **Caso de Teste** | **CT13 - Excluir conta**
  :--------------: | ------------
 **Procedimento**  |  1)	Usuário entra no ambiente “Meu Perfil” e clica em “Excluir Conta”. <br> 2) Usuário confirma a sua senha para que a exclusão da conta seja feita. <br> 3) A aplicação verifica se o dado fornecido confere com o dado armazenado e informa caso não seja. <br> 4) A aplicação exclui os dados de cadastro do usuário e o direciona para a tela de login.
 **Requisitos associados** | RF-008
-**Resultado esperado** | Conta excluída
+**Resultado esperado** | Conta excluída.
 **Dados de entrada** | Inserção de dado válido para exclusão da conta.
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT14 - Contato para suporte**
+ :--------------: | ------------
+**Procedimento**  |  1)	Usuário entra na página "Contato” e preenche dados como nome completo, email e sua mensagem para o Economy+. <br> 2)A aplicação verifica se todos os campos foram preenchidos corretamente e informa caso não seja. <br> 4) A aplicação armazena os dados inseridos e envia uma mensagem de confirmação na tela para o usuário.
+**Requisitos associados** | RF-014
+**Resultado esperado** | Mensagem enviada.
+**Dados de entrada** | Inserção de dados válidos para envio de mensagem.
+**Resultado obtido** | - 
+
+**Caso de Teste** | **CT15 - Relatório e Gráfico**
+ :--------------: | ------------
+**Procedimento**  |  -
+**Requisitos associados** | RF-012 e RF-013
+**Resultado esperado** | Relatório e Gráfico gerados.
+**Dados de entrada** | Inserção de dados válidos para exibição de reltório e gráfico.
 **Resultado obtido** | - 
 
 ## Registro dos Testes de Software
@@ -161,6 +177,51 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
+## Registro dos Testes de Software - Economy+
+|*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
+|---|---|
+|Requisito Associado | RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração).|
+|Link do vídeo do teste realizado: | - | 
+
+|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
+|---|---|
+|Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração).|
+|Link do vídeo do teste realizado: | - | 
+
+|*Caso de Teste*                                 |*TC-03 - Adicionar Receita, Editar Receita e Excluir Receita*                                         |
+|---|---|
+|Requisito Associado |RF-010 - Permitir que o usuário cadastrado gerencie suas fontes de receita.|
+|Link do vídeo do teste realizado: | - | 
+
+|*Caso de Teste*                                 |*TC-04 - Adicionar Despesa, Editar Despesa e Excluir Despesa*                                         |
+|---|---|
+|Requisito Associado |RF-011 - Permitir que o usuário cadastrado gerencie suas fontes de despesa.|
+|Link do vídeo do teste realizado: | - | 
+
+|*Caso de Teste*                                 |*TC-05 - Adicionar Meta, Editar Meta e Excluir Meta*                                         |
+|---|---|
+|Requisito Associado |RF-016 - Permitir que o usuário cadastrado informe seus objetivos financeiros <br> RF-017 - A aplicação deve, com base na meta e renda, indicar ao usuário valor a ser poupado.|
+|Link do vídeo do teste realizado: | - | 
+
+|*Caso de Teste*                                 |*TC-06 - Alterar Senha*                                         |
+|---|---|
+|Requisitos Associados |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração). |
+|Link do vídeo do teste realizado: | - | 
+
+|*Caso de Teste*                                 |*TC-07 - Excluir Conta*                                         |
+|---|---|
+|Requisitos Associados |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração). |
+|Link do vídeo do teste realizado: | - | 
+
+|*Caso de Teste*                                 |*TC-08 - Contato para Suporte*                                         |
+|---|---|
+|Requisito Associado |RF-014 - Permitir que o usuário consiga suporte via formulário de mensagem. |
+|Link do vídeo do teste realizado: | - | 
+
+|*Caso de Teste*                                 |*TC-09 - Relatório e Grágfico*                                         |
+|---|---|
+|Requisitos Associados |RF-012 - Emitir um relatório de despesas do mês; RF-013 - Mostrar gráficos com o balanço do usuário   |
+|Link do vídeo do teste realizado: | - | 
 
 ## Avaliação dos Testes de Software
 
