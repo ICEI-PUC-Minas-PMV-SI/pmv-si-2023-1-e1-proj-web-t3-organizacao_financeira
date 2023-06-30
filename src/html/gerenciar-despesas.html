@@ -21,7 +21,6 @@
     <script
         src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js"></script>
     <link rel="icon" href="../img/icon.png" type="image/x-icon">
-    <script defer src="../js/main.js"></script>
 </head>
 
 <body>
@@ -73,36 +72,33 @@
 
     <div class="principal">
         <h3>Adicionar Despesa</h3>
-        <label for="modalExemplo" class="abrirModal"><span class="material-symbols-outlined">
-                add
-            </span></label>
+        <label for="modalExemplo" class="abrirModal"><span class="material-symbols-outlined">add</span></label>
         <input type="checkbox" id="modalExemplo" class="checkboxModal">
         <div class="modal">
-            <label for="modalExemplo" class="fecharModal"> <strong>X</strong></label>
+            <label for="modalExemplo" class="fecharModal"><strong>X</strong></label>
             <div class="conteudoModal">
                 <div class="modal-header">
                     <h4 class="modal-title">Adicionar Despesa</h4>
                 </div>
                 <div class="modal-body">
-
-                    <form>
+                    <form id="meuFormulario">
                         <fieldset class="grupo">
                             <div class="campo">
-                                <label for="nomeDespesa"> <strong>Nome da despesa:</strong></label>
-                                <input type="text" , name="nomeDespesa" id="nomeDespesa" required>
+                                <label for="nomeDespesa"><strong>Nome da despesa:</strong></label>
+                                <input type="text" name="nomeDespesa" id="nomeDespesa" required>
                             </div>
                             <div class="campo">
                                 <label for="valorDespesa"><strong>Valor da despesa (R$):</strong></label>
-                                <input type="number" , name="valorDespesa" id="valorDespesa" required>
+                                <input type="number" name="valorDespesa" id="valorDespesa" required>
                             </div>
                             <div class="campo">
-                                <label for="categoriaDespesa"> <strong>Categoria da despesa:</strong></label>
-                                <select id="meta" required>
+                                <label for="categoriaDespesa"><strong>Categoria da despesa:</strong></label>
+                                <select id="categoriaDespesa" required>
                                     <option selected disabled value>Selecione</option>
-                                    <option>Alimentação</option>
-                                    <option>Educação</option>
-                                    <option>Gastos domésticos</option>
-                                    <option>Lazer</option>
+                                    <option value="alimentacao">Alimentação</option>
+                                    <option value="educacao">Educação</option>
+                                    <option value="gastosDomesticos">Gastos domésticos</option>
+                                    <option value="lazer">Lazer</option>
                                 </select>
                             </div>
                         </fieldset>
@@ -168,37 +164,36 @@
     <h2 id="titulo">Minhas despesas</h2>
 
     <div class="container">
-        <div class="minhas-despesas">
-            <h4>Nome Despesa 1 <span class="material-symbols-outlined">
-                    delete
-                </span>
-                </label></h4>
+        <div class="minhas-despesas" id="despesa1">
+            <h4>Nome Despesa 1 
+                <button class="restore-btn" onclick="restaurarFormaPadrao('despesa1')">delete</button>
+            </h4>
             <br>
-            <p>Nome da despesa adicionada:</p>
-            <p>Valor: R$____,__</p>
-            <p>Categoria:</p>
+            <p id="nomeDespesa1">Nome da despesa adicionada:</p>
+            <p id="valorDespesa1">Valor: R$____,__</p>
+            <p id="categoriaDespesa1">Categoria:</p>
         </div>
-        <div class="minhas-despesas">
-            <h4>Nome Despesa 2<span class="material-symbols-outlined">
-                    delete
-                </span></h4>
+        <div class="minhas-despesas" id="despesa2">
+            <h4>Nome Despesa 2
+                <button class="restore-btn" onclick="restaurarFormaPadrao('despesa2')">delete</button>
+            </h4>
             <br>
-            <p>Nome da despesa adicionada:</p>
-            <p>Valor: R$____,__</p>
-            <p>Categoria:</p>
+            <p id="nomeDespesa2">Nome da despesa adicionada:</p>
+            <p id="valorDespesa2">Valor: R$____,__</p>
+            <p id="categoriaDespesa2">Categoria:</p>
         </div>
-        <div class="minhas-despesas">
-            <h4>Nome Despesa 3<span class="material-symbols-outlined">
-                    delete
-                </span></h4>
+        <div class="minhas-despesas" id="despesa3">
+            <h4>Nome Despesa 3
+                <button class="restore-btn" onclick="restaurarFormaPadrao('despesa3')">delete</button>
+            </h4>
             <br>
-            <p>Nome da despesa adicionada:</p>
-            <p>Valor: R$____,__</p>
-            <p>Categoria:</p>
+            <p id="nomeDespesa3">Nome da despesa adicionada:</p>
+            <p id="valorDespesa3">Valor: R$____,__</p>
+            <p id="categoriaDespesa3">Categoria:</p>
         </div>
     </div>
-
-
+    
+<script src="../js/gerenciar-despesas.js"></script>
 </body>
 
 </html>
