@@ -114,6 +114,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Meta adicionada
 **Dados de entrada** | Inserção de dados válidos no formulário de metas.
 **Resultado obtido** | - 
+
 **Caso de Teste** | **CT10 - Editar Meta**
  :--------------: | ------------
 **Procedimento**  | 1)	Usuário clica no ícone "editar" dentro de cada meta já salva, edita os valores desejados e clica em “Salvar”. <br> 2)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 3)	 A aplicação armazena os dados e mostra na tela as metas atualizadas.
@@ -137,7 +138,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Senha alterada
 **Dados de entrada** | Inserção de dado válido para alteração de senha
 **Resultado obtido** | - 
-
 
 **Caso de Teste** | **CT13 - Excluir conta**
  :--------------: | ------------
