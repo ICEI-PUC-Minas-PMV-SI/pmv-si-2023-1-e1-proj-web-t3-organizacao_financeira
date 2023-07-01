@@ -42,10 +42,11 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado obtido** | Sucesso.
 
 ## Plano de Testes de Software - Economy+
+## Plano de Testes de Software - Economy+
 
 **Caso de Teste** | **CT01 - Criar conta**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome completo, email, telefone, senha, se possui mais de 18 anos e clica em “Registrar”.<br> 2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
+**Procedimento**  | 1) Usuário acessa o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/registro.html. <br> 2)Usuário informa nome completo, email, telefone, senha, se possui mais de 18 anos e clica em “Registrar”.<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 4) A aplicação armazena os dados e direciona o usuário para a tela de login.
 **Requisitos associados** | RF-008
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
@@ -53,37 +54,21 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT02 - Login do usuário**
  :--------------: | ------------
-**Procedimento**  | 1)	Usuário informa o email e senha cadastrados. <br> 2)	A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 3)	A aplicação direciona o usuário para a página Minha Conta.
+**Procedimento**  | 1) Usuário acessa o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/login.html. <br>	2) Usuário informa o email e senha cadastrados. <br> 3)	A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 4)	A aplicação direciona o usuário para a página Minha Conta (link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/minha-conta.html).
 **Requisitos associados** | RF-008
 **Resultado esperado** | Usuário consegue entrar e acessar a página Minha Conta
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT03 - Adicionar Receita**
+**Caso de Teste** | **CT03 - Gerenciar Receitas**
  :--------------: | ------------
-**Procedimento**  | 1)	Usuário clica em “Adicionar Receita” e preenche os dados “Nome da receita”, “Valor da receita (R$)” e clica em “Salvar”. <br> 2)	 A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 3)	 A aplicação armazena os dados e mostra na tela as receitas já adicionadas pelo usuário.
+**Procedimento**  |Adicionar Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. <br> 2)	Usuário clica em “Adicionar Receita” e preenche os dados “Nome da receita”, “Valor da receita (R$)” e clica em “Salvar”. <br> 3)	 A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 4)	 A aplicação armazena os dados e mostra na tela as receitas já adicionadas pelo usuário. <br> Editar Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. 2) Usuário clica no ícone "editar" dentro de cada receita já salva, edita os valores desejados e clica em “Salvar”. <br> 3)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 4)	 A aplicação armazena os dados e mostra na tela as receita atualizadas. <br> Excluir Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. 2)Usuário clica no ícone "delete" dentro de cada receita já salva <br> 2)	 A aplicação remove a receita selecionada da tela e do Local Storage.
 **Requisitos associados** | RF-010
 **Resultado esperado** | Receita adicionada
 **Dados de entrada** | Inserção de dados válidos no formulário de receitas.
 **Resultado obtido** | Sucesso. 
 
-**Caso de Teste** | **CT04 - Editar Receita**
- :--------------: | ------------
-**Procedimento**  | 1)	Usuário clica no ícone "editar" dentro de cada receita já salva, edita os valores desejados e clica em “Salvar”. <br> 2)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 3)	 A aplicação armazena os dados e mostra na tela as receita atualizadas.
-**Requisitos associados** | RF-010
-**Resultado esperado** | Receita editada
-**Dados de entrada** | Inserção de dados válidos no formulário de receitas.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT05 - Excluir Receita**
- :--------------: | ------------
-**Procedimento**  | 1)	Usuário clica no ícone "delete" dentro de cada receita já salva <br> 2)	 A aplicação remove a receita selecionada da tela e do Local Storage.
-**Requisitos associados** | RF-010
-**Resultado esperado** | Receita excluída.
-**Dados de entrada** | -
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT06 - Adicionar Despesa**
+**Caso de Teste** | **CT06 - Gerenciar Despesas**
  :--------------: | ------------
 **Procedimento**  |  -
 **Requisitos associados** | RF-011
@@ -91,49 +76,19 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de despesas.
 **Resultado obtido** | - 
 
-**Caso de Teste** | **CT07 - Editar Despesa**
- :--------------: | ------------
-**Procedimento**  | -
-**Requisitos associados** | RF-011
-**Resultado esperado** | Despesa editada.
-**Dados de entrada** | Inserção de dados válidos no formulário de despesas.
-**Resultado obtido** | - 
 
-**Caso de Teste** | **CT08 - Excluir Despesa**
+**Caso de Teste** | **CT09 - Gerenciar Metas**
  :--------------: | ------------
-**Procedimento**  | 1)	Usuário clica no ícone "delete" dentro de cada despesa já salva <br> 2)	 A aplicação remove a despesa selecionada da tela e do Local Storage.
-**Requisitos associados** | RF-011
-**Resultado esperado** | Despesa excluída.
-**Dados de entrada** | -
-**Resultado obtido** | - 
-
-**Caso de Teste** | **CT09 - Adicionar Meta**
- :--------------: | ------------
-**Procedimento**  |  1)	Usuário clica em “Adicionar meta” e preenche os dados “Dê um nome para sua meta”, “Valor total da meta (R$)” e “Valor que já tenho disponível (R$)” clica em “Salvar”. <br>2) A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 3) A aplicação armazena os dados, mostra na tela as metas já adicionadas pelo usuário e calcula quanto falta para que a meta do usuário seja atingida.
+**Procedimento**  |  <br> Adicionar Meta <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-metas.html. <br> 2)	Usuário clica em “Adicionar meta” e preenche os dados “Dê um nome para sua meta”, “Valor total da meta (R$)” e “Valor que já tenho disponível (R$)” clica em “Salvar”. <br> 3) A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 4) A aplicação armazena os dados, mostra na tela as metas já adicionadas pelo usuário e calcula quanto falta para que a meta do usuário seja atingida. <br> Editar Meta <br>  1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-metas.html. 2)Usuário clica no ícone "editar" dentro de cada meta já salva, edita os valores desejados e clica em “Salvar”. <br> 3)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 4)	 A aplicação armazena os dados e mostra na tela as metas atualizadas. <br> Excluir Meta <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-metas.html. 2)	Usuário clica no ícone "delete" dentro de cada meta já salva <br> 3)	 A aplicação remove a meta selecionada da tela e do Local Storage.
 **Requisitos associados** | RF-016 e RF-017
 **Resultado esperado** | Meta adicionada.
 **Dados de entrada** | Inserção de dados válidos no formulário de metas.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT10 - Editar Meta**
- :--------------: | ------------
-**Procedimento**  | 1)	Usuário clica no ícone "editar" dentro de cada meta já salva, edita os valores desejados e clica em “Salvar”. <br> 2)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 3)	 A aplicação armazena os dados e mostra na tela as metas atualizadas.
-**Requisitos associados** | RF-016 e RF-017
-**Resultado esperado** | Meta editada.
-**Dados de entrada** | Inserção de dados válidos no formulário de metas.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT11 - Excluir Meta**
- :--------------: | ------------
-**Procedimento**  | 1)	Usuário clica no ícone "delete" dentro de cada meta já salva <br> 2)	 A aplicação remove a meta selecionada da tela e do Local Storage.
-**Requisitos associados** | RF-016 e RF-017
-**Resultado esperado** | Meta excluída.
-**Dados de entrada** | -
-**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT12 - Alterar Senha**
  :--------------: | ------------
-**Procedimento**  | 1)	Na página "Meu Perfil", usuário clica na opção "alterar senha", digita a sua senha atual e nova senha. <br> 2)	 A aplicação confere se o primeiro dado inserido corresponde ao que está salvo no Local Storage e informa ao usuário caso não seja. <br> 3) A aplicação substitui e armazena o dado atualizado.
+**Procedimento**  | 1) Após estar logado, na página "Minha Conta", usuário clica em "Meu perfil" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/meu-perfil.html. <br> 2)	Na página "Meu Perfil", usuário clica na opção "Alterar Senha", digita a sua senha atual e nova senha. <br> 3)	 A aplicação confere se o primeiro dado inserido corresponde ao que está salvo no Local Storage e informa ao usuário caso não seja. <br> 4) A aplicação substitui e armazena o dado atualizado.
 **Requisitos associados** | RF-008
 **Resultado esperado** | Senha alterada.
 **Dados de entrada** | Inserção de dado válido para alteração de senha.
@@ -141,7 +96,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT13 - Excluir conta**
  :--------------: | ------------
-**Procedimento**  |  1)	Usuário entra no ambiente “Meu Perfil” e clica em “Excluir Conta”. <br> 2) Usuário confirma a sua senha para que a exclusão da conta seja feita. <br> 3) A aplicação verifica se o dado fornecido confere com o dado armazenado e informa caso não seja. <br> 4) A aplicação exclui os dados de cadastro do usuário e o direciona para a tela de login.
+**Procedimento**  | 1) Após estar logado, na página "Minha Conta", usuário clica em "Meu perfil" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/meu-perfil.html. 2)	Na página "Meu Perfil", usuário clica na opção “Excluir Conta”. <br> 3) Usuário confirma a sua senha para que a exclusão da conta seja feita. <br> 4) A aplicação verifica se o dado fornecido confere com o dado armazenado e informa caso não seja. <br> 5) A aplicação exclui os dados de cadastro do usuário e o direciona para a tela de login.
 **Requisitos associados** | RF-008
 **Resultado esperado** | Conta excluída.
 **Dados de entrada** | Inserção de dado válido para exclusão da conta.
@@ -149,7 +104,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT14 - Contato para suporte**
  :--------------: | ------------
-**Procedimento**  |  1)	Usuário entra na página "Contato” e preenche dados como nome completo, email e sua mensagem para o Economy+. <br> 2)A aplicação verifica se todos os campos foram preenchidos corretamente e informa caso não seja. <br> 4) A aplicação armazena os dados inseridos e envia uma mensagem de confirmação na tela para o usuário.
+**Procedimento**  |  1) Em qualquer página da aplicação, usuário clica em "Contato" e é redirecionado, em uma nova janela, para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/contato.html 	2) Usuário preenche dados como nome completo, email e sua mensagem para o Economy+. <br> 3) A aplicação verifica se todos os campos foram preenchidos corretamente e informa caso não seja. <br> 4) A aplicação armazena os dados inseridos e envia uma mensagem de confirmação na tela para o usuário.
 **Requisitos associados** | RF-014
 **Resultado esperado** | Mensagem enviada.
 **Dados de entrada** | Inserção de dados válidos para envio de mensagem.
@@ -162,6 +117,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | Relatório e Gráfico gerados.
 **Dados de entrada** | Inserção de dados válidos para exibição de reltório e gráfico.
 **Resultado obtido** | - 
+
 
 ## Registro dos Testes de Software
 
