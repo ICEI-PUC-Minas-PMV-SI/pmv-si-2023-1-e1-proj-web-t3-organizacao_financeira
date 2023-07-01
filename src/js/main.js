@@ -16,7 +16,7 @@ if (currentHostname == localHostname) {
     ];
 }
 else {
-    redirectPage = "https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/";
+    redirectPage = "https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/login.html";
     paginasProtegidas = [
         '/html/gerenciar-receitas.html',
         '/html/gerenciar-metas.html',
