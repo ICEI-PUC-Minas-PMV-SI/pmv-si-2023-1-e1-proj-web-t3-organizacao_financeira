@@ -6,6 +6,7 @@ function inserirDespesa() {
     let id = counter + 1;
     let nome = document.getElementById('nome').value;
     let vlTotal = document.getElementById('vlTotal').value;
+    let categoriaDespesa = document.getElementById('categoriaDespesa').value;
     let dataCriacao = new Date();
 
     let despesa = {
@@ -15,6 +16,7 @@ function inserirDespesa() {
         userEmail: usuario.email,
         nome: nome,
         vlTotal: vlTotal,
+        categoriaDespesa: categoriaDespesa
     }
 
     despesas.push(despesa);
@@ -36,18 +38,22 @@ function exibirDespesas() {
     
                 const elementoNome = document.createElement('h4');
                 const elementoVlTotal = document.createElement('p');
+                const elementoCategoria = document.createElement('p'); // Novo elemento para a categoria
     
                 const nome = document.createTextNode(despesa.nome);
                 const vlTotal = document.createTextNode(`Total: ${total}`);
+                const categoria = document.createTextNode(`Categoria: ${despesa.categoriaDespesa}`); // Valor da categoria
                 
                 elementoNome.appendChild(nome);
                 elementoNome.innerHTML += "<span class=\"material-symbols-outlined\" data-bs-toggle=\"modal\" data-bs-target=\"#editDespesaModal\" onclick=\"preparaFormAtualizacao("+despesa.id+")\">edit</span>";
                 elementoNome.innerHTML += "<span class=\"material-symbols-outlined\" onclick=\"excluirDespesa("+despesa.id+")\">delete</span>";
                 elementoVlTotal.appendChild(vlTotal);
+                elementoCategoria.appendChild(categoria); // Adiciona o valor da categoria ao elemento
               
                 newDiv.appendChild(elementoNome);
                 newDiv.appendChild(newBR);
                 newDiv.appendChild(elementoVlTotal);
+                newDiv.appendChild(elementoCategoria); // Adiciona o elemento da categoria ao newDiv
                
                 listaDespesas.appendChild(newDiv);
             }
