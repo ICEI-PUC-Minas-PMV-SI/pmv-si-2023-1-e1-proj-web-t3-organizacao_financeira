@@ -104,7 +104,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT14 - Contato para suporte**
  :--------------: | ------------
-**Procedimento**  |  1) Em qualquer página da aplicação, usuário clica em "Contato" e é redirecionado, em uma nova janela, para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/contato.html 	2) Usuário preenche dados como nome completo, email e sua mensagem para o Economy+. <br> 3) A aplicação verifica se todos os campos foram preenchidos corretamente e informa caso não seja. <br> 4) A aplicação armazena os dados inseridos e envia uma mensagem de confirmação na tela para o usuário.
+**Procedimento**  |  1) Em qualquer página da aplicação, usuário clica em "Contato" e é redirecionado, em uma nova janela, para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/contato.html <br>	2) Usuário preenche dados como nome completo, email e sua mensagem para o Economy+. <br> 3) A aplicação verifica se todos os campos foram preenchidos corretamente e informa caso não seja. <br> 4) A aplicação armazena os dados inseridos e envia uma mensagem de confirmação na tela para o usuário.
 **Requisitos associados** | RF-014
 **Resultado esperado** | Mensagem enviada.
 **Dados de entrada** | Inserção de dados válidos para envio de mensagem.
@@ -139,22 +139,22 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração).|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1coDE10TK2F16eWTlJfraHiBwxBstXf22/view?usp=sharing | 
 
-|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
+|*Caso de Teste*                                 |*TC-02 - Login do usuári*                                         |
 |---|---|
 |Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração).|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1LMiYN115l3l709kpoUnX6l46jfjYmAjo/view?usp=sharing | 
 
-|*Caso de Teste*                                 |*TC-03 - Adicionar Receita, Editar Receita e Excluir Receita*                                         |
+|*Caso de Teste*                                 |*TC-03 - Gerenciar Receitas*                                         |
 |---|---|
 |Requisito Associado |RF-010 - Permitir que o usuário cadastrado gerencie suas fontes de receita.|
 |Link do vídeo do teste realizado: | - | 
 
-|*Caso de Teste*                                 |*TC-04 - Adicionar Despesa, Editar Despesa e Excluir Despesa*                                         |
+|*Caso de Teste*                                 |*TC-04 - Gerenciar Despesas*                                         |
 |---|---|
 |Requisito Associado |RF-011 - Permitir que o usuário cadastrado gerencie suas fontes de despesa.|
 |Link do vídeo do teste realizado: | - | 
 
-|*Caso de Teste*                                 |*TC-05 - Adicionar Meta, Editar Meta e Excluir Meta*                                         |
+|*Caso de Teste*                                 |*TC-05 - Gerenciar Metas*                                         |
 |---|---|
 |Requisito Associado |RF-016 - Permitir que o usuário cadastrado informe seus objetivos financeiros <br> RF-017 - A aplicação deve, com base na meta e renda, indicar ao usuário valor a ser poupado.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1XZeIq3qmMFaSWZrDHZ1cmRxfi861wSEi/view?usp=sharing | 
