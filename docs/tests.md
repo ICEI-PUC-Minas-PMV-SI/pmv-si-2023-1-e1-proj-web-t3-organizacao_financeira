@@ -64,7 +64,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  |Adicionar Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. <br> 2)	Usuário clica em “Adicionar Receita” e preenche os dados “Nome da receita”, “Valor da receita (R$)” e clica em “Salvar”. <br> 3)	 A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 4)	 A aplicação armazena os dados e mostra na tela as receitas já adicionadas pelo usuário. <br> Editar Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. 2) Usuário clica no ícone "editar" dentro de cada receita já salva, edita os valores desejados e clica em “Salvar”. <br> 3)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 4)	 A aplicação armazena os dados e mostra na tela as receita atualizadas. <br> Excluir Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. 2)Usuário clica no ícone "delete" dentro de cada receita já salva <br> 2)	 A aplicação remove a receita selecionada da tela e do Local Storage.
 **Requisitos associados** | RF-010
-**Resultado esperado** | Receita adicionada
+**Resultado esperado** | Receita adicionada, editada ou excluída.
 **Dados de entrada** | Inserção de dados válidos no formulário de receitas.
 **Resultado obtido** | Sucesso. 
 
@@ -72,7 +72,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  |  -
 **Requisitos associados** | RF-011
-**Resultado esperado** | Despesa adicionada.
+**Resultado esperado** | Despesa adicionada, editada ou excluída.
 **Dados de entrada** | Inserção de dados válidos no formulário de despesas.
 **Resultado obtido** | - 
 
@@ -81,7 +81,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  |  <br> Adicionar Meta <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-metas.html. <br> 2)	Usuário clica em “Adicionar meta” e preenche os dados “Dê um nome para sua meta”, “Valor total da meta (R$)” e “Valor que já tenho disponível (R$)” clica em “Salvar”. <br> 3) A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 4) A aplicação armazena os dados, mostra na tela as metas já adicionadas pelo usuário e calcula quanto falta para que a meta do usuário seja atingida. <br> Editar Meta <br>  1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-metas.html. 2)Usuário clica no ícone "editar" dentro de cada meta já salva, edita os valores desejados e clica em “Salvar”. <br> 3)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 4)	 A aplicação armazena os dados e mostra na tela as metas atualizadas. <br> Excluir Meta <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-metas.html. 2)	Usuário clica no ícone "delete" dentro de cada meta já salva <br> 3)	 A aplicação remove a meta selecionada da tela e do Local Storage.
 **Requisitos associados** | RF-016 e RF-017
-**Resultado esperado** | Meta adicionada.
+**Resultado esperado** | Meta adicionada, editada ou excluída.
 **Dados de entrada** | Inserção de dados válidos no formulário de metas.
 **Resultado obtido** | Sucesso.
 
@@ -139,7 +139,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração).|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1coDE10TK2F16eWTlJfraHiBwxBstXf22/view?usp=sharing | 
 
-|*Caso de Teste*                                 |*CT-02 - Login do usuáriO*                                         |
+|*Caso de Teste*                                 |*CT-02 - Login do usuário*                                         |
 |---|---|
 |Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração).|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1LMiYN115l3l709kpoUnX6l46jfjYmAjo/view?usp=sharing | 
