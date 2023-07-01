@@ -225,6 +225,16 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
 | 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
 
+## Cenários de Teste de Usabilidade - Economy+
+
+| Nº do Cenário | Descrição do cenário |
+|---------------|----------------------|
+| 1             | Você é uma pessoa que deseja ter acesso ao ambiente restrito do Economy+ para registrar e organizar as suas finanças. Faça o registro e login na apicação. |
+| 2             | Você é uma pessoa que deseja ter um controle maior de seus gastos. Encontre no site o local para adicionar despesas e registre uma despesa. Em seguida, corrija o valor desta despesa.  |
+| 3             | Você é uma pessoa que deseja poupar um valor para fazer uma viagem e precisa de um local para armazenar e atualizar o quanto já possui guardado. Encontre a área de gerenciar metas e crie uma meta, completando os campos corretamente. Em seguida, altere o valor que já possui para um número superior ao anteriormente digitado. |
+| 4             | Você é uma pessoa que deseja ter um maior controle de suas receitas. Encontre no site o local para armazenar suas receitas e registre uma receita. Em seguida, exclua a receita adicionada.  |
+| 5            | Você é uma pessoa que já possui acesso à área restrita do Economy+, está logado e deseja alterar a sua senha. Encontre no site a área para alteração de senha.  |
+| 6           | Você é uma pessoa que deseja entrar em contato com a equipe Economy+. Encontre no site o local para enviar sua mensagem. Em seguida, envie qualquer mensagem simples para a equipe, preenchendo todos os campos. |
 
 
 ## Registro de Testes de Usabilidade
