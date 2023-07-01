@@ -181,12 +181,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
 |---|---|
 |Requisito Associado | RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração).|
-|Link do vídeo do teste realizado: | - | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1coDE10TK2F16eWTlJfraHiBwxBstXf22/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
 |---|---|
 |Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração).|
-|Link do vídeo do teste realizado: | - | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1LMiYN115l3l709kpoUnX6l46jfjYmAjo/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*TC-03 - Adicionar Receita, Editar Receita e Excluir Receita*                                         |
 |---|---|
