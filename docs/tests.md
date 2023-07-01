@@ -68,7 +68,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de receitas.
 **Resultado obtido** | Sucesso. 
 
-**Caso de Teste** | **CT06 - Gerenciar Despesas**
+**Caso de Teste** | **CT04 - Gerenciar Despesas**
  :--------------: | ------------
 **Procedimento**  |  -
 **Requisitos associados** | RF-011
@@ -77,7 +77,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado obtido** | - 
 
 
-**Caso de Teste** | **CT09 - Gerenciar Metas**
+**Caso de Teste** | **CT05 - Gerenciar Metas**
  :--------------: | ------------
 **Procedimento**  |  <br> Adicionar Meta <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-metas.html. <br> 2)	Usuário clica em “Adicionar meta” e preenche os dados “Dê um nome para sua meta”, “Valor total da meta (R$)” e “Valor que já tenho disponível (R$)” clica em “Salvar”. <br> 3) A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 4) A aplicação armazena os dados, mostra na tela as metas já adicionadas pelo usuário e calcula quanto falta para que a meta do usuário seja atingida. <br> Editar Meta <br>  1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-metas.html. 2)Usuário clica no ícone "editar" dentro de cada meta já salva, edita os valores desejados e clica em “Salvar”. <br> 3)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 4)	 A aplicação armazena os dados e mostra na tela as metas atualizadas. <br> Excluir Meta <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Metas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-metas.html. 2)	Usuário clica no ícone "delete" dentro de cada meta já salva <br> 3)	 A aplicação remove a meta selecionada da tela e do Local Storage.
 **Requisitos associados** | RF-016 e RF-017
@@ -86,7 +86,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado obtido** | Sucesso.
 
 
-**Caso de Teste** | **CT12 - Alterar Senha**
+**Caso de Teste** | **CT06 - Alterar Senha**
  :--------------: | ------------
 **Procedimento**  | 1) Após estar logado, na página "Minha Conta", usuário clica em "Meu perfil" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/meu-perfil.html. <br> 2)	Na página "Meu Perfil", usuário clica na opção "Alterar Senha", digita a sua senha atual e nova senha. <br> 3)	 A aplicação confere se o primeiro dado inserido corresponde ao que está salvo no Local Storage e informa ao usuário caso não seja. <br> 4) A aplicação substitui e armazena o dado atualizado.
 **Requisitos associados** | RF-008
@@ -94,7 +94,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dado válido para alteração de senha.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT13 - Excluir conta**
+**Caso de Teste** | **CT07 - Excluir conta**
  :--------------: | ------------
 **Procedimento**  | 1) Após estar logado, na página "Minha Conta", usuário clica em "Meu perfil" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/meu-perfil.html. 2)	Na página "Meu Perfil", usuário clica na opção “Excluir Conta”. <br> 3) Usuário confirma a sua senha para que a exclusão da conta seja feita. <br> 4) A aplicação verifica se o dado fornecido confere com o dado armazenado e informa caso não seja. <br> 5) A aplicação exclui os dados de cadastro do usuário e o direciona para a tela de login.
 **Requisitos associados** | RF-008
@@ -102,7 +102,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dado válido para exclusão da conta.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT14 - Contato para suporte**
+**Caso de Teste** | **CT08 - Contato para suporte**
  :--------------: | ------------
 **Procedimento**  |  1) Em qualquer página da aplicação, usuário clica em "Contato" e é redirecionado, em uma nova janela, para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/contato.html <br>	2) Usuário preenche dados como nome completo, email e sua mensagem para o Economy+. <br> 3) A aplicação verifica se todos os campos foram preenchidos corretamente e informa caso não seja. <br> 4) A aplicação armazena os dados inseridos e envia uma mensagem de confirmação na tela para o usuário.
 **Requisitos associados** | RF-014
@@ -110,7 +110,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos para envio de mensagem.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT15 - Relatório e Gráfico**
+**Caso de Teste** | **CT09 - Relatório e Gráfico**
  :--------------: | ------------
 **Procedimento**  |  -
 **Requisitos associados** | RF-012 e RF-013
@@ -134,47 +134,47 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 ## Registro dos Testes de Software - Economy+
-|*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
+|*Caso de Teste*                                 |*CT-01 - Criar uma conta*                                         |
 |---|---|
 |Requisito Associado | RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração).|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1coDE10TK2F16eWTlJfraHiBwxBstXf22/view?usp=sharing | 
 
-|*Caso de Teste*                                 |*TC-02 - Login do usuári*                                         |
+|*Caso de Teste*                                 |*CT-02 - Login do usuáriO*                                         |
 |---|---|
 |Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração).|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1LMiYN115l3l709kpoUnX6l46jfjYmAjo/view?usp=sharing | 
 
-|*Caso de Teste*                                 |*TC-03 - Gerenciar Receitas*                                         |
+|*Caso de Teste*                                 |*CT-03 - Gerenciar Receitas*                                         |
 |---|---|
 |Requisito Associado |RF-010 - Permitir que o usuário cadastrado gerencie suas fontes de receita.|
 |Link do vídeo do teste realizado: | - | 
 
-|*Caso de Teste*                                 |*TC-04 - Gerenciar Despesas*                                         |
+|*Caso de Teste*                                 |*CT-04 - Gerenciar Despesas*                                         |
 |---|---|
 |Requisito Associado |RF-011 - Permitir que o usuário cadastrado gerencie suas fontes de despesa.|
 |Link do vídeo do teste realizado: | - | 
 
-|*Caso de Teste*                                 |*TC-05 - Gerenciar Metas*                                         |
+|*Caso de Teste*                                 |*CT-05 - Gerenciar Metas*                                         |
 |---|---|
 |Requisito Associado |RF-016 - Permitir que o usuário cadastrado informe seus objetivos financeiros <br> RF-017 - A aplicação deve, com base na meta e renda, indicar ao usuário valor a ser poupado.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1XZeIq3qmMFaSWZrDHZ1cmRxfi861wSEi/view?usp=sharing | 
 
-|*Caso de Teste*                                 |*TC-06 - Alterar Senha*                                         |
+|*Caso de Teste*                                 |*CT-06 - Alterar Senha*                                         |
 |---|---|
 |Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração). |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1u9lKB0NkjQGcTyxrh1aSkU25Fz0d6_O7/view?usp=sharing | 
 
-|*Caso de Teste*                                 |*TC-07 - Excluir Conta*                                         |
+|*Caso de Teste*                                 |*CT-07 - Excluir Conta*                                         |
 |---|---|
 |Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração). |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/13WDneX5I4paLfZ_Sd6lMQDATes3sd82p/view?usp=sharing | 
 
-|*Caso de Teste*                                 |*TC-08 - Contato para Suporte*                                         |
+|*Caso de Teste*                                 |*CT-08 - Contato para Suporte*                                         |
 |---|---|
 |Requisito Associado |RF-014 - Permitir que o usuário consiga suporte via formulário de mensagem. |
 |Link do vídeo do teste realizado: | - | 
 
-|*Caso de Teste*                                 |*TC-09 - Relatório e Gráfico*                                         |
+|*Caso de Teste*                                 |*CT-09 - Relatório e Gráfico*                                         |
 |---|---|
 |Requisito Associado |RF-012 - Emitir um relatório de despesas do mês; RF-013 - Mostrar gráficos com o balanço do usuário   |
 |Link do vídeo do teste realizado: | - | 
