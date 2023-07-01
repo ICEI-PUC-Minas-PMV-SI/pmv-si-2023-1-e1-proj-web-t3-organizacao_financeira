@@ -201,17 +201,17 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-05 - Adicionar Meta, Editar Meta e Excluir Meta*                                         |
 |---|---|
 |Requisito Associado |RF-016 - Permitir que o usuário cadastrado informe seus objetivos financeiros <br> RF-017 - A aplicação deve, com base na meta e renda, indicar ao usuário valor a ser poupado.|
-|Link do vídeo do teste realizado: | - | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1XZeIq3qmMFaSWZrDHZ1cmRxfi861wSEi/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*TC-06 - Alterar Senha*                                         |
 |---|---|
 |Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração). |
-|Link do vídeo do teste realizado: | - | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1u9lKB0NkjQGcTyxrh1aSkU25Fz0d6_O7/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*TC-07 - Excluir Conta*                                         |
 |---|---|
 |Requisito Associado |RF-008 - Permitir que o usuário gerencie seu cadastro (cadastro, exclusão, consulta e alteração). |
-|Link do vídeo do teste realizado: | - | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/13WDneX5I4paLfZ_Sd6lMQDATes3sd82p/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*TC-08 - Contato para Suporte*                                         |
 |---|---|
