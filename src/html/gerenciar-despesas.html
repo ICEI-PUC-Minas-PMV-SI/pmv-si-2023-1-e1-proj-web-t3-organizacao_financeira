@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Economy + -Gerenciar Despesas</title>
+    <title>Economy + - Gerenciar Despesas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
@@ -18,11 +18,11 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script
-        src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js"></script>
+    <script src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js"></script>
     <link rel="icon" href="../img/icon.png" type="image/x-icon">
+    <script defer src="../js/main.js"></script>
+    <script defer src="../js/gerenciar-despesas.js"></script>
 </head>
-
 <body>
     <!--Menu bar/hamburguer menu-->
     <header>
@@ -38,8 +38,7 @@
                             <a class="nav-link text-light" href="../html/minha-conta.html">Minha Conta</a>
                         </li>
                         <li class="nav-item">
-                            <a id="dolar" class="nav-link text-light" href="https://www.bcb.gov.br/conversao"
-                                target="_blank">Dólar: R$...</a>
+                            <a id="dolar" class="nav-link text-light" href="https://www.bcb.gov.br/conversao" target="_blank">Dólar: R$...</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="../html/sobre.html">Sobre</a>
@@ -66,134 +65,84 @@
     </header>
 
     <h1 id="titulo">Gerenciar Despesas</h1>
-    <p class="subtitulo"> Adicione e edite suas despesas aqui! Utilizaremos esses dados para gerar o seu relatório.</p>
+    <p class="subtitulo">Adicione e edite suas despesas aqui! Utilizaremos esses dados para gerar o seu relatório.</p>
 
     <br>
 
+    <!-- Modal para inserir despesa -->
     <div class="principal">
         <h3>Adicionar Despesa</h3>
-        <label for="modalExemplo" class="abrirModal"><span class="material-symbols-outlined">add</span></label>
+        <label for="modalExemplo" class="abrirModal"><span class="material-symbols-outlined">
+                add
+            </span></label>
         <input type="checkbox" id="modalExemplo" class="checkboxModal">
         <div class="modal">
-            <label for="modalExemplo" class="fecharModal"><strong>X</strong></label>
             <div class="conteudoModal">
-                <div class="modal-header">
-                    <h4 class="modal-title">Adicionar Despesa</h4>
-                </div>
                 <div class="modal-body">
-                    <form id="meuFormulario">
+                    <label for="modalExemplo" class="fecharModal"> <strong>X</strong></label>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Adicionar Despesa</h4>
+                    </div>
+
+                    <form id="inserir-meta" onsubmit="inserirDespesa()">
                         <fieldset class="grupo">
                             <div class="campo">
-                                <label for="nomeDespesa"><strong>Nome da despesa:</strong></label>
-                                <input type="text" name="nomeDespesa" id="nomeDespesa" required>
+                                <label for="nome"> <strong>Nome da despesa:</strong></label>
+                                <input type="text" name="nome" id="nome" required>
                             </div>
                             <div class="campo">
-                                <label for="valorDespesa"><strong>Valor da despesa (R$):</strong></label>
-                                <input type="number" name="valorDespesa" id="valorDespesa" required>
+                                <label for="vlTotal"><strong>Valor da despesa(R$):</strong></label>
+                                <input type="number" min="1" step="any" name="vlTotal" id="vlTotal" required>
                             </div>
-                            <div class="campo">
-                                <label for="categoriaDespesa"><strong>Categoria da despesa:</strong></label>
-                                <select id="categoriaDespesa" required>
-                                    <option selected disabled value>Selecione</option>
-                                    <option value="alimentacao">Alimentação</option>
-                                    <option value="educacao">Educação</option>
-                                    <option value="gastosDomesticos">Gastos domésticos</option>
-                                    <option value="lazer">Lazer</option>
-                                </select>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                <button class="botao" type="submit">Salvar Despesa</button>
                             </div>
                         </fieldset>
-
-                </div>
-                <div class="modal-footer">
-                    <button class="botao" type="submit">Salvar</button>
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 
-    <br>
-    <div class="principal">
-        <h3>Editar Despesa</h3>
-        <label for="modalExemplo2" class="abrirModal2"><span class="material-symbols-outlined">
-                edit
-            </span></label>
-        <input type="checkbox" id="modalExemplo2" class="checkboxModal2">
-        <div class="modal">
-            <label for="modalExemplo2" class="fecharModal2"> <strong>X</strong></label>
-            <div class="conteudoModal2">
+    <!-- Modal para atualizar meta -->
+    <div id="editDespesaModal" class="modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Editar despesa</h4>
+                    <h4 class="modal-title">Atualizar Despesa</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-
-                    <form>
+                    <form id="inserir-meta" onsubmit="atualizarDespesa()">
                         <fieldset class="grupo">
                             <div class="campo">
-                                <label for="editarDespesa"> <strong>Selecione qual despesa você deseja editar</strong></label>
-                                <select id="meta" required>
-                                    <option selected disabled value>Selecione</option>
-                                    <option>Nome despesa 1</option>
-                                    <option>Nome despesa 2</option>
-                                    <option>Nome despesa 3</option>
-                                </select>
+                                <input type="hidden" name="despesaId" id="despesaId" value="">
                             </div>
                             <div class="campo">
-                                <label for="novoNomeDespesa"><strong>Novo nome da despesa: </strong></label>
-                                <input type="text" , name="novoNomeDespesa" id="novoNomeDespesa" required>
+                                <label for="editNome"> <strong>Novo nome da despesa:</strong></label>
+                                <input type="text" name="editNome" id="editNome" required>
                             </div>
                             <div class="campo">
-                                <label for="novoValorDespesa"> <strong>Novo valor da despesa (R$): </strong></label>
-                                <input type="number" , name="novoValorDespesa" id="novoValorDespesa" required>
+                                <label for="editVlTotal"><strong>Novo valor da despesa (R$):</strong></label>
+                                <input type="number" min="1" step="any" name="editVlTotal" id="editVlTotal" required>
                             </div>
-
+                            <div class="modal-footer">
+                                <button type="button" class="btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                <button id="botaoSalvar" class="btn btn-primary" type="submit">Salvar Despesa</button>
+                            </div>
                         </fieldset>
-
-                </div>
-                <div class="modal-footer">
-                    <button class="botao" type="submit">Salvar despesa</button>
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 
+    <h2 id="titulo">Minhas Despesas:</h2>
 
-    <h2 id="titulo">Minhas despesas</h2>
-
-    <div class="container">
-        <div class="minhas-despesas" id="despesa1">
-            <h4>Nome Despesa 1 
-                <button class="restore-btn" onclick="restaurarFormaPadrao('despesa1')">delete</button>
-            </h4>
-            <br>
-            <p id="nomeDespesa1">Nome da despesa adicionada:</p>
-            <p id="valorDespesa1">Valor: R$____,__</p>
-            <p id="categoriaDespesa1">Categoria:</p>
-        </div>
-        <div class="minhas-despesas" id="despesa2">
-            <h4>Nome Despesa 2
-                <button class="restore-btn" onclick="restaurarFormaPadrao('despesa2')">delete</button>
-            </h4>
-            <br>
-            <p id="nomeDespesa2">Nome da despesa adicionada:</p>
-            <p id="valorDespesa2">Valor: R$____,__</p>
-            <p id="categoriaDespesa2">Categoria:</p>
-        </div>
-        <div class="minhas-despesas" id="despesa3">
-            <h4>Nome Despesa 3
-                <button class="restore-btn" onclick="restaurarFormaPadrao('despesa3')">delete</button>
-            </h4>
-            <br>
-            <p id="nomeDespesa3">Nome da despesa adicionada:</p>
-            <p id="valorDespesa3">Valor: R$____,__</p>
-            <p id="categoriaDespesa3">Categoria:</p>
-        </div>
+    <div class="container" id="despesas-criadas">
+        
     </div>
-    
-<script src="../js/gerenciar-despesas.js"></script>
+
 </body>
-
 </html>
