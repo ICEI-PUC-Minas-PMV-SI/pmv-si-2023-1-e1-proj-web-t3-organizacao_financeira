@@ -46,7 +46,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT01 - Criar conta**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário acessa o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/registro.html. <br> 2)Usuário informa nome completo, email, telefone, senha, se possui mais de 18 anos e clica em “Registrar”.<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 4) A aplicação armazena os dados e direciona o usuário para a tela de login.
+**Procedimento**  | 1) Usuário acessa o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/registro.html. <br> 2) Usuário informa nome completo, email, telefone, senha, se possui mais de 18 anos e clica em “Registrar”.<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 4) A aplicação armazena os dados e direciona o usuário para a tela de login.
 **Requisitos associados** | RF-008
 **Resultado esperado** | Criação de cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
@@ -62,7 +62,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT03 - Gerenciar Receitas**
  :--------------: | ------------
-**Procedimento**  |Adicionar Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Receitas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. <br> 2)	Usuário clica em “Adicionar Receita” e preenche os dados “Nome da receita”, “Valor da receita (R$)” e clica em “Salvar”. <br> 3)	 A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 4)	 A aplicação armazena os dados e mostra na tela as receitas já adicionadas pelo usuário. <br> Editar Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Receitas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. 2) Usuário clica no ícone "editar" dentro de cada receita já salva, edita os valores desejados e clica em “Salvar”. <br> 3)	 A aplicação verifica se os dados são preenchidos corretamente. <br> 4)	 A aplicação armazena os dados e mostra na tela as receita atualizadas. <br> Excluir Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Receitas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. 2)Usuário clica no ícone "delete" dentro de cada receita já salva <br> 2)	 A aplicação remove a receita selecionada da tela e do Local Storage.
+**Procedimento**  |Adicionar Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Receitas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. <br> 2)	Usuário clica em “Adicionar Receita” e preenche os dados “Nome da receita”, “Valor da receita (R$)” e clica em “Salvar”. <br> 3) A aplicação verifica se os dados são preenchidos corretamente e informa ao usuário caso não sejam. <br> 4) A aplicação armazena os dados e mostra na tela as receitas já adicionadas pelo usuário. <br> Editar Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Receitas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. 2) Usuário clica no ícone "editar" dentro de cada receita já salva, edita os valores desejados e clica em “Salvar”. <br> 3) A aplicação verifica se os dados são preenchidos corretamente. <br> 4) A aplicação armazena os dados e mostra na tela as receita atualizadas. <br> Excluir Receita <br> 1) Após ter feito o login, na página "Minha Conta", usuário clica em "Gerenciar Receitas" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/gerenciar-receitas.html. 2)Usuário clica no ícone "delete" dentro de cada receita já salva <br> 2)	 A aplicação remove a receita selecionada da tela e do Local Storage.
 **Requisitos associados** | RF-010
 **Resultado esperado** | Receita adicionada, editada ou excluída.
 **Dados de entrada** | Inserção de dados válidos no formulário de receitas.
@@ -104,7 +104,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT08 - Contato para suporte**
  :--------------: | ------------
-**Procedimento**  |  1) Em qualquer página da aplicação, usuário clica em "Contato" e é redirecionado, em uma nova janela, para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/contato.html <br>	2) Usuário preenche dados como nome completo, email e sua mensagem para o Economy+. <br> 3) A aplicação verifica se todos os campos foram preenchidos corretamente e informa caso não seja. <br> 4) A aplicação armazena os dados inseridos e envia uma mensagem de confirmação na tela para o usuário.
+**Procedimento**  |  1) Em qualquer página da aplicação, usuário clica em "Contato" e é redirecionado, em uma nova janela, para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/contato.html <br>	2) Usuário preenche dados como nome completo, email e sua mensagem para o Economy+. <br> 3) A aplicação verifica se todos os campos foram preenchidos corretamente e informa caso não sejam. <br> 4) A aplicação armazena os dados inseridos e envia uma mensagem de confirmação na tela para o usuário.
 **Requisitos associados** | RF-014
 **Resultado esperado** | Mensagem enviada.
 **Dados de entrada** | Inserção de dados válidos para envio de mensagem.
@@ -112,7 +112,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT09 - Relatório e Gráfico**
  :--------------: | ------------
-**Procedimento**  |  -
+**Procedimento**  |  1) Após estar logado, na página "Minha Conta", usuário clica em "Exibir Relatório" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/meu-relatorio.html. <br> 2) Usuário consegue vizualizar o relatório de despesas que teve durante o mês ou selecionar o mês que deseja vizualizar. Ao clicar em "Exibir Gráfico", usuário é redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/grafico-despesas.html. Então, o usuário consegue ver de outra forma como foram divididos seus gastos durante o período (mês) selecionado. 
 **Requisitos associados** | RF-012 e RF-013
 **Resultado esperado** | Relatório e Gráfico gerados.
 **Dados de entrada** | Inserção de dados válidos para exibição de reltório e gráfico.
