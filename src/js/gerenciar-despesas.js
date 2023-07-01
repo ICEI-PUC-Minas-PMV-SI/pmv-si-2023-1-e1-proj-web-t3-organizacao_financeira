@@ -6,9 +6,12 @@ function inserirDespesa() {
     let id = counter + 1;
     let nome = document.getElementById('nome').value;
     let vlTotal = document.getElementById('vlTotal').value;
+    let dataCriacao = new Date();
 
     let despesa = {
         id: id,
+        dataCriacao: dataCriacao,
+        dataAtualização: dataCriacao,
         userEmail: usuario.email,
         nome: nome,
         vlTotal: vlTotal,
@@ -71,11 +74,13 @@ function atualizarDespesa() {
   const id = document.getElementById('despesaId').value;
   const editNome = document.getElementById('editNome').value;
   const editVlTotal = document.getElementById('editVlTotal').value;
+  let dataAtualização = new Date();
   
   despesas.forEach(despesa => {
       if (despesa.id == id) {
           despesa.nome = editNome;
           despesa.vlTotal = editVlTotal;
+          receita.dataAtualização = dataAtualização;
       }
   });
   
@@ -94,8 +99,6 @@ function excluirDespesa(id) {
     });
 }
 
-window.onload = function(){ //ensures the page is loaded before functions are executed.
-    exibirDespesas();
-}
+exibirDespesas();
 
 

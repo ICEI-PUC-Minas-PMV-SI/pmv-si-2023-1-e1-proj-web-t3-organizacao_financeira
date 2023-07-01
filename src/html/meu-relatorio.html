@@ -22,6 +22,7 @@
         src="https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/src/js/apidolar.js">
     </script>
     <script defer src="../js/main.js"></script>
+    <script defer src="../js/meu-relatorio.js"></script>
 </head>
 
 <body> <!--Menu bar/hamburguer menu-->
@@ -77,24 +78,25 @@
         <!--Select list - opções de mês/ano-->
         <div id="meu-relatorio-dropdown">
             <p>Selecione abaixo o mês/ano que deseja visualizar:</p>
-            <select name="select-mes-ano" id="select-mes-ano">
-                <option value="jan-23">Jan/23</option>
-                <option value="fev-23">Fev/23</option>
-                <option value="mar-23">Mar/23</option>
-                <option value="abr-23">Abr/23</option>
-                <option value="mai-23">Mai/23</option>
-                <option value="jun-23">Jun/23</option>
+            <select name="select-mes" id="select-mes" onchange="atualizaRegistros()">
+                <option value="1">Janeiro</option>
+                <option value="2">Fevereiro</option>
+                <option value="3">Março</option>
+                <option value="4">Abril</option>
+                <option value="5">Maio</option>
+                <option value="6">Junho</option>
+                <option value="7">Julho</option>
+                <option value="8">Agosto</option>
+                <option value="9">Setembro</option>
+                <option value="10">Outubro</option>
+                <option value="11">Novembro</option>
+                <option value="12">Dezembro</option>
             </select>
         </div>
 
         <!--Listagem dos registros feitos-->
         <div id="meu-relatorio-lista-registros">
-            <p>05/01/23 - Receita adicionada - R$4000,00 - Salário</p>
-            <p>10/01/23 - Despesa adicionada - R$200,00 - Luz</p>
-            <p>10/01/23 - Despesa adicionada - R$400,00 - Alimentação</p>
-            <p>12/01/23 - Despesa adicionada - R$150,00 - Lazer</p>
-            <p>15/01/23 - Despesa excluída - R$150,00 - Lazer</p>
-            <p>20/01/23 - Despesa adicionada - R$180,00 - Transporte</p>
+            
         </div>
 
         <div>

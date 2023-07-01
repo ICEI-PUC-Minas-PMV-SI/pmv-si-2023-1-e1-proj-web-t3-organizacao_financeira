@@ -109,7 +109,4 @@ function excluirMeta(id) {
     });
 }
 
-//ensures the page is loaded before functions are executed.
-window.onload = function(){
-    exibirMetas();
-}
+exibirMetas();

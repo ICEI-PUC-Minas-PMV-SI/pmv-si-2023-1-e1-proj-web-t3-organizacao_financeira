@@ -6,7 +6,7 @@ p {
     margin-bottom: 1.8em;
 }
 
-#select-mes-ano, #botao-exibir-grafico {
+#select-mes, #botao-exibir-grafico {
     background-color: #92F725;
     transition: transform 0.4s;
     font-size: 110%;
