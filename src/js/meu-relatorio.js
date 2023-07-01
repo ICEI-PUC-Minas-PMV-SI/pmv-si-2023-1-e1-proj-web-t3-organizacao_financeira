@@ -4,7 +4,8 @@ let despesas = JSON.parse(window.localStorage.getItem('despesas')) || [];
 let data = new Date();
 let mesAtual = data.getMonth() + 1;
 
-function mostraRegistros(mes = mesAtual) {
+function mostraRegistros(mes = menuSelect.value) {
+    limpaRegistros(divListagemRegistros);
     despesas.forEach(despesa => {
         let dataAtualizacao = new Date(Date.parse(despesa.dataAtualização));
         if (dataAtualizacao.getMonth() + 1 == mes) {
@@ -25,5 +26,11 @@ function atualizaRegistros() {
     mostraRegistros(selectOption);
 }
 
+function limpaRegistros(parent) {
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+}
+
 menuSelect.value = mesAtual;
-mostraRegistros(mesAtual);
+mostraRegistros();
