@@ -49,9 +49,6 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" href="../html/contato.html" target="_blank">Contato</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="../html/meu-perfil.html">Meu Perfil</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -100,6 +97,16 @@
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                                 <button class="botao" type="submit">Salvar Despesa</button>
+                            </div>
+                            <div class="campo">
+                                <label for="categoriaDespesa"> <strong>Categoria da despesa:</strong></label>
+                                <select id="categoriaDespesa" required>
+                                    <option selected disabled value>Selecione</option>
+                                    <option>Alimentação</option>
+                                    <option>Educação</option>
+                                    <option>Gastos domésticos</option>
+                                    <option>Lazer</option>
+                                </select>
                             </div>
                         </fieldset>
                     </form>
