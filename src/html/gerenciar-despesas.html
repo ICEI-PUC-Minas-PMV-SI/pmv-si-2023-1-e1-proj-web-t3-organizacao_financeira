@@ -94,11 +94,7 @@
                                 <label for="vlTotal"><strong>Valor da despesa(R$):</strong></label>
                                 <input type="number" min="1" step="any" name="vlTotal" id="vlTotal" required>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                <button class="botao" type="submit">Salvar Despesa</button>
-                            </div>
-                            <div class="campo">
+                            <div class="campo campo-categoria">
                                 <label for="categoriaDespesa"> <strong>Categoria da despesa:</strong></label>
                                 <select id="categoriaDespesa" required>
                                     <option selected disabled value>Selecione</option>
@@ -107,6 +103,10 @@
                                     <option>Gastos domésticos</option>
                                     <option>Lazer</option>
                                 </select>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                <button class="botao" type="submit">Salvar Despesa</button>
                             </div>
                         </fieldset>
                     </form>
