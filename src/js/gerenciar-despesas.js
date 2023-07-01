@@ -66,11 +66,13 @@ function preparaFormAtualizacao(id) {
     const editNome = document.getElementById('editNome');
     const editVlTotal = document.getElementById('editVlTotal');
     const despesaId = document.getElementById('despesaId');
+    const editCategoriaDespesa = document.getElementById('editCategoriaDespesa'); // Adicionado para atualizar o campo da categoria
 
     despesas.forEach(despesa => {
         if (despesa.id == id) {
             editNome.value = despesa.nome;
             editVlTotal.value = despesa.vlTotal;
+            editCategoriaDespesa.value = despesa.categoriaDespesa;
             despesaId.value = id;
         }
     });
@@ -80,12 +82,15 @@ function atualizarDespesa() {
   const id = document.getElementById('despesaId').value;
   const editNome = document.getElementById('editNome').value;
   const editVlTotal = document.getElementById('editVlTotal').value;
+  const editCategoriaDespesa = document.getElementById('editCategoriaDespesa');
+  const novaCategoriaDespesa = editCategoriaDespesa.value;
   let dataAtualização = new Date();
   
   despesas.forEach(despesa => {
       if (despesa.id == id) {
           despesa.nome = editNome;
           despesa.vlTotal = editVlTotal;
+          despesa.categoriaDespesa = novaCategoriaDespesa;
           despesa.dataAtualização = dataAtualização;
       }
   });
