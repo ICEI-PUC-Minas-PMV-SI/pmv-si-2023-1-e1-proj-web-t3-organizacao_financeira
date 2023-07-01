@@ -86,7 +86,7 @@ function atualizarDespesa() {
       if (despesa.id == id) {
           despesa.nome = editNome;
           despesa.vlTotal = editVlTotal;
-          receita.dataAtualização = dataAtualização;
+          despesa.dataAtualização = dataAtualização;
       }
   });
   
