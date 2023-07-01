@@ -137,6 +137,15 @@
                                 <label for="editVlTotal"><strong>Novo valor da despesa (R$):</strong></label>
                                 <input type="number" min="1" step="any" name="editVlTotal" id="editVlTotal" required>
                             </div>
+                            <div class="campo">
+                                <label for="categoriaDespesa"> <strong>Selecione a nova categoria da despesa:</strong></label>
+                                <select id="editCategoriaDespesa" required>
+                                    <option selected disabled value>Selecione</option>
+                                    <option>Alimentação</option>
+                                    <option>Educação</option>
+                                    <option>Gastos domésticos</option>
+                                    <option>Lazer</option>
+                                </select>
                             <div class="modal-footer">
                                 <button type="button" class="btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                                 <button id="botaoSalvar" class="btn btn-primary" type="submit">Salvar Despesa</button>
