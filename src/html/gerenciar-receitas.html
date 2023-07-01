@@ -81,13 +81,13 @@
                 <div class="modal-body">
                     <label for="modalExemplo" class="fecharModal"> <strong>X</strong></label>
                     <div class="modal-header">
-                        <h4 class="modal-title">Adicionar Meta</h4>
+                        <h4 class="modal-title">Adicionar Receita</h4>
                     </div>
 
                     <form id="inserir-meta" onsubmit="inserirReceita()">
                         <fieldset class="grupo">
                             <div class="campo">
-                                <label for="nome"> <strong>Nome receita:</strong></label>
+                                <label for="nome"> <strong>Nome da receita:</strong></label>
                                 <input type="text" name="nome" id="nome" required>
                             </div>
                             <div class="campo">
@@ -110,7 +110,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Atualizar Meta</h4>
+                    <h4 class="modal-title">Atualizar Receita</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -120,16 +120,16 @@
                                 <input type="hidden" name="receitaId" id="receitaId" value="">
                             </div>
                             <div class="campo">
-                                <label for="editNome"> <strong>Dê um nome para sua meta:</strong></label>
+                                <label for="editNome"> <strong>Novo nome da receita:</strong></label>
                                 <input type="text" name="editNome" id="editNome" required>
                             </div>
                             <div class="campo">
-                                <label for="editVlTotal"><strong>Valor total da meta (R$):</strong></label>
+                                <label for="editVlTotal"><strong>Novo valor da receita (R$):</strong></label>
                                 <input type="number" min="1" step="any" name="editVlTotal" id="editVlTotal" required>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                <button id="botaoSalvar" class="btn btn-primary" type="submit">Salvar Meta</button>
+                                <button id="botaoSalvar" class="btn btn-primary" type="submit">Salvar Receita</button>
                             </div>
                         </fieldset>
                     </form>
