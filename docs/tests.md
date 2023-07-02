@@ -17,31 +17,8 @@ A documentação dos testes é dividida nas seguintes seções:
  - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
 
 # Teste de Software
-
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
-
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
-
-
-**Caso de Teste** | **CT01 - Criar conta parte 1**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT02 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login. <br>
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
-
-## Plano de Testes de Software - Economy+
 ## Plano de Testes de Software - Economy+
 
 **Caso de Teste** | **CT01 - Criar conta**
@@ -74,7 +51,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-011
 **Resultado esperado** | Despesa adicionada, editada ou excluída.
 **Dados de entrada** | Inserção de dados válidos no formulário de despesas.
-**Resultado obtido** | - 
+**Resultado obtido** | Sucesso.
 
 
 **Caso de Teste** | **CT05 - Gerenciar Metas**
@@ -112,11 +89,11 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT09 - Relatório e Gráfico**
  :--------------: | ------------
-**Procedimento**  |  1) Após estar logado, na página "Minha Conta", usuário clica em "Exibir Relatório" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/meu-relatorio.html. <br> 2) Usuário consegue vizualizar o relatório de despesas que teve durante o mês ou selecionar o mês que deseja vizualizar. Ao clicar em "Exibir Gráfico", usuário é redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/grafico-despesas.html. Então, o usuário consegue ver de outra forma como foram divididos seus gastos durante o período (mês) selecionado. 
+**Procedimento**  |  1) Após estar logado, na página "Minha Conta", usuário clica em "Exibir Relatório" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/meu-relatorio.html. <br> 2) Usuário consegue vizualizar o relatório de despesas que teve durante o mês ou selecionar o mês que deseja vizualizar. Ao clicar em "Exibir Gráfico", na mesma página, usuário é redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/grafico-despesas.html. Então, o usuário consegue ver de outra forma como foram divididos seus gastos durante o período (mês) selecionado. 
 **Requisitos associados** | RF-012 e RF-013
 **Resultado esperado** | Relatório e Gráfico gerados.
 **Dados de entrada** | Inserção de dados válidos para exibição de reltório e gráfico.
-**Resultado obtido** | - 
+**Resultado obtido** | SUcesso.
 
 
 ## Registro dos Testes de Software
