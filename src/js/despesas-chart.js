@@ -24,7 +24,8 @@ function resumoDespesas(mes = menuSelect.value) {
     if (usuario.email == despesa.userEmail) {
       let dataAtualizacao = new Date(Date.parse(despesa.dataAtualização));
       if (dataAtualizacao.getMonth() + 1 == mes) {
-        totalDespesas[despesa.categoriaDespesa] += despesa.vlTotal;
+        let valor = parseFloat(despesa.vlTotal)
+        totalDespesas[despesa.categoriaDespesa] += valor;
       }
     }
   });
