@@ -241,7 +241,7 @@ Cenário 4: Você é uma pessoa que deseja ter um maior controle de suas receita
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 10 segundos |
 
 
-    Comentários dos usuários: Usuário 4: o "Meu Perfil" poderia abrir uma lista suspensa na página minha conta, com a opção de mudar a senha sem redirecionar para outra página. Senti falta do "confirme a sua nova senha".
+    Comentários dos usuários: -
 
 Cenário 5: Você é uma pessoa que já possui acesso à área restrita do Economy+, está logado e deseja alterar a sua senha. Encontre no site a área para alteração de senha.
 
@@ -250,15 +250,15 @@ Cenário 5: Você é uma pessoa que já possui acesso à área restrita do Econo
 | 1    |  SIM            |          5          | 9 segundos                 |
 | 2       |  SIM           |         5          |    22 segundos             |
 | 3    |  SIM           |         5          |      14 segundos           |
-| 4     |  SIM            |        5            |     19 segundos             |
+| 4     |  SIM            |        4,5            |     19 segundos             |
 | 5    |  SIM           |         5          |         18 segundos        |
 |6     |     SIM        |       5            |    27 segundos             |
 |  |  |  |  |
-| **Média**     |      100%    |     5      |     18 segundos                     |
+| **Média**     |      100%    |     4,91      |     18 segundos                     |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 8 segundos |
 
 
-    Comentários dos usuários: -
+    Comentários dos usuários: Usuário 4: o "Meu Perfil" poderia abrir uma lista suspensa na página minha conta, com a opção de mudar a senha sem redirecionar para outra página. Senti falta do "confirme a sua nova senha".
 
 Cenário 6: Você é uma pessoa que deseja entrar em contato com a equipe Economy+. Encontre no site o local para enviar sua mensagem. Em seguida, envie qualquer mensagem simples para o Economy+, preenchendo todos os campos.
 
