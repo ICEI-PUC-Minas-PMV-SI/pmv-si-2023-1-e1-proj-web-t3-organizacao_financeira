@@ -171,7 +171,7 @@ Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de soft
 
 O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
 
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
+Para tanto, elaboramos seis cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
 
 Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
 
@@ -185,22 +185,9 @@ Satisfação subjetiva: responde como o usuário avalia o sistema com relação 
 4. Bom; 
 5. Ótimo.
 
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
+Tempo para conclusão da tarefa: em minutos e segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
 
 Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-
-## Cenários de Teste de Usabilidade
-
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
 
 ## Cenários de Teste de Usabilidade - Economy+
 
@@ -213,57 +200,20 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 5            | Você é uma pessoa que já possui acesso à área restrita do Economy+, está logado e deseja alterar a sua senha. Encontre no site a área para alteração de senha.  |
 | 6           | Você é uma pessoa que deseja entrar em contato com a equipe Economy+. Encontre no site o local para enviar sua mensagem. Em seguida, envie qualquer mensagem simples para o Economy+, preenchendo todos os campos. |
 
-
-## Registro de Testes de Usabilidade
-
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
-
-
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
-
-
-
-
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
-
-
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
 ## Registro de Testes de Usabilidade - Economy +
 
 Cenário 1: Você é uma pessoa que deseja ter acesso ao ambiente restrito do Economy+ para registrar e organizar as suas finanças. Faça o registro e login na apicação.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             |             5       |      44 segundos            |
-| 2       | SIM         |            4,0       |  3 minutos e 20 segundos               |
-| 3       | SIM         |           5        | 1 minuto e 53 segundos                |
+| 1      | SIM             |             5       |      44 segundos            |
+| 2         | SIM         |            4,0       |  3 minutos e 20 segundos               |
+| 3      | SIM         |           5        | 1 minuto e 53 segundos                |
 | 4       | SIM         |          4,5         |    31 segundos             |
-|  5     |  SIM        |           5        |       1 minuto e 20 segundos          |
-| 6       |             |                   |                 |
+| 5      |  SIM        |           5        |       1 minuto e 20 segundos          |
+| 6    |    SIM          |   5                | 46 segundos                |
 |  |  |  |  |
-| **Média**     |  100%        |               |                          |
+| **Média**     |  100%        |       4.75        |      1 minuto e 35 segundos                    |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 27 segundos|
 
 
@@ -272,35 +222,36 @@ Cenário 1: Você é uma pessoa que deseja ter acesso ao ambiente restrito do Ec
 
 Cenário 2: Você é uma pessoa que deseja ter um controle maior de seus gastos. Encontre no site o local para adicionar despesas e registre uma despesa. Em seguida, corrija o valor desta despesa. Encontre e veja o relatório de despesas na aplicação.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+| Usuário  | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM       |   4,5                 |     2 minutos              |
-| 2       |  SIM   |         5          |        1 minuto e 23 segundos         |
+| 1      | SIM       |   4,5                 |     2 minutos              |
+| 2      |  SIM   |         5          |        1 minuto e 23 segundos         |
 | 3       | SIM            |  5                 |      45 segundos           |
-| 4       | SIM       |        4,5            |      52 segundos            |
-| 5       |  SIM   |        4,5           |     1 minuto e 30 segundos            |
-| 6       |            |                   |                 |
+| 4      | SIM       |        4,5            |      52 segundos            |
+| 5     |  SIM   |        4,5           |     1 minuto e 30 segundos            |
+| 6      |  SIM          |    4,5               |  1 minuto e 10 segundos               |
 |  |  |  |  |
-| **Média**     |          |               |                          |
+| **Média**     |  100%         |       4,7        |        1 minuto e 16 segundos                  |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 24 segundos |
 
 
     Comentários dos usuários: - Usuário 1: Gostaria de acessar o relatório dentro da página de despesas.
     Usuário 4: Senti falta de um link para voltar para a página anterior. Tive de clicar somente em "Minha Conta".
     Usuário 5: Sugestão: colocar botão para relatório na página que gerencio minhas despesas.
+    Usuário 6: Foi difícil encontrar o botão de voltar para o menu da "Minha Conta".
 
 Cenário 3: Você é uma pessoa que deseja poupar um valor para fazer uma viagem e precisa de um local para armazenar e atualizar o quanto já possui guardado. Encontre a área de gerenciar metas e crie uma meta, completando os campos corretamente. Em seguida, altere o valor que já possui para um número superior ao anteriormente digitado.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             |        5            |    40 segundos              |
+| 1        | SIM             |        5            |    40 segundos              |
 | 2       |    SIM         |          5         |      49 segundos           |
-| 3       |   SIM          |          5         |     33 segundos            |
-| 4       |   SIM           |          4,5          |    39 segundos              |
+| 3      |   SIM          |          5         |     33 segundos            |
+| 4      |   SIM           |          4,5          |    39 segundos              |
 | 5       |   SIM          |          5         |     1 minuto            |
-| 6       |             |                   |                 |
+| 6       |     SIM        |         5          |     38 segundos            |
 |  |  |  |  |
-| **Média**     |          |               |                          |
+| **Média**     |   100%       |        4,91       |      43 segundos                    |
 | **Tempo para conclusão pelo especialista** | SIM  | 5 | 14 segundos |
 
 
@@ -310,14 +261,14 @@ Cenário 4: Você é uma pessoa que deseja ter um maior controle de suas receita
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       |    SIM          |         5           |      31 segundos            |
-| 2       |   SIM          |          5         |     49 segundos            |
-| 3       |    SIM         |          5         |       15 segundos          |
+| 1     |    SIM          |         5           |      31 segundos            |
+| 2      |   SIM          |          5         |     49 segundos            |
+| 3      |    SIM         |          5         |       15 segundos          |
 | 4       |     SIM         |         5           |    18 segundos              |
-| 5       |    SIM         |        5           |      28 segundos           |
-| 6       |             |                   |                 |
+| 5      |    SIM         |        5           |      28 segundos           |
+| 6       |    SIM         |           5        |   29 segundos              |
 |  |  |  |  |
-| **Média**     |    SIM      |               |                          |
+| **Média**     |    100%     |      5         |       28 segundos                   |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 10 segundos |
 
 
@@ -327,14 +278,14 @@ Cenário 5: Você é uma pessoa que já possui acesso à área restrita do Econo
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       |  SIM            |          5          | 9 segundos                 |
+| 1    |  SIM            |          5          | 9 segundos                 |
 | 2       |  SIM           |         5          |    22 segundos             |
-| 3       |  SIM           |         5          |      14 segundos           |
-| 4       |  SIM            |        4,5            |     19 segundos             |
-| 5       |  SIM           |         5          |         18 segundos        |
-| 6       |             |                   |                 |
+| 3    |  SIM           |         5          |      14 segundos           |
+| 4     |  SIM            |        5            |     19 segundos             |
+| 5    |  SIM           |         5          |         18 segundos        |
+|6     |     SIM        |       5            |    27 segundos             |
 |  |  |  |  |
-| **Média**     |          |               |                          |
+| **Média**     |      100%    |     5      |     18 segundos                     |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 8 segundos |
 
 
@@ -344,29 +295,27 @@ Cenário 6: Você é uma pessoa que deseja entrar em contato com a equipe Econom
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             |     5               |       17 segundos           |
-| 2       |  SIM           |    5              |     51 segundos            |
-| 3       |  SIM           |      5             |     36 segundos            |
-| 4       |  SIM            |      5              |     26 segundos             |
-| 5       |  SIM           |        5           |      32 segundos           |
-| 6       |  SIM           |                   |                 |
+| 1     | SIM             |     5               |       17 segundos           |
+| 2     |  SIM           |    5              |     51 segundos            |
+| 3   |  SIM           |      5             |     36 segundos            |
+| 4      |  SIM            |      5              |     26 segundos             |
+| 5|  SIM           |        5           |      32 segundos           |
+| 6     |  SIM           |        5           |          38 segundos       |
 |  |  |  |  |
-| **Média**     |          |               |                          |
+| **Média**     |    100%      |            5   |           33 segundos               |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 11 segundos |
 
 
-    Comentários dos usuários: -
+    Comentários dos usuários: - 
 
 ## Avaliação dos Testes de Usabilidade
 
+Levando em consideração os resultados obtidos com os testes de usabilidade, foi possível constatar que, de forma geral, a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários. Todos os cenários foram integralmente concluídos por todos. No entanto, foi possível perceber que alguns usuários encontraram dificuldades pontuais em determinados cenários. Em destaque, foi possível perceber uma maior dificuldade em encontrar a página de Registro, como apontaram os Usuários 1 e 4. Há também comentários relacionados à falta de um botão "voltar" dentro das páginas de acesso restrito. Sendo assim, alguns usuários relataram que tiveram que clicar em "Minha Conta" para voltar à página desejada. Por fim, foi também observado e pontuado por alguns usuários que facilitaria o acesso ao relatório e gráfico se houvesse um link dentro da página de despesas. As médias de avaliações de cada cenários estão sempre entre 4 (bom) e 5 (ótimo).
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Quando são considerados os tempos de cada usuário para a conclusão de cada tarefa, foi possível perceber que alguns usuários tiveram maior dificuldade nos primeiros cenários. Uma hipótese levantada seria em função de ser o primeiro contato do usuário com a aplicação; outra se dá pela dificuldade de encontrar o link de registro. Nos outros cenários, os testes foram concluídos em um período de tempo menor. Entretanto, há ainda uma discrepância quando comparados ao tempo gasto pelo especialista em cada cenário. Isso se deve ao fato de que o desenvolvedor já estava em contato com a aplicação previamente.  
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Considerando a diferença de tempo em alguns cenários, assim como os comentários feitos pelos usuários durante a aplicação dos testes de usabilidade, o grupo entende que algumas melhorias podem ser feitas para que a satisfação do usuário seja aumentada durante o uso da aplicação. Há também sugestões levantadas pelos usuários que participaram dos testes que serão levadas em consideração para a melhoria do projeto.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
 
 
 
