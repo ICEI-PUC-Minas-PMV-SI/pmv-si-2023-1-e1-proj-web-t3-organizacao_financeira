@@ -93,7 +93,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-012 e RF-013
 **Resultado esperado** | Relatório e Gráfico gerados.
 **Dados de entrada** | Inserção de dados válidos para exibição de reltório e gráfico.
-**Resultado obtido** | SUcesso.
+**Resultado obtido** | Sucesso.
 
 
 ## Registro dos Testes de Software
