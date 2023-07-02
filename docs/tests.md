@@ -256,68 +256,86 @@ Cenário 1: Você é uma pessoa que deseja ter acesso ao ambiente restrito do Ec
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       |              |                    |                  |
-| 2       |             |                   |                 |
-| 3       |             |                   |                 |
+| 1       | SIM             |             5       |      44 segundos            |
+| 2       | SIM         |            4,0       |  3 minutos e 20 segundos               |
+| 3       | SIM         |           5        | 1 minuto e 53 segundos                |
+| 4       | SIM         |          4,5         |    31 segundos             |
+|  5     |  SIM        |           5        |       1 minuto e 20 segundos          |
+| 6       |             |                   |                 |
 |  |  |  |  |
-| **Média**     |          |               |                          |
-| **Tempo para conclusão pelo especialista** | | | |
+| **Média**     |  100%        |               |                          |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 27 segundos|
 
 
-    Comentários dos usuários: -
+    Comentários dos usuários: - Usuário 2: Tive dificuldade de encontrar o link para registro.
+    Usuário 4: Botão de registro poderia estar mais visível.
 
 Cenário 2: Você é uma pessoa que deseja ter um controle maior de seus gastos. Encontre no site o local para adicionar despesas e registre uma despesa. Em seguida, corrija o valor desta despesa. Encontre e veja o relatório de despesas na aplicação.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       |              |                    |                  |
-| 2       |             |                   |                 |
-| 3       |             |                   |                 |
+| 1       | SIM       |   4,5                 |     2 minutos              |
+| 2       |  SIM   |         5          |        1 minuto e 23 segundos         |
+| 3       | SIM            |  5                 |      45 segundos           |
+| 4       | SIM       |        4,5            |      52 segundos            |
+| 5       |  SIM   |        4,5           |     1 minuto e 30 segundos            |
+| 6       |            |                   |                 |
 |  |  |  |  |
 | **Média**     |          |               |                          |
-| **Tempo para conclusão pelo especialista** | | | |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 24 segundos |
 
 
-    Comentários dos usuários: -
+    Comentários dos usuários: - Usuário 1: Gostaria de acessar o relatório dentro da página de despesas.
+    Usuário 4: Senti falta de um link para voltar para a página anterior. Tive de clicar somente em "Minha Conta".
+    Usuário 5: Sugestão: colocar botão para relatório na página que gerencio minhas despesas.
 
 Cenário 3: Você é uma pessoa que deseja poupar um valor para fazer uma viagem e precisa de um local para armazenar e atualizar o quanto já possui guardado. Encontre a área de gerenciar metas e crie uma meta, completando os campos corretamente. Em seguida, altere o valor que já possui para um número superior ao anteriormente digitado.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       |              |                    |                  |
-| 2       |             |                   |                 |
-| 3       |             |                   |                 |
+| 1       | SIM             |        5            |    40 segundos              |
+| 2       |    SIM         |          5         |      49 segundos           |
+| 3       |   SIM          |          5         |     33 segundos            |
+| 4       |   SIM           |          4,5          |    39 segundos              |
+| 5       |   SIM          |          5         |     1 minuto            |
+| 6       |             |                   |                 |
 |  |  |  |  |
 | **Média**     |          |               |                          |
-| **Tempo para conclusão pelo especialista** | | | |
+| **Tempo para conclusão pelo especialista** | SIM  | 5 | 14 segundos |
 
 
-    Comentários dos usuários: -
+    Comentários dos usuários: - Usuário 4: A única dificuldade que encontrei foi perceber que dentro do botão de adicionar meta, somente posso clicar no + e não em todo retângulo verde.
 
 Cenário 4: Você é uma pessoa que deseja ter um maior controle de suas receitas. Encontre no site o local para armazenar suas receitas e registre uma receita. Em seguida, exclua a receita adicionada.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       |              |                    |                  |
-| 2       |             |                   |                 |
-| 3       |             |                   |                 |
+| 1       |    SIM          |         5           |      31 segundos            |
+| 2       |   SIM          |          5         |     49 segundos            |
+| 3       |    SIM         |          5         |       15 segundos          |
+| 4       |     SIM         |         5           |    18 segundos              |
+| 5       |    SIM         |        5           |      28 segundos           |
+| 6       |             |                   |                 |
 |  |  |  |  |
-| **Média**     |          |               |                          |
-| **Tempo para conclusão pelo especialista** | | | |
+| **Média**     |    SIM      |               |                          |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 10 segundos |
 
 
-    Comentários dos usuários: -
+    Comentários dos usuários: Usuário 4: o "Meu Perfil" poderia abrir uma lista suspensa na página minha conta, com a opção de mudar a senha sem redirecionar para outra página. Senti falta do "confirme a sua nova senha".
 
 Cenário 5: Você é uma pessoa que já possui acesso à área restrita do Economy+, está logado e deseja alterar a sua senha. Encontre no site a área para alteração de senha.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       |              |                    |                  |
-| 2       |             |                   |                 |
-| 3       |             |                   |                 |
+| 1       |  SIM            |          5          | 9 segundos                 |
+| 2       |  SIM           |         5          |    22 segundos             |
+| 3       |  SIM           |         5          |      14 segundos           |
+| 4       |  SIM            |        4,5            |     19 segundos             |
+| 5       |  SIM           |         5          |         18 segundos        |
+| 6       |             |                   |                 |
 |  |  |  |  |
 | **Média**     |          |               |                          |
-| **Tempo para conclusão pelo especialista** | | | |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 8 segundos |
 
 
     Comentários dos usuários: -
@@ -326,12 +344,15 @@ Cenário 6: Você é uma pessoa que deseja entrar em contato com a equipe Econom
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       |              |                    |                  |
-| 2       |             |                   |                 |
-| 3       |             |                   |                 |
+| 1       | SIM             |     5               |       17 segundos           |
+| 2       |  SIM           |    5              |     51 segundos            |
+| 3       |  SIM           |      5             |     36 segundos            |
+| 4       |  SIM            |      5              |     26 segundos             |
+| 5       |  SIM           |        5           |      32 segundos           |
+| 6       |  SIM           |                   |                 |
 |  |  |  |  |
 | **Média**     |          |               |                          |
-| **Tempo para conclusão pelo especialista** | | | |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 11 segundos |
 
 
     Comentários dos usuários: -
