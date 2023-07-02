@@ -13,6 +13,7 @@ if (currentHostname == localHostname) {
         '/src/html/grafico-despesas.html',
         '/src/html/meu-perfil.html',
         '/src/html/minha-conta.html',
+        '/src/html/gera-despesas-teste.html',
     ];
 }
 else {
@@ -25,6 +26,7 @@ else {
         '/html/grafico-despesas.html',
         '/html/meu-perfil.html',
         '/html/minha-conta.html',
+        '/html/gera-despesas-teste.html',
     ];
 }
 const loginToken = window.localStorage.getItem('token');
