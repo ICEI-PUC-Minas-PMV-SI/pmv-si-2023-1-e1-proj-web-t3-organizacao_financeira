@@ -124,12 +124,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT-03 - Gerenciar Receitas*                                         |
 |---|---|
 |Requisito Associado |RF-010 - Permitir que o usuário cadastrado gerencie suas fontes de receita.|
-|Link do vídeo do teste realizado: | - | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SH2LxYZFb7zoX232-_N-3lkFFhQWrNFZ/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT-04 - Gerenciar Despesas*                                         |
 |---|---|
 |Requisito Associado |RF-011 - Permitir que o usuário cadastrado gerencie suas fontes de despesa.|
-|Link do vídeo do teste realizado: | - | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1X-jU11EIfi888aeECJ9N18-tatV9yCdf/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT-05 - Gerenciar Metas*                                         |
 |---|---|
@@ -149,12 +149,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT-08 - Contato para Suporte*                                         |
 |---|---|
 |Requisito Associado |RF-014 - Permitir que o usuário consiga suporte via formulário de mensagem. |
-|Link do vídeo do teste realizado: | - | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1xkXBqn7xiWPabxHlUNEnqLOMB3gegGiH/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT-09 - Relatório e Gráfico*                                         |
 |---|---|
 |Requisito Associado |RF-012 - Emitir um relatório de despesas do mês; RF-013 - Mostrar gráficos com o balanço do usuário   |
-|Link do vídeo do teste realizado: | - | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1S7qAyfJn3hfUQaM-xYFM8n7H9PBPyNe9/view?usp=sharing | 
 
 ## Avaliação dos Testes de Software
 
