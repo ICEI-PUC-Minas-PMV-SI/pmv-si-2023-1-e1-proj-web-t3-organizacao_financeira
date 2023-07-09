@@ -4,12 +4,18 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 
 Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
-
 * [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
 * [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
 O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
+
+
+* Pitch inicial -- [Pitch inicial.pdf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/files/11994065/Pitch.inicial.pdf)
+
+* Apresentação final -- [Apresentação final.pdf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira/files/11994064/Apresentacao.final.pdf)
+
+* Vídeo de demonstração --  
 
 ## Título do Projeto
 
