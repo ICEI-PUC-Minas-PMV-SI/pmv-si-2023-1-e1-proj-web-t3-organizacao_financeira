@@ -151,12 +151,12 @@ Neste projeto serão realizados dois tipos de testes:
 |*Caso de Teste*                                 |*CT-10 - Responsividade*                                         |
 |---|---|
 |Requisito Associado | RNF-001 - A aplicação deve se adaptar(responsividade) para rodar em qualquer dispositivo <br> RNF-002 - Deve processar requisições do usuário em no máximo 3s  |
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1xk65n3kNcA_WNlRfROoGkHvnQ33JAHK5/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT-11 - API Dólar*                                         |
 |---|---|
 |Requisito Associado | RNF-006 - A Aplicação precisa comunicar-se com API para obter dados econômicos (dolar e outros índices) |
-|Link do vídeo do teste realizado: | | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/15RFeGA5uuMxHtCvqKwr9sRSX6bTBmwFW/view?usp=sharing | 
 
 ## Avaliação dos Testes de Software
 
