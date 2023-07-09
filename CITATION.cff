@@ -1,29 +1,27 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: Economy+
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Fontainha de Castro
+    given-names: Beatriz
+  - family-names: Braga Nery de Lima
+    given-names: Lucas
+  - family-names: Matos Nascimento
+    given-names: Lucas Warley
+  - family-names: de Mesquita dos Santos
+    given-names: Nathan
+  - family-names: Fernandes Marques
+    given-names: Rafael
+  - family-names: Pereira
+    given-names: Victor Henrique
+  - name-suffix: Professora
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: de Nardin
+    given-names: Luciana
 keywords:
-  -
-  -
-repository-code:
+  - Organização Financeira
+  - Economia
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t3-organizacao_financeira
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2023-06-30
