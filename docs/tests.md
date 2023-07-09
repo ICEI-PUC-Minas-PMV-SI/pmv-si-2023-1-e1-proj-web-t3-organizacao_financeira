@@ -70,7 +70,7 @@ Neste projeto serão realizados dois tipos de testes:
 **Caso de Teste** | **CT08 - Contato para suporte**
  :--------------: | ------------
 **Procedimento**  |  1) Em qualquer página da aplicação, usuário clica em "Contato" e é redirecionado, em uma nova janela, para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/contato.html <br>	2) Usuário preenche dados como nome completo, email e sua mensagem para o Economy+. <br> 3) A aplicação verifica se todos os campos foram preenchidos corretamente e informa caso não sejam. <br> 4) A aplicação armazena os dados inseridos e envia uma mensagem de confirmação na tela para o usuário.
-**Requisitos associados** | RF-014
+**Requisitos associados** | RF-014 e RNF-007
 **Resultado esperado** | Mensagem enviada.
 **Dados de entrada** | Inserção de dados válidos para envio de mensagem.
 **Resultado obtido** | Sucesso.
@@ -78,9 +78,25 @@ Neste projeto serão realizados dois tipos de testes:
 **Caso de Teste** | **CT09 - Relatório e Gráfico**
  :--------------: | ------------
 **Procedimento**  |  1) Após estar logado, na página "Minha Conta", usuário clica em "Exibir Relatório" e será redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/meu-relatorio.html. <br> 2) Usuário consegue vizualizar o relatório de despesas que teve durante o mês ou selecionar o mês que deseja vizualizar. Ao clicar em "Exibir Gráfico", na mesma página, usuário é redirecionado para o seguinte link: https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app/html/grafico-despesas.html. Então, o usuário consegue ver de outra forma como foram divididos seus gastos durante o período (mês) selecionado. 
-**Requisitos associados** | RF-012 e RF-013
+**Requisitos associados** | RF-012, RF-013 e RNF-008
 **Resultado esperado** | Relatório e Gráfico gerados.
 **Dados de entrada** | Inserção de dados válidos para exibição de reltório e gráfico.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT10 - Responsividade**
+ :--------------: | ------------
+**Procedimento**  |  1) Abrir a aplicação (link:https://pmv-si-2023-1-e1-proj-web-t3-organizacao-financeira.vercel.app)  em diferentes dispositivos.
+**Requisitos associados** | RNF-001 e RNF-002
+**Resultado esperado** | Aplicação deve se adaptar para qualquer dispositivo
+**Dados de entrada** | Nenhum
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT11 - API Dólar**
+ :--------------: | ------------
+**Procedimento**  |  1) Em todas as páginas da aplicação, usuário tem acesso à cotação atualizada do Dólar, localizada no canto superior direito da tela. 
+**Requisitos associados** | RNF-004 e RNF-006
+**Resultado esperado** | Dólar atualizado em todas as telas
+**Dados de entrada** | Nenhum
 **Resultado obtido** | Sucesso.
 
 
@@ -124,13 +140,23 @@ Neste projeto serão realizados dois tipos de testes:
 
 |*Caso de Teste*                                 |*CT-08 - Contato para Suporte*                                         |
 |---|---|
-|Requisito Associado |RF-014 - Permitir que o usuário consiga suporte via formulário de mensagem. |
+|Requisito Associado |RF-014 - Permitir que o usuário consiga suporte via formulário de mensagem <br> RNF-007 - A Aplicação fornecerá ao usuário opção de contato através de um formulário de mensagem  |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1xkXBqn7xiWPabxHlUNEnqLOMB3gegGiH/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT-09 - Relatório e Gráfico*                                         |
 |---|---|
-|Requisito Associado |RF-012 - Emitir um relatório de despesas do mês; RF-013 - Mostrar gráficos com o balanço do usuário   |
+|Requisito Associado |RF-012 - Emitir um relatório de despesas do mês <br> RF-013 - Mostrar gráficos com o balanço do usuário <br> RNF-008 - 	Os gráficos serão gerados a partir do uso de uma biblioteca  |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1S7qAyfJn3hfUQaM-xYFM8n7H9PBPyNe9/view?usp=sharing | 
+
+|*Caso de Teste*                                 |*CT-10 - Responsividade*                                         |
+|---|---|
+|Requisito Associado | RNF-001 - A aplicação deve se adaptar(responsividade) para rodar em qualquer dispositivo <br> RNF-002 - Deve processar requisições do usuário em no máximo 3s  |
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT-11 - API Dólar*                                         |
+|---|---|
+|Requisito Associado | RNF-006 - A Aplicação precisa comunicar-se com API para obter dados econômicos (dolar e outros índices) |
+|Link do vídeo do teste realizado: | | 
 
 ## Avaliação dos Testes de Software
 
