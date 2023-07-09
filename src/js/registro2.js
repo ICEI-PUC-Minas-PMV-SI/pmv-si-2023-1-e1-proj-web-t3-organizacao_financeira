@@ -95,6 +95,11 @@ function cadastrar() {
       reload();
       return;
     }
+
+    if (senha.value.length <= 5) {
+      alert("A senha deve ter no mínimo 6 caracteres.");
+      return;
+    }
   
     if (validNome && validEmail && validTelefone && validSenha && validSenha2) {
       if (menos18RadioButton.checked) {
